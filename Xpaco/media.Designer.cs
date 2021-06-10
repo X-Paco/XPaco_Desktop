@@ -38,6 +38,7 @@ namespace Xpaco
             this.txtUrlPaginaMidia = new System.Windows.Forms.TextBox();
             this.txtDescricaoPaginaMidia = new System.Windows.Forms.TextBox();
             this.btnSalvarPaginaMidia = new System.Windows.Forms.Button();
+            this.btnVoltarPaginaMidia = new System.Windows.Forms.Button();
             this.panelPaginaMidia.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbPaginaMidia)).BeginInit();
             this.SuspendLayout();
@@ -109,18 +110,30 @@ namespace Xpaco
             // 
             this.btnSalvarPaginaMidia.BackColor = System.Drawing.Color.Gray;
             this.btnSalvarPaginaMidia.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalvarPaginaMidia.Location = new System.Drawing.Point(177, 245);
+            this.btnSalvarPaginaMidia.Location = new System.Drawing.Point(325, 245);
             this.btnSalvarPaginaMidia.Name = "btnSalvarPaginaMidia";
             this.btnSalvarPaginaMidia.Size = new System.Drawing.Size(102, 38);
             this.btnSalvarPaginaMidia.TabIndex = 26;
             this.btnSalvarPaginaMidia.Text = "Salvar";
             this.btnSalvarPaginaMidia.UseVisualStyleBackColor = false;
             // 
+            // btnVoltarPaginaMidia
+            // 
+            this.btnVoltarPaginaMidia.BackColor = System.Drawing.Color.Gray;
+            this.btnVoltarPaginaMidia.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltarPaginaMidia.Location = new System.Drawing.Point(59, 245);
+            this.btnVoltarPaginaMidia.Name = "btnVoltarPaginaMidia";
+            this.btnVoltarPaginaMidia.Size = new System.Drawing.Size(102, 38);
+            this.btnVoltarPaginaMidia.TabIndex = 42;
+            this.btnVoltarPaginaMidia.Text = "Voltar";
+            this.btnVoltarPaginaMidia.UseVisualStyleBackColor = false;
+            // 
             // media
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(509, 315);
+            this.Controls.Add(this.btnVoltarPaginaMidia);
             this.Controls.Add(this.btnSalvarPaginaMidia);
             this.Controls.Add(this.txtDescricaoPaginaMidia);
             this.Controls.Add(this.txtUrlPaginaMidia);
@@ -149,5 +162,6 @@ namespace Xpaco
         private System.Windows.Forms.TextBox txtUrlPaginaMidia;
         private System.Windows.Forms.TextBox txtDescricaoPaginaMidia;
         private System.Windows.Forms.Button btnSalvarPaginaMidia;
+        private System.Windows.Forms.Button btnVoltarPaginaMidia;
     }
 }

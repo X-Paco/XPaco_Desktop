@@ -50,6 +50,7 @@ namespace Xpaco
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.mtbDataAniversario = new System.Windows.Forms.MaskedTextBox();
+            this.btnVoltarPaginaPerfil = new System.Windows.Forms.Button();
             this.panelPaginaPerfil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -182,7 +183,7 @@ namespace Xpaco
             // 
             this.btnSalvarPaginaPerfil.BackColor = System.Drawing.Color.Gray;
             this.btnSalvarPaginaPerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalvarPaginaPerfil.Location = new System.Drawing.Point(267, 408);
+            this.btnSalvarPaginaPerfil.Location = new System.Drawing.Point(481, 396);
             this.btnSalvarPaginaPerfil.Name = "btnSalvarPaginaPerfil";
             this.btnSalvarPaginaPerfil.Size = new System.Drawing.Size(102, 38);
             this.btnSalvarPaginaPerfil.TabIndex = 25;
@@ -235,11 +236,23 @@ namespace Xpaco
             this.mtbDataAniversario.Size = new System.Drawing.Size(118, 27);
             this.mtbDataAniversario.TabIndex = 31;
             // 
+            // btnVoltarPaginaPerfil
+            // 
+            this.btnVoltarPaginaPerfil.BackColor = System.Drawing.Color.Gray;
+            this.btnVoltarPaginaPerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltarPaginaPerfil.Location = new System.Drawing.Point(60, 396);
+            this.btnVoltarPaginaPerfil.Name = "btnVoltarPaginaPerfil";
+            this.btnVoltarPaginaPerfil.Size = new System.Drawing.Size(102, 38);
+            this.btnVoltarPaginaPerfil.TabIndex = 42;
+            this.btnVoltarPaginaPerfil.Text = "Voltar";
+            this.btnVoltarPaginaPerfil.UseVisualStyleBackColor = false;
+            // 
             // profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(645, 464);
+            this.Controls.Add(this.btnVoltarPaginaPerfil);
             this.Controls.Add(this.mtbDataAniversario);
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.pictureBox1);
@@ -292,5 +305,6 @@ namespace Xpaco
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtEstado;
         private System.Windows.Forms.MaskedTextBox mtbDataAniversario;
+        private System.Windows.Forms.Button btnVoltarPaginaPerfil;
     }
 }

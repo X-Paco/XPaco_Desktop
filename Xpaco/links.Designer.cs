@@ -36,6 +36,7 @@ namespace Xpaco
             this.btnSalvarPaginaLinks = new System.Windows.Forms.Button();
             this.lblUrlPaginaLinks = new System.Windows.Forms.TextBox();
             this.pbLinksPaginaLinks = new System.Windows.Forms.PictureBox();
+            this.btnVoltarPaginaLinks = new System.Windows.Forms.Button();
             this.panelPaginaLinks.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLinksPaginaLinks)).BeginInit();
             this.SuspendLayout();
@@ -78,7 +79,7 @@ namespace Xpaco
             // 
             this.btnSalvarPaginaLinks.BackColor = System.Drawing.Color.Gray;
             this.btnSalvarPaginaLinks.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalvarPaginaLinks.Location = new System.Drawing.Point(179, 266);
+            this.btnSalvarPaginaLinks.Location = new System.Drawing.Point(355, 275);
             this.btnSalvarPaginaLinks.Name = "btnSalvarPaginaLinks";
             this.btnSalvarPaginaLinks.Size = new System.Drawing.Size(102, 38);
             this.btnSalvarPaginaLinks.TabIndex = 38;
@@ -100,11 +101,23 @@ namespace Xpaco
             this.pbLinksPaginaLinks.TabIndex = 40;
             this.pbLinksPaginaLinks.TabStop = false;
             // 
+            // btnVoltarPaginaLinks
+            // 
+            this.btnVoltarPaginaLinks.BackColor = System.Drawing.Color.Gray;
+            this.btnVoltarPaginaLinks.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltarPaginaLinks.Location = new System.Drawing.Point(26, 275);
+            this.btnVoltarPaginaLinks.Name = "btnVoltarPaginaLinks";
+            this.btnVoltarPaginaLinks.Size = new System.Drawing.Size(102, 38);
+            this.btnVoltarPaginaLinks.TabIndex = 41;
+            this.btnVoltarPaginaLinks.Text = "Voltar";
+            this.btnVoltarPaginaLinks.UseVisualStyleBackColor = false;
+            // 
             // links
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(507, 348);
+            this.Controls.Add(this.btnVoltarPaginaLinks);
             this.Controls.Add(this.pbLinksPaginaLinks);
             this.Controls.Add(this.lblUrlPaginaLinks);
             this.Controls.Add(this.btnSalvarPaginaLinks);
@@ -131,5 +144,6 @@ namespace Xpaco
         private System.Windows.Forms.Button btnSalvarPaginaLinks;
         private System.Windows.Forms.TextBox lblUrlPaginaLinks;
         private System.Windows.Forms.PictureBox pbLinksPaginaLinks;
+        private System.Windows.Forms.Button btnVoltarPaginaLinks;
     }
 }

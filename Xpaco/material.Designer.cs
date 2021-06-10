@@ -40,6 +40,7 @@ namespace Xpaco
             this.txtQuantidadePaginaMaterial = new System.Windows.Forms.TextBox();
             this.cbMaterialPaginaMaterial = new System.Windows.Forms.ComboBox();
             this.btnSalvarPaginaMaterial = new System.Windows.Forms.Button();
+            this.btnVoltarPaginaMaterial = new System.Windows.Forms.Button();
             this.panelPaginaMaterial.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +57,7 @@ namespace Xpaco
             // lblPaginaMaterial
             // 
             this.lblPaginaMaterial.AutoSize = true;
+            this.lblPaginaMaterial.BackColor = System.Drawing.Color.Gray;
             this.lblPaginaMaterial.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblPaginaMaterial.Location = new System.Drawing.Point(261, 27);
             this.lblPaginaMaterial.Name = "lblPaginaMaterial";
@@ -139,18 +141,30 @@ namespace Xpaco
             // 
             this.btnSalvarPaginaMaterial.BackColor = System.Drawing.Color.Gray;
             this.btnSalvarPaginaMaterial.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalvarPaginaMaterial.Location = new System.Drawing.Point(261, 406);
+            this.btnSalvarPaginaMaterial.Location = new System.Drawing.Point(508, 406);
             this.btnSalvarPaginaMaterial.Name = "btnSalvarPaginaMaterial";
             this.btnSalvarPaginaMaterial.Size = new System.Drawing.Size(102, 38);
             this.btnSalvarPaginaMaterial.TabIndex = 37;
             this.btnSalvarPaginaMaterial.Text = "Salvar";
             this.btnSalvarPaginaMaterial.UseVisualStyleBackColor = false;
             // 
+            // btnVoltarPaginaMaterial
+            // 
+            this.btnVoltarPaginaMaterial.BackColor = System.Drawing.Color.Gray;
+            this.btnVoltarPaginaMaterial.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltarPaginaMaterial.Location = new System.Drawing.Point(72, 406);
+            this.btnVoltarPaginaMaterial.Name = "btnVoltarPaginaMaterial";
+            this.btnVoltarPaginaMaterial.Size = new System.Drawing.Size(102, 38);
+            this.btnVoltarPaginaMaterial.TabIndex = 42;
+            this.btnVoltarPaginaMaterial.Text = "Voltar";
+            this.btnVoltarPaginaMaterial.UseVisualStyleBackColor = false;
+            // 
             // material
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 480);
+            this.Controls.Add(this.btnVoltarPaginaMaterial);
             this.Controls.Add(this.btnSalvarPaginaMaterial);
             this.Controls.Add(this.cbMaterialPaginaMaterial);
             this.Controls.Add(this.txtQuantidadePaginaMaterial);
@@ -185,5 +199,6 @@ namespace Xpaco
         private System.Windows.Forms.TextBox txtQuantidadePaginaMaterial;
         private System.Windows.Forms.ComboBox cbMaterialPaginaMaterial;
         private System.Windows.Forms.Button btnSalvarPaginaMaterial;
+        private System.Windows.Forms.Button btnVoltarPaginaMaterial;
     }
 }

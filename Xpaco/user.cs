@@ -29,5 +29,10 @@ namespace Xpaco
         {
 
         }
+
+        private void user_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

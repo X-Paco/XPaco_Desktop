@@ -31,14 +31,19 @@ namespace Xpaco
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homePage));
             this.panelSuperiorHomePage = new System.Windows.Forms.Panel();
-            this.pbFechar = new System.Windows.Forms.PictureBox();
-            this.pbMaximizar = new System.Windows.Forms.PictureBox();
-            this.pbMinimizar = new System.Windows.Forms.PictureBox();
+            this.btnFechar = new System.Windows.Forms.PictureBox();
+            this.btnMaximizar = new System.Windows.Forms.PictureBox();
+            this.pbLogoHomePage = new System.Windows.Forms.PictureBox();
+            this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCadastroHomePage = new System.Windows.Forms.Button();
             this.btnMeuAcesso = new System.Windows.Forms.Button();
-            this.pbLogoHomePage = new System.Windows.Forms.PictureBox();
+            this.btnRestaurarTamanhoHomePage = new System.Windows.Forms.PictureBox();
             this.panelRodapeHomePage = new System.Windows.Forms.Panel();
+            this.pbTwitter = new System.Windows.Forms.PictureBox();
+            this.pbInstagram = new System.Windows.Forms.PictureBox();
+            this.pbFacebook = new System.Windows.Forms.PictureBox();
             this.panelEsquerdoHomePage = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -46,110 +51,59 @@ namespace Xpaco
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.pbFacebook = new System.Windows.Forms.PictureBox();
-            this.pbInstagram = new System.Windows.Forms.PictureBox();
-            this.pbTwitter = new System.Windows.Forms.PictureBox();
             this.panelCentralHomePage = new System.Windows.Forms.Panel();
             this.panelSuperiorHomePage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFechar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMaximizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFechar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestaurarTamanhoHomePage)).BeginInit();
             this.panelRodapeHomePage.SuspendLayout();
-            this.panelEsquerdoHomePage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFacebook)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbInstagram)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbTwitter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInstagram)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFacebook)).BeginInit();
+            this.panelEsquerdoHomePage.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSuperiorHomePage
             // 
             this.panelSuperiorHomePage.BackColor = System.Drawing.Color.Gray;
-            this.panelSuperiorHomePage.Controls.Add(this.pbFechar);
-            this.panelSuperiorHomePage.Controls.Add(this.pbMaximizar);
-            this.panelSuperiorHomePage.Controls.Add(this.pbMinimizar);
+            this.panelSuperiorHomePage.Controls.Add(this.btnFechar);
+            this.panelSuperiorHomePage.Controls.Add(this.btnMaximizar);
+            this.panelSuperiorHomePage.Controls.Add(this.pbLogoHomePage);
+            this.panelSuperiorHomePage.Controls.Add(this.btnMinimizar);
             this.panelSuperiorHomePage.Controls.Add(this.btnCadastroHomePage);
             this.panelSuperiorHomePage.Controls.Add(this.btnMeuAcesso);
-            this.panelSuperiorHomePage.Controls.Add(this.pbLogoHomePage);
+            this.panelSuperiorHomePage.Controls.Add(this.btnRestaurarTamanhoHomePage);
             this.panelSuperiorHomePage.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSuperiorHomePage.Location = new System.Drawing.Point(0, 0);
             this.panelSuperiorHomePage.Name = "panelSuperiorHomePage";
             this.panelSuperiorHomePage.Size = new System.Drawing.Size(964, 68);
             this.panelSuperiorHomePage.TabIndex = 0;
             // 
-            // pbFechar
+            // btnFechar
             // 
-            this.pbFechar.Image = ((System.Drawing.Image)(resources.GetObject("pbFechar.Image")));
-            this.pbFechar.Location = new System.Drawing.Point(927, 21);
-            this.pbFechar.Name = "pbFechar";
-            this.pbFechar.Size = new System.Drawing.Size(25, 25);
-            this.pbFechar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbFechar.TabIndex = 15;
-            this.pbFechar.TabStop = false;
+            this.btnFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFechar.Image = ((System.Drawing.Image)(resources.GetObject("btnFechar.Image")));
+            this.btnFechar.Location = new System.Drawing.Point(927, 21);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(25, 25);
+            this.btnFechar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnFechar.TabIndex = 15;
+            this.btnFechar.TabStop = false;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
-            // pbMaximizar
+            // btnMaximizar
             // 
-            this.pbMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("pbMaximizar.Image")));
-            this.pbMaximizar.Location = new System.Drawing.Point(896, 21);
-            this.pbMaximizar.Name = "pbMaximizar";
-            this.pbMaximizar.Size = new System.Drawing.Size(25, 25);
-            this.pbMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMaximizar.TabIndex = 15;
-            this.pbMaximizar.TabStop = false;
-            // 
-            // pbMinimizar
-            // 
-            this.pbMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("pbMinimizar.Image")));
-            this.pbMinimizar.Location = new System.Drawing.Point(865, 21);
-            this.pbMinimizar.Name = "pbMinimizar";
-            this.pbMinimizar.Size = new System.Drawing.Size(25, 25);
-            this.pbMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbMinimizar.TabIndex = 15;
-            this.pbMinimizar.TabStop = false;
-            // 
-            // btnCadastroHomePage
-            // 
-            this.btnCadastroHomePage.BackColor = System.Drawing.Color.MediumPurple;
-            this.btnCadastroHomePage.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCadastroHomePage.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCadastroHomePage.Location = new System.Drawing.Point(744, 19);
-            this.btnCadastroHomePage.Name = "btnCadastroHomePage";
-            this.btnCadastroHomePage.Size = new System.Drawing.Size(100, 31);
-            this.btnCadastroHomePage.TabIndex = 16;
-            this.btnCadastroHomePage.Text = "Cadastro";
-            this.btnCadastroHomePage.UseVisualStyleBackColor = false;
-            // 
-            // btnMeuAcesso
-            // 
-            this.btnMeuAcesso.BackColor = System.Drawing.Color.MediumPurple;
-            this.btnMeuAcesso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnMeuAcesso.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnMeuAcesso.Location = new System.Drawing.Point(635, 19);
-            this.btnMeuAcesso.Name = "btnMeuAcesso";
-            this.btnMeuAcesso.Size = new System.Drawing.Size(103, 31);
-            this.btnMeuAcesso.TabIndex = 15;
-            this.btnMeuAcesso.Text = "Meu acesso";
-            this.btnMeuAcesso.UseVisualStyleBackColor = false;
-            this.btnMeuAcesso.Click += new System.EventHandler(this.button1_Click);
+            this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
+            this.btnMaximizar.Location = new System.Drawing.Point(896, 21);
+            this.btnMaximizar.Name = "btnMaximizar";
+            this.btnMaximizar.Size = new System.Drawing.Size(25, 25);
+            this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnMaximizar.TabIndex = 15;
+            this.btnMaximizar.TabStop = false;
+            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
             // 
             // pbLogoHomePage
             // 
@@ -160,6 +114,60 @@ namespace Xpaco
             this.pbLogoHomePage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbLogoHomePage.TabIndex = 9;
             this.pbLogoHomePage.TabStop = false;
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.Location = new System.Drawing.Point(865, 21);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(25, 25);
+            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnMinimizar.TabIndex = 15;
+            this.btnMinimizar.TabStop = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            // btnCadastroHomePage
+            // 
+            this.btnCadastroHomePage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCadastroHomePage.BackColor = System.Drawing.Color.MediumPurple;
+            this.btnCadastroHomePage.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastroHomePage.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnCadastroHomePage.Location = new System.Drawing.Point(745, 15);
+            this.btnCadastroHomePage.Name = "btnCadastroHomePage";
+            this.btnCadastroHomePage.Size = new System.Drawing.Size(100, 31);
+            this.btnCadastroHomePage.TabIndex = 16;
+            this.btnCadastroHomePage.Text = "Cadastro";
+            this.btnCadastroHomePage.UseVisualStyleBackColor = false;
+            this.btnCadastroHomePage.Click += new System.EventHandler(this.btnCadastroHomePage_Click);
+            // 
+            // btnMeuAcesso
+            // 
+            this.btnMeuAcesso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMeuAcesso.BackColor = System.Drawing.Color.MediumPurple;
+            this.btnMeuAcesso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnMeuAcesso.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnMeuAcesso.Location = new System.Drawing.Point(636, 15);
+            this.btnMeuAcesso.Name = "btnMeuAcesso";
+            this.btnMeuAcesso.Size = new System.Drawing.Size(103, 31);
+            this.btnMeuAcesso.TabIndex = 15;
+            this.btnMeuAcesso.Text = "Meu acesso";
+            this.btnMeuAcesso.UseVisualStyleBackColor = false;
+            this.btnMeuAcesso.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnRestaurarTamanhoHomePage
+            // 
+            this.btnRestaurarTamanhoHomePage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRestaurarTamanhoHomePage.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRestaurarTamanhoHomePage.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurarTamanhoHomePage.Image")));
+            this.btnRestaurarTamanhoHomePage.Location = new System.Drawing.Point(896, 21);
+            this.btnRestaurarTamanhoHomePage.Name = "btnRestaurarTamanhoHomePage";
+            this.btnRestaurarTamanhoHomePage.Size = new System.Drawing.Size(25, 25);
+            this.btnRestaurarTamanhoHomePage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnRestaurarTamanhoHomePage.TabIndex = 0;
+            this.btnRestaurarTamanhoHomePage.TabStop = false;
+            this.btnRestaurarTamanhoHomePage.Visible = false;
+            this.btnRestaurarTamanhoHomePage.Click += new System.EventHandler(this.btnRestaurarTamanhoHomePage_Click);
             // 
             // panelRodapeHomePage
             // 
@@ -172,6 +180,39 @@ namespace Xpaco
             this.panelRodapeHomePage.Name = "panelRodapeHomePage";
             this.panelRodapeHomePage.Size = new System.Drawing.Size(964, 65);
             this.panelRodapeHomePage.TabIndex = 1;
+            // 
+            // pbTwitter
+            // 
+            this.pbTwitter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbTwitter.Image = ((System.Drawing.Image)(resources.GetObject("pbTwitter.Image")));
+            this.pbTwitter.Location = new System.Drawing.Point(817, 16);
+            this.pbTwitter.Name = "pbTwitter";
+            this.pbTwitter.Size = new System.Drawing.Size(44, 37);
+            this.pbTwitter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbTwitter.TabIndex = 15;
+            this.pbTwitter.TabStop = false;
+            // 
+            // pbInstagram
+            // 
+            this.pbInstagram.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbInstagram.Image = ((System.Drawing.Image)(resources.GetObject("pbInstagram.Image")));
+            this.pbInstagram.Location = new System.Drawing.Point(757, 16);
+            this.pbInstagram.Name = "pbInstagram";
+            this.pbInstagram.Size = new System.Drawing.Size(44, 37);
+            this.pbInstagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbInstagram.TabIndex = 15;
+            this.pbInstagram.TabStop = false;
+            // 
+            // pbFacebook
+            // 
+            this.pbFacebook.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbFacebook.Image = ((System.Drawing.Image)(resources.GetObject("pbFacebook.Image")));
+            this.pbFacebook.Location = new System.Drawing.Point(694, 16);
+            this.pbFacebook.Name = "pbFacebook";
+            this.pbFacebook.Size = new System.Drawing.Size(44, 37);
+            this.pbFacebook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFacebook.TabIndex = 0;
+            this.pbFacebook.TabStop = false;
             // 
             // panelEsquerdoHomePage
             // 
@@ -188,6 +229,16 @@ namespace Xpaco
             this.panelEsquerdoHomePage.Name = "panelEsquerdoHomePage";
             this.panelEsquerdoHomePage.Size = new System.Drawing.Size(141, 460);
             this.panelEsquerdoHomePage.TabIndex = 2;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(12, 307);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(63, 17);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Literatura";
             // 
             // label7
             // 
@@ -261,203 +312,38 @@ namespace Xpaco
             this.label1.Text = "Artesanato";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(303, 124);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(139, 97);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(694, 303);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(139, 97);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(502, 303);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(139, 97);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(303, 303);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(139, 97);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 6;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(694, 124);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(139, 97);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 7;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(502, 124);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(139, 97);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 8;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(303, 227);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(139, 58);
-            this.richTextBox1.TabIndex = 9;
-            this.richTextBox1.Text = "Aqui viria a descrição das camapanhas.\n(Meramente Ilustrativo)";
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.Location = new System.Drawing.Point(694, 406);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(139, 58);
-            this.richTextBox2.TabIndex = 10;
-            this.richTextBox2.Text = "Aqui viria a descrição das camapanhas.\n(Meramente Ilustrativo)";
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.Location = new System.Drawing.Point(502, 406);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(139, 58);
-            this.richTextBox3.TabIndex = 11;
-            this.richTextBox3.Text = "Aqui viria a descrição das camapanhas.\n(Meramente Ilustrativo)";
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.Location = new System.Drawing.Point(303, 406);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(139, 58);
-            this.richTextBox4.TabIndex = 12;
-            this.richTextBox4.Text = "Aqui viria a descrição das camapanhas.\n(Meramente Ilustrativo)";
-            // 
-            // richTextBox5
-            // 
-            this.richTextBox5.Location = new System.Drawing.Point(502, 227);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(139, 58);
-            this.richTextBox5.TabIndex = 13;
-            this.richTextBox5.Text = "Aqui viria a descrição das camapanhas.\n(Meramente Ilustrativo)";
-            // 
-            // richTextBox6
-            // 
-            this.richTextBox6.Location = new System.Drawing.Point(694, 227);
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.Size = new System.Drawing.Size(139, 58);
-            this.richTextBox6.TabIndex = 14;
-            this.richTextBox6.Text = "Aqui viria a descrição das camapanhas.\n(Meramente Ilustrativo)";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(12, 307);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(63, 17);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Literatura";
-            // 
-            // pbFacebook
-            // 
-            this.pbFacebook.Image = ((System.Drawing.Image)(resources.GetObject("pbFacebook.Image")));
-            this.pbFacebook.Location = new System.Drawing.Point(694, 16);
-            this.pbFacebook.Name = "pbFacebook";
-            this.pbFacebook.Size = new System.Drawing.Size(44, 37);
-            this.pbFacebook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbFacebook.TabIndex = 0;
-            this.pbFacebook.TabStop = false;
-            // 
-            // pbInstagram
-            // 
-            this.pbInstagram.Image = ((System.Drawing.Image)(resources.GetObject("pbInstagram.Image")));
-            this.pbInstagram.Location = new System.Drawing.Point(757, 16);
-            this.pbInstagram.Name = "pbInstagram";
-            this.pbInstagram.Size = new System.Drawing.Size(44, 37);
-            this.pbInstagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbInstagram.TabIndex = 15;
-            this.pbInstagram.TabStop = false;
-            // 
-            // pbTwitter
-            // 
-            this.pbTwitter.Image = ((System.Drawing.Image)(resources.GetObject("pbTwitter.Image")));
-            this.pbTwitter.Location = new System.Drawing.Point(817, 16);
-            this.pbTwitter.Name = "pbTwitter";
-            this.pbTwitter.Size = new System.Drawing.Size(44, 37);
-            this.pbTwitter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbTwitter.TabIndex = 15;
-            this.pbTwitter.TabStop = false;
-            // 
             // panelCentralHomePage
             // 
-            this.panelCentralHomePage.Location = new System.Drawing.Point(138, 68);
+            this.panelCentralHomePage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCentralHomePage.Location = new System.Drawing.Point(141, 68);
             this.panelCentralHomePage.Name = "panelCentralHomePage";
-            this.panelCentralHomePage.Size = new System.Drawing.Size(826, 460);
-            this.panelCentralHomePage.TabIndex = 15;
+            this.panelCentralHomePage.Size = new System.Drawing.Size(823, 460);
+            this.panelCentralHomePage.TabIndex = 3;
             // 
             // homePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(964, 593);
-            this.Controls.Add(this.richTextBox6);
-            this.Controls.Add(this.richTextBox5);
-            this.Controls.Add(this.richTextBox4);
-            this.Controls.Add(this.richTextBox3);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panelCentralHomePage);
             this.Controls.Add(this.panelEsquerdoHomePage);
             this.Controls.Add(this.panelRodapeHomePage);
             this.Controls.Add(this.panelSuperiorHomePage);
-            this.Controls.Add(this.panelCentralHomePage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "homePage";
             this.Text = "Form1";
             this.panelSuperiorHomePage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbFechar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMaximizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFechar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRestaurarTamanhoHomePage)).EndInit();
             this.panelRodapeHomePage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbTwitter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbInstagram)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFacebook)).EndInit();
             this.panelEsquerdoHomePage.ResumeLayout(false);
             this.panelEsquerdoHomePage.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFacebook)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbInstagram)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTwitter)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -468,22 +354,10 @@ namespace Xpaco
         private System.Windows.Forms.PictureBox pbLogoHomePage;
         private System.Windows.Forms.Panel panelRodapeHomePage;
         private System.Windows.Forms.Panel panelEsquerdoHomePage;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.RichTextBox richTextBox4;
-        private System.Windows.Forms.RichTextBox richTextBox5;
-        private System.Windows.Forms.RichTextBox richTextBox6;
         private System.Windows.Forms.Button btnMeuAcesso;
-        private System.Windows.Forms.PictureBox pbFechar;
-        private System.Windows.Forms.PictureBox pbMaximizar;
-        private System.Windows.Forms.PictureBox pbMinimizar;
+        private System.Windows.Forms.PictureBox btnFechar;
+        private System.Windows.Forms.PictureBox btnMaximizar;
+        private System.Windows.Forms.PictureBox btnMinimizar;
         private System.Windows.Forms.Button btnCadastroHomePage;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
@@ -496,6 +370,7 @@ namespace Xpaco
         private System.Windows.Forms.PictureBox pbInstagram;
         private System.Windows.Forms.PictureBox pbFacebook;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox btnRestaurarTamanhoHomePage;
         private System.Windows.Forms.Panel panelCentralHomePage;
     }
 }

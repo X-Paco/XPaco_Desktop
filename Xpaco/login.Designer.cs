@@ -95,7 +95,7 @@ namespace Xpaco
             // 
             this.btnLogarPaginaLogin.BackColor = System.Drawing.Color.Gray;
             this.btnLogarPaginaLogin.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLogarPaginaLogin.Location = new System.Drawing.Point(204, 247);
+            this.btnLogarPaginaLogin.Location = new System.Drawing.Point(204, 242);
             this.btnLogarPaginaLogin.Name = "btnLogarPaginaLogin";
             this.btnLogarPaginaLogin.Size = new System.Drawing.Size(122, 31);
             this.btnLogarPaginaLogin.TabIndex = 38;
