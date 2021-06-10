@@ -78,7 +78,7 @@ namespace Xpaco
             // 
             this.btnSalvarPaginaLinks.BackColor = System.Drawing.Color.Gray;
             this.btnSalvarPaginaLinks.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalvarPaginaLinks.Location = new System.Drawing.Point(179, 266);
+            this.btnSalvarPaginaLinks.Location = new System.Drawing.Point(192, 298);
             this.btnSalvarPaginaLinks.Name = "btnSalvarPaginaLinks";
             this.btnSalvarPaginaLinks.Size = new System.Drawing.Size(102, 38);
             this.btnSalvarPaginaLinks.TabIndex = 38;
