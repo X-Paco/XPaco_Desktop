@@ -16,7 +16,7 @@ namespace Xpaco
         {
             if (disposing && (components != null))
             {
-                // teste
+                //
                 components.Dispose();
             }
             base.Dispose(disposing);
