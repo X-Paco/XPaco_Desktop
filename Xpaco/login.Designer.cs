@@ -61,14 +61,14 @@ namespace Xpaco
             // 
             // txtSenhaPaginaLogin
             // 
-            this.txtSenhaPaginaLogin.Location = new System.Drawing.Point(204, 183);
+            this.txtSenhaPaginaLogin.Location = new System.Drawing.Point(293, 177);
             this.txtSenhaPaginaLogin.Name = "txtSenhaPaginaLogin";
             this.txtSenhaPaginaLogin.Size = new System.Drawing.Size(162, 23);
             this.txtSenhaPaginaLogin.TabIndex = 3;
             // 
             // txtEmailPaginaLogin
             // 
-            this.txtEmailPaginaLogin.Location = new System.Drawing.Point(204, 129);
+            this.txtEmailPaginaLogin.Location = new System.Drawing.Point(293, 123);
             this.txtEmailPaginaLogin.Name = "txtEmailPaginaLogin";
             this.txtEmailPaginaLogin.Size = new System.Drawing.Size(162, 23);
             this.txtEmailPaginaLogin.TabIndex = 4;
@@ -76,7 +76,7 @@ namespace Xpaco
             // lblSenhaPaginaLogin
             // 
             this.lblSenhaPaginaLogin.AutoSize = true;
-            this.lblSenhaPaginaLogin.Location = new System.Drawing.Point(140, 191);
+            this.lblSenhaPaginaLogin.Location = new System.Drawing.Point(229, 185);
             this.lblSenhaPaginaLogin.Name = "lblSenhaPaginaLogin";
             this.lblSenhaPaginaLogin.Size = new System.Drawing.Size(42, 15);
             this.lblSenhaPaginaLogin.TabIndex = 5;
@@ -85,7 +85,7 @@ namespace Xpaco
             // lblEmailPaginaLogin
             // 
             this.lblEmailPaginaLogin.AutoSize = true;
-            this.lblEmailPaginaLogin.Location = new System.Drawing.Point(140, 137);
+            this.lblEmailPaginaLogin.Location = new System.Drawing.Point(229, 131);
             this.lblEmailPaginaLogin.Name = "lblEmailPaginaLogin";
             this.lblEmailPaginaLogin.Size = new System.Drawing.Size(44, 15);
             this.lblEmailPaginaLogin.TabIndex = 6;
@@ -95,7 +95,7 @@ namespace Xpaco
             // 
             this.btnLogarPaginaLogin.BackColor = System.Drawing.Color.Gray;
             this.btnLogarPaginaLogin.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLogarPaginaLogin.Location = new System.Drawing.Point(204, 242);
+            this.btnLogarPaginaLogin.Location = new System.Drawing.Point(293, 236);
             this.btnLogarPaginaLogin.Name = "btnLogarPaginaLogin";
             this.btnLogarPaginaLogin.Size = new System.Drawing.Size(122, 31);
             this.btnLogarPaginaLogin.TabIndex = 38;

@@ -3,7 +3,7 @@ namespace Xpaco
 {
     partial class user
     {
-        /// <summary>
+        /// <summary> *
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
@@ -16,6 +16,7 @@ namespace Xpaco
         {
             if (disposing && (components != null))
             {
+                // teste
                 components.Dispose();
             }
             base.Dispose(disposing);

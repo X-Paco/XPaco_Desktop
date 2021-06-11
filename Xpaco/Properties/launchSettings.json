@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Xpaco": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\projetos\\repository\\Meutix-oficial",
+      "remoteDebugEnabled": false
+    }
+  }
+}

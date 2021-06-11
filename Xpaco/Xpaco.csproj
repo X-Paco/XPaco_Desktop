@@ -4,6 +4,13 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <StartupObject>Xpaco.Program</StartupObject>
+    <ApplicationIcon>Xpaco-design.ico</ApplicationIcon>
+    <Authors>Aquiles / João / Luiz</Authors>
+    <RepositoryUrl>https://github.com/Meutix-oficial</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageIcon>Xpaco-design.png</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +26,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Xpaco-design.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
