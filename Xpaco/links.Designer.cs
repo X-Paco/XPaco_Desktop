@@ -35,14 +35,17 @@ namespace Xpaco
             this.btnMaximizarPaginaLinks = new System.Windows.Forms.PictureBox();
             this.pbLogoHomePage = new System.Windows.Forms.PictureBox();
             this.btnMinimizarPaginaLinks = new System.Windows.Forms.PictureBox();
-            this.lblPaginaLinks = new System.Windows.Forms.Label();
             this.btnRestaurarTamanhoPaginaLinks = new System.Windows.Forms.PictureBox();
+            this.lblPaginaLinks = new System.Windows.Forms.Label();
             this.lblDescricaoPaginaLinks = new System.Windows.Forms.TextBox();
             this.lblReferenciaPaginaLinks = new System.Windows.Forms.TextBox();
             this.btnSalvarPaginaLinks = new System.Windows.Forms.Button();
             this.lblUrlPaginaLinks = new System.Windows.Forms.TextBox();
             this.pbLinksPaginaLinks = new System.Windows.Forms.PictureBox();
             this.btnVoltarPaginaLinks = new System.Windows.Forms.Button();
+            this.panelEsquerdoPaginaLinks = new System.Windows.Forms.Panel();
+            this.panelDireitoPaginaLinks = new System.Windows.Forms.Panel();
+            this.panelBottomPaginaLinks = new System.Windows.Forms.Panel();
             this.panelPaginaLinks.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnFecharPaginaLinks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizarPaginaLinks)).BeginInit();
@@ -112,17 +115,6 @@ namespace Xpaco
             this.btnMinimizarPaginaLinks.TabStop = false;
             this.btnMinimizarPaginaLinks.Click += new System.EventHandler(this.btnMinimizarPaginaLinks_Click);
             // 
-            // lblPaginaLinks
-            // 
-            this.lblPaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblPaginaLinks.AutoSize = true;
-            this.lblPaginaLinks.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPaginaLinks.Location = new System.Drawing.Point(400, 101);
-            this.lblPaginaLinks.Name = "lblPaginaLinks";
-            this.lblPaginaLinks.Size = new System.Drawing.Size(125, 23);
-            this.lblPaginaLinks.TabIndex = 1;
-            this.lblPaginaLinks.Text = "Página de links";
-            // 
             // btnRestaurarTamanhoPaginaLinks
             // 
             this.btnRestaurarTamanhoPaginaLinks.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -136,6 +128,17 @@ namespace Xpaco
             this.btnRestaurarTamanhoPaginaLinks.TabStop = false;
             this.btnRestaurarTamanhoPaginaLinks.Visible = false;
             this.btnRestaurarTamanhoPaginaLinks.Click += new System.EventHandler(this.btnRestaurarTamanhoPaginaLinks_Click);
+            // 
+            // lblPaginaLinks
+            // 
+            this.lblPaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblPaginaLinks.AutoSize = true;
+            this.lblPaginaLinks.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblPaginaLinks.Location = new System.Drawing.Point(400, 101);
+            this.lblPaginaLinks.Name = "lblPaginaLinks";
+            this.lblPaginaLinks.Size = new System.Drawing.Size(154, 29);
+            this.lblPaginaLinks.TabIndex = 1;
+            this.lblPaginaLinks.Text = "Página de links";
             // 
             // lblDescricaoPaginaLinks
             // 
@@ -158,12 +161,13 @@ namespace Xpaco
             this.btnSalvarPaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnSalvarPaginaLinks.BackColor = System.Drawing.Color.Gray;
             this.btnSalvarPaginaLinks.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalvarPaginaLinks.Location = new System.Drawing.Point(586, 358);
+            this.btnSalvarPaginaLinks.Location = new System.Drawing.Point(579, 358);
             this.btnSalvarPaginaLinks.Name = "btnSalvarPaginaLinks";
             this.btnSalvarPaginaLinks.Size = new System.Drawing.Size(102, 38);
             this.btnSalvarPaginaLinks.TabIndex = 38;
             this.btnSalvarPaginaLinks.Text = "Salvar";
             this.btnSalvarPaginaLinks.UseVisualStyleBackColor = false;
+            this.btnSalvarPaginaLinks.Click += new System.EventHandler(this.btnSalvarPaginaLinks_Click);
             // 
             // lblUrlPaginaLinks
             // 
@@ -176,9 +180,11 @@ namespace Xpaco
             // pbLinksPaginaLinks
             // 
             this.pbLinksPaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pbLinksPaginaLinks.Image = ((System.Drawing.Image)(resources.GetObject("pbLinksPaginaLinks.Image")));
             this.pbLinksPaginaLinks.Location = new System.Drawing.Point(548, 201);
             this.pbLinksPaginaLinks.Name = "pbLinksPaginaLinks";
             this.pbLinksPaginaLinks.Size = new System.Drawing.Size(100, 81);
+            this.pbLinksPaginaLinks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbLinksPaginaLinks.TabIndex = 40;
             this.pbLinksPaginaLinks.TabStop = false;
             // 
@@ -187,7 +193,7 @@ namespace Xpaco
             this.btnVoltarPaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnVoltarPaginaLinks.BackColor = System.Drawing.Color.Gray;
             this.btnVoltarPaginaLinks.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVoltarPaginaLinks.Location = new System.Drawing.Point(257, 358);
+            this.btnVoltarPaginaLinks.Location = new System.Drawing.Point(273, 358);
             this.btnVoltarPaginaLinks.Name = "btnVoltarPaginaLinks";
             this.btnVoltarPaginaLinks.Size = new System.Drawing.Size(102, 38);
             this.btnVoltarPaginaLinks.TabIndex = 41;
@@ -195,11 +201,42 @@ namespace Xpaco
             this.btnVoltarPaginaLinks.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaLinks.Click += new System.EventHandler(this.btnVoltarPaginaLinks_Click);
             // 
+            // panelEsquerdoPaginaLinks
+            // 
+            this.panelEsquerdoPaginaLinks.BackColor = System.Drawing.Color.Silver;
+            this.panelEsquerdoPaginaLinks.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelEsquerdoPaginaLinks.Location = new System.Drawing.Point(0, 80);
+            this.panelEsquerdoPaginaLinks.Name = "panelEsquerdoPaginaLinks";
+            this.panelEsquerdoPaginaLinks.Size = new System.Drawing.Size(220, 513);
+            this.panelEsquerdoPaginaLinks.TabIndex = 44;
+            // 
+            // panelDireitoPaginaLinks
+            // 
+            this.panelDireitoPaginaLinks.BackColor = System.Drawing.Color.Silver;
+            this.panelDireitoPaginaLinks.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelDireitoPaginaLinks.Location = new System.Drawing.Point(744, 80);
+            this.panelDireitoPaginaLinks.Name = "panelDireitoPaginaLinks";
+            this.panelDireitoPaginaLinks.Size = new System.Drawing.Size(220, 513);
+            this.panelDireitoPaginaLinks.TabIndex = 45;
+            // 
+            // panelBottomPaginaLinks
+            // 
+            this.panelBottomPaginaLinks.BackColor = System.Drawing.Color.Silver;
+            this.panelBottomPaginaLinks.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelBottomPaginaLinks.Location = new System.Drawing.Point(220, 493);
+            this.panelBottomPaginaLinks.Name = "panelBottomPaginaLinks";
+            this.panelBottomPaginaLinks.Size = new System.Drawing.Size(524, 100);
+            this.panelBottomPaginaLinks.TabIndex = 46;
+            this.panelBottomPaginaLinks.Visible = false;
+            // 
             // links
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(964, 593);
+            this.Controls.Add(this.panelBottomPaginaLinks);
+            this.Controls.Add(this.panelDireitoPaginaLinks);
+            this.Controls.Add(this.panelEsquerdoPaginaLinks);
             this.Controls.Add(this.btnVoltarPaginaLinks);
             this.Controls.Add(this.pbLinksPaginaLinks);
             this.Controls.Add(this.lblUrlPaginaLinks);
@@ -209,6 +246,7 @@ namespace Xpaco
             this.Controls.Add(this.lblReferenciaPaginaLinks);
             this.Controls.Add(this.panelPaginaLinks);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "links";
             this.Text = "links";
             this.panelPaginaLinks.ResumeLayout(false);
@@ -238,5 +276,8 @@ namespace Xpaco
         private System.Windows.Forms.PictureBox btnMaximizarPaginaLinks;
         private System.Windows.Forms.PictureBox btnMinimizarPaginaLinks;
         private System.Windows.Forms.PictureBox btnRestaurarTamanhoPaginaLinks;
+        private System.Windows.Forms.Panel panelEsquerdoPaginaLinks;
+        private System.Windows.Forms.Panel panelDireitoPaginaLinks;
+        private System.Windows.Forms.Panel panelBottomPaginaLinks;
     }
 }

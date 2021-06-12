@@ -47,6 +47,9 @@ namespace Xpaco
             this.cbMaterialPaginaMaterial = new System.Windows.Forms.ComboBox();
             this.btnSalvarPaginaMaterial = new System.Windows.Forms.Button();
             this.btnVoltarPaginaMaterial = new System.Windows.Forms.Button();
+            this.panelBottomPaginaMaterial = new System.Windows.Forms.Panel();
+            this.panelEsquerdoPaginaMaterial = new System.Windows.Forms.Panel();
+            this.panelDireitoPaginaMaterial = new System.Windows.Forms.Panel();
             this.panelPaginaMaterial.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCadastro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFecharPaginaCadastro)).BeginInit();
@@ -57,17 +60,16 @@ namespace Xpaco
             // 
             // panelPaginaMaterial
             // 
-            this.panelPaginaMaterial.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelPaginaMaterial.BackColor = System.Drawing.Color.Gray;
             this.panelPaginaMaterial.Controls.Add(this.pbLogoPaginaCadastro);
             this.panelPaginaMaterial.Controls.Add(this.btnFecharPaginaCadastro);
             this.panelPaginaMaterial.Controls.Add(this.btnMaximizarPaginaCadastro);
             this.panelPaginaMaterial.Controls.Add(this.btnMinimizarPaginaCadastro);
             this.panelPaginaMaterial.Controls.Add(this.btnRestaurarTamanhoPaginaCadastro);
+            this.panelPaginaMaterial.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelPaginaMaterial.Location = new System.Drawing.Point(0, 0);
             this.panelPaginaMaterial.Name = "panelPaginaMaterial";
-            this.panelPaginaMaterial.Size = new System.Drawing.Size(965, 72);
+            this.panelPaginaMaterial.Size = new System.Drawing.Size(964, 72);
             this.panelPaginaMaterial.TabIndex = 2;
             // 
             // pbLogoPaginaCadastro
@@ -84,7 +86,7 @@ namespace Xpaco
             // 
             this.btnFecharPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnFecharPaginaCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnFecharPaginaCadastro.Image")));
-            this.btnFecharPaginaCadastro.Location = new System.Drawing.Point(928, 27);
+            this.btnFecharPaginaCadastro.Location = new System.Drawing.Point(927, 27);
             this.btnFecharPaginaCadastro.Name = "btnFecharPaginaCadastro";
             this.btnFecharPaginaCadastro.Size = new System.Drawing.Size(25, 25);
             this.btnFecharPaginaCadastro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -96,7 +98,7 @@ namespace Xpaco
             // 
             this.btnMaximizarPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizarPaginaCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizarPaginaCadastro.Image")));
-            this.btnMaximizarPaginaCadastro.Location = new System.Drawing.Point(897, 27);
+            this.btnMaximizarPaginaCadastro.Location = new System.Drawing.Point(896, 27);
             this.btnMaximizarPaginaCadastro.Name = "btnMaximizarPaginaCadastro";
             this.btnMaximizarPaginaCadastro.Size = new System.Drawing.Size(25, 25);
             this.btnMaximizarPaginaCadastro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -108,7 +110,7 @@ namespace Xpaco
             // 
             this.btnMinimizarPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizarPaginaCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizarPaginaCadastro.Image")));
-            this.btnMinimizarPaginaCadastro.Location = new System.Drawing.Point(866, 27);
+            this.btnMinimizarPaginaCadastro.Location = new System.Drawing.Point(865, 27);
             this.btnMinimizarPaginaCadastro.Name = "btnMinimizarPaginaCadastro";
             this.btnMinimizarPaginaCadastro.Size = new System.Drawing.Size(25, 25);
             this.btnMinimizarPaginaCadastro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -121,7 +123,7 @@ namespace Xpaco
             this.btnRestaurarTamanhoPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurarTamanhoPaginaCadastro.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnRestaurarTamanhoPaginaCadastro.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurarTamanhoPaginaCadastro.Image")));
-            this.btnRestaurarTamanhoPaginaCadastro.Location = new System.Drawing.Point(897, 27);
+            this.btnRestaurarTamanhoPaginaCadastro.Location = new System.Drawing.Point(896, 27);
             this.btnRestaurarTamanhoPaginaCadastro.Name = "btnRestaurarTamanhoPaginaCadastro";
             this.btnRestaurarTamanhoPaginaCadastro.Size = new System.Drawing.Size(25, 25);
             this.btnRestaurarTamanhoPaginaCadastro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -225,7 +227,7 @@ namespace Xpaco
             this.btnSalvarPaginaMaterial.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnSalvarPaginaMaterial.BackColor = System.Drawing.Color.Gray;
             this.btnSalvarPaginaMaterial.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalvarPaginaMaterial.Location = new System.Drawing.Point(632, 471);
+            this.btnSalvarPaginaMaterial.Location = new System.Drawing.Point(656, 449);
             this.btnSalvarPaginaMaterial.Name = "btnSalvarPaginaMaterial";
             this.btnSalvarPaginaMaterial.Size = new System.Drawing.Size(102, 38);
             this.btnSalvarPaginaMaterial.TabIndex = 37;
@@ -238,7 +240,7 @@ namespace Xpaco
             this.btnVoltarPaginaMaterial.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnVoltarPaginaMaterial.BackColor = System.Drawing.Color.Gray;
             this.btnVoltarPaginaMaterial.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVoltarPaginaMaterial.Location = new System.Drawing.Point(196, 471);
+            this.btnVoltarPaginaMaterial.Location = new System.Drawing.Point(206, 449);
             this.btnVoltarPaginaMaterial.Name = "btnVoltarPaginaMaterial";
             this.btnVoltarPaginaMaterial.Size = new System.Drawing.Size(102, 38);
             this.btnVoltarPaginaMaterial.TabIndex = 42;
@@ -246,11 +248,42 @@ namespace Xpaco
             this.btnVoltarPaginaMaterial.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaMaterial.Click += new System.EventHandler(this.btnVoltarPaginaMaterial_Click);
             // 
+            // panelBottomPaginaMaterial
+            // 
+            this.panelBottomPaginaMaterial.BackColor = System.Drawing.Color.Silver;
+            this.panelBottomPaginaMaterial.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelBottomPaginaMaterial.Location = new System.Drawing.Point(0, 493);
+            this.panelBottomPaginaMaterial.Name = "panelBottomPaginaMaterial";
+            this.panelBottomPaginaMaterial.Size = new System.Drawing.Size(964, 100);
+            this.panelBottomPaginaMaterial.TabIndex = 45;
+            this.panelBottomPaginaMaterial.Visible = false;
+            // 
+            // panelEsquerdoPaginaMaterial
+            // 
+            this.panelEsquerdoPaginaMaterial.BackColor = System.Drawing.Color.Silver;
+            this.panelEsquerdoPaginaMaterial.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelEsquerdoPaginaMaterial.Location = new System.Drawing.Point(0, 72);
+            this.panelEsquerdoPaginaMaterial.Name = "panelEsquerdoPaginaMaterial";
+            this.panelEsquerdoPaginaMaterial.Size = new System.Drawing.Size(200, 421);
+            this.panelEsquerdoPaginaMaterial.TabIndex = 46;
+            // 
+            // panelDireitoPaginaMaterial
+            // 
+            this.panelDireitoPaginaMaterial.BackColor = System.Drawing.Color.Silver;
+            this.panelDireitoPaginaMaterial.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelDireitoPaginaMaterial.Location = new System.Drawing.Point(764, 72);
+            this.panelDireitoPaginaMaterial.Name = "panelDireitoPaginaMaterial";
+            this.panelDireitoPaginaMaterial.Size = new System.Drawing.Size(200, 421);
+            this.panelDireitoPaginaMaterial.TabIndex = 47;
+            // 
             // material
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(964, 593);
+            this.Controls.Add(this.panelDireitoPaginaMaterial);
+            this.Controls.Add(this.panelEsquerdoPaginaMaterial);
+            this.Controls.Add(this.panelBottomPaginaMaterial);
             this.Controls.Add(this.btnVoltarPaginaMaterial);
             this.Controls.Add(this.btnSalvarPaginaMaterial);
             this.Controls.Add(this.cbMaterialPaginaMaterial);
@@ -296,5 +329,8 @@ namespace Xpaco
         private System.Windows.Forms.PictureBox btnMinimizarPaginaCadastro;
         private System.Windows.Forms.PictureBox btnRestaurarTamanhoPaginaCadastro;
         private System.Windows.Forms.PictureBox pbLogoPaginaCadastro;
+        private System.Windows.Forms.Panel panelBottomPaginaMaterial;
+        private System.Windows.Forms.Panel panelEsquerdoPaginaMaterial;
+        private System.Windows.Forms.Panel panelDireitoPaginaMaterial;
     }
 }

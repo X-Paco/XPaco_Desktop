@@ -43,6 +43,9 @@ namespace Xpaco
             this.lblEmailPaginaLogin = new System.Windows.Forms.Label();
             this.btnLogarPaginaLogin = new System.Windows.Forms.Button();
             this.btnVoltarPaginaLogin = new System.Windows.Forms.Button();
+            this.panelEsquerdoPaginaLogin = new System.Windows.Forms.Panel();
+            this.panelDireitoPaginaLogin = new System.Windows.Forms.Panel();
+            this.panelBottomPaginaLogin = new System.Windows.Forms.Panel();
             this.panelPaginaLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaLogin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFecharPaginaLogin)).BeginInit();
@@ -127,36 +130,36 @@ namespace Xpaco
             // 
             // lblPaginaLogin
             // 
-            this.lblPaginaLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblPaginaLogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblPaginaLogin.AutoSize = true;
-            this.lblPaginaLogin.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblPaginaLogin.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblPaginaLogin.Location = new System.Drawing.Point(414, 95);
             this.lblPaginaLogin.Name = "lblPaginaLogin";
-            this.lblPaginaLogin.Size = new System.Drawing.Size(127, 23);
+            this.lblPaginaLogin.Size = new System.Drawing.Size(156, 29);
             this.lblPaginaLogin.TabIndex = 1;
             this.lblPaginaLogin.Text = "Página de login";
             // 
             // txtSenhaPaginaLogin
             // 
             this.txtSenhaPaginaLogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtSenhaPaginaLogin.Location = new System.Drawing.Point(414, 258);
+            this.txtSenhaPaginaLogin.Location = new System.Drawing.Point(414, 241);
             this.txtSenhaPaginaLogin.Name = "txtSenhaPaginaLogin";
-            this.txtSenhaPaginaLogin.Size = new System.Drawing.Size(162, 23);
+            this.txtSenhaPaginaLogin.Size = new System.Drawing.Size(170, 23);
             this.txtSenhaPaginaLogin.TabIndex = 3;
             // 
             // txtEmailPaginaLogin
             // 
             this.txtEmailPaginaLogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtEmailPaginaLogin.Location = new System.Drawing.Point(414, 204);
+            this.txtEmailPaginaLogin.Location = new System.Drawing.Point(414, 187);
             this.txtEmailPaginaLogin.Name = "txtEmailPaginaLogin";
-            this.txtEmailPaginaLogin.Size = new System.Drawing.Size(162, 23);
+            this.txtEmailPaginaLogin.Size = new System.Drawing.Size(170, 23);
             this.txtEmailPaginaLogin.TabIndex = 4;
             // 
             // lblSenhaPaginaLogin
             // 
             this.lblSenhaPaginaLogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblSenhaPaginaLogin.AutoSize = true;
-            this.lblSenhaPaginaLogin.Location = new System.Drawing.Point(350, 266);
+            this.lblSenhaPaginaLogin.Location = new System.Drawing.Point(364, 249);
             this.lblSenhaPaginaLogin.Name = "lblSenhaPaginaLogin";
             this.lblSenhaPaginaLogin.Size = new System.Drawing.Size(42, 15);
             this.lblSenhaPaginaLogin.TabIndex = 5;
@@ -166,7 +169,7 @@ namespace Xpaco
             // 
             this.lblEmailPaginaLogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblEmailPaginaLogin.AutoSize = true;
-            this.lblEmailPaginaLogin.Location = new System.Drawing.Point(350, 212);
+            this.lblEmailPaginaLogin.Location = new System.Drawing.Point(364, 195);
             this.lblEmailPaginaLogin.Name = "lblEmailPaginaLogin";
             this.lblEmailPaginaLogin.Size = new System.Drawing.Size(44, 15);
             this.lblEmailPaginaLogin.TabIndex = 6;
@@ -177,19 +180,20 @@ namespace Xpaco
             this.btnLogarPaginaLogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnLogarPaginaLogin.BackColor = System.Drawing.Color.Gray;
             this.btnLogarPaginaLogin.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLogarPaginaLogin.Location = new System.Drawing.Point(350, 317);
+            this.btnLogarPaginaLogin.Location = new System.Drawing.Point(364, 300);
             this.btnLogarPaginaLogin.Name = "btnLogarPaginaLogin";
-            this.btnLogarPaginaLogin.Size = new System.Drawing.Size(226, 31);
+            this.btnLogarPaginaLogin.Size = new System.Drawing.Size(220, 31);
             this.btnLogarPaginaLogin.TabIndex = 38;
             this.btnLogarPaginaLogin.Text = "Logar";
             this.btnLogarPaginaLogin.UseVisualStyleBackColor = false;
+            this.btnLogarPaginaLogin.Click += new System.EventHandler(this.btnLogarPaginaLogin_Click);
             // 
             // btnVoltarPaginaLogin
             // 
             this.btnVoltarPaginaLogin.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnVoltarPaginaLogin.BackColor = System.Drawing.Color.Gray;
             this.btnVoltarPaginaLogin.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVoltarPaginaLogin.Location = new System.Drawing.Point(110, 418);
+            this.btnVoltarPaginaLogin.Location = new System.Drawing.Point(226, 386);
             this.btnVoltarPaginaLogin.Name = "btnVoltarPaginaLogin";
             this.btnVoltarPaginaLogin.Size = new System.Drawing.Size(102, 38);
             this.btnVoltarPaginaLogin.TabIndex = 43;
@@ -197,11 +201,42 @@ namespace Xpaco
             this.btnVoltarPaginaLogin.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaLogin.Click += new System.EventHandler(this.btnVoltarPaginaLogin_Click);
             // 
+            // panelEsquerdoPaginaLogin
+            // 
+            this.panelEsquerdoPaginaLogin.BackColor = System.Drawing.Color.Silver;
+            this.panelEsquerdoPaginaLogin.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelEsquerdoPaginaLogin.Location = new System.Drawing.Point(0, 80);
+            this.panelEsquerdoPaginaLogin.Name = "panelEsquerdoPaginaLogin";
+            this.panelEsquerdoPaginaLogin.Size = new System.Drawing.Size(220, 513);
+            this.panelEsquerdoPaginaLogin.TabIndex = 44;
+            // 
+            // panelDireitoPaginaLogin
+            // 
+            this.panelDireitoPaginaLogin.BackColor = System.Drawing.Color.Silver;
+            this.panelDireitoPaginaLogin.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelDireitoPaginaLogin.Location = new System.Drawing.Point(744, 80);
+            this.panelDireitoPaginaLogin.Name = "panelDireitoPaginaLogin";
+            this.panelDireitoPaginaLogin.Size = new System.Drawing.Size(220, 513);
+            this.panelDireitoPaginaLogin.TabIndex = 45;
+            // 
+            // panelBottomPaginaLogin
+            // 
+            this.panelBottomPaginaLogin.BackColor = System.Drawing.Color.Silver;
+            this.panelBottomPaginaLogin.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelBottomPaginaLogin.Location = new System.Drawing.Point(220, 493);
+            this.panelBottomPaginaLogin.Name = "panelBottomPaginaLogin";
+            this.panelBottomPaginaLogin.Size = new System.Drawing.Size(524, 100);
+            this.panelBottomPaginaLogin.TabIndex = 46;
+            this.panelBottomPaginaLogin.Visible = false;
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(964, 593);
+            this.Controls.Add(this.panelBottomPaginaLogin);
+            this.Controls.Add(this.panelDireitoPaginaLogin);
+            this.Controls.Add(this.panelEsquerdoPaginaLogin);
             this.Controls.Add(this.btnVoltarPaginaLogin);
             this.Controls.Add(this.btnLogarPaginaLogin);
             this.Controls.Add(this.lblEmailPaginaLogin);
@@ -239,5 +274,8 @@ namespace Xpaco
         private System.Windows.Forms.PictureBox btnRestaurarTamanhoPaginaLogin;
         private System.Windows.Forms.Button btnVoltarPaginaLogin;
         private System.Windows.Forms.PictureBox pbLogoPaginaLogin;
+        private System.Windows.Forms.Panel panelEsquerdoPaginaLogin;
+        private System.Windows.Forms.Panel panelDireitoPaginaLogin;
+        private System.Windows.Forms.Panel panelBottomPaginaLogin;
     }
 }

@@ -45,5 +45,12 @@ namespace Xpaco
             this.Close();
             telaInicial.Show();
         }
+
+        private void btnLogarPaginaLogin_Click(object sender, EventArgs e)
+        {
+            profile pgProfile = new profile();
+            this.Hide();
+            pgProfile.Show();
+        }
     }
 }

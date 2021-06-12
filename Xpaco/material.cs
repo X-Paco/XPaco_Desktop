@@ -32,6 +32,7 @@ namespace Xpaco
             this.WindowState = FormWindowState.Normal;
             btnMaximizarPaginaCadastro.Visible = true;
             btnRestaurarTamanhoPaginaCadastro.Visible = false;
+            panelBottomPaginaMaterial.Visible = false;
         }
 
         private void btnMaximizarPaginaCadastro_Click(object sender, EventArgs e)
@@ -39,6 +40,7 @@ namespace Xpaco
             this.WindowState = FormWindowState.Maximized;
             btnMaximizarPaginaCadastro.Visible = false;
             btnRestaurarTamanhoPaginaCadastro.Visible = true;
+            panelBottomPaginaMaterial.Visible = true;
         }
 
         private void btnVoltarPaginaMaterial_Click(object sender, EventArgs e)
@@ -48,9 +50,8 @@ namespace Xpaco
 
         private void btnSalvarPaginaMaterial_Click(object sender, EventArgs e)
         {
-            campanha pgCampanha = new campanha();
-            this.Hide();
-            pgCampanha.Show();
+            //Validação vinda do back.
+            this.Close();
         }
     }
 }

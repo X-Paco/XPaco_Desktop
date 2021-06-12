@@ -62,11 +62,9 @@ namespace Xpaco
 
         private void btnGravarPaginaCampanha_Click(object sender, EventArgs e)
         {
-            /*
-             if()
-            {
-            }
-             */
+            profile pgProfile = new profile();
+            this.Close();
+            pgProfile.Show();
         }
     }
 }

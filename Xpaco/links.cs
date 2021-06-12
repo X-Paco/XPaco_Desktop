@@ -25,6 +25,7 @@ namespace Xpaco
             this.WindowState = FormWindowState.Normal;
             btnMaximizarPaginaLinks.Visible = true;
             btnRestaurarTamanhoPaginaLinks.Visible = false;
+            panelBottomPaginaLinks.Visible = false;
         }
 
         private void btnMinimizarPaginaLinks_Click(object sender, EventArgs e)
@@ -37,13 +38,17 @@ namespace Xpaco
             this.WindowState = FormWindowState.Maximized;
             btnMaximizarPaginaLinks.Visible = false;
             btnRestaurarTamanhoPaginaLinks.Visible = true;
+            panelBottomPaginaLinks.Visible = true;
         }
 
         private void btnVoltarPaginaLinks_Click(object sender, EventArgs e)
         {
-            homePage pgInicial = new homePage();
             this.Close();
-            pgInicial.Show();
+        }
+
+        private void btnSalvarPaginaLinks_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

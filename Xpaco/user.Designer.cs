@@ -139,8 +139,7 @@ namespace Xpaco
             // 
             // lblPaginaCadastro
             // 
-            this.lblPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblPaginaCadastro.AutoSize = true;
             this.lblPaginaCadastro.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblPaginaCadastro.Location = new System.Drawing.Point(426, 90);
@@ -151,8 +150,7 @@ namespace Xpaco
             // 
             // lblNomePaginaCadastro
             // 
-            this.lblNomePaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblNomePaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblNomePaginaCadastro.AutoSize = true;
             this.lblNomePaginaCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNomePaginaCadastro.Location = new System.Drawing.Point(279, 191);
@@ -163,8 +161,7 @@ namespace Xpaco
             // 
             // mtbTelefonePaginaCadastro
             // 
-            this.mtbTelefonePaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.mtbTelefonePaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.mtbTelefonePaginaCadastro.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.mtbTelefonePaginaCadastro.Location = new System.Drawing.Point(426, 363);
             this.mtbTelefonePaginaCadastro.Mask = "(00) 00000-0000";
@@ -174,8 +171,7 @@ namespace Xpaco
             // 
             // txtNomeCompletoPaginaCadastro
             // 
-            this.txtNomeCompletoPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNomeCompletoPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtNomeCompletoPaginaCadastro.Location = new System.Drawing.Point(426, 187);
             this.txtNomeCompletoPaginaCadastro.Name = "txtNomeCompletoPaginaCadastro";
             this.txtNomeCompletoPaginaCadastro.Size = new System.Drawing.Size(273, 23);
@@ -183,8 +179,7 @@ namespace Xpaco
             // 
             // TelefonePaginaCadastro
             // 
-            this.TelefonePaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TelefonePaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.TelefonePaginaCadastro.AutoSize = true;
             this.TelefonePaginaCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.TelefonePaginaCadastro.Location = new System.Drawing.Point(279, 371);
@@ -195,8 +190,7 @@ namespace Xpaco
             // 
             // lblRepitaSenhaPaginaCadastro
             // 
-            this.lblRepitaSenhaPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRepitaSenhaPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblRepitaSenhaPaginaCadastro.AutoSize = true;
             this.lblRepitaSenhaPaginaCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblRepitaSenhaPaginaCadastro.Location = new System.Drawing.Point(279, 333);
@@ -207,8 +201,7 @@ namespace Xpaco
             // 
             // lblSenhaPaginaCadastro
             // 
-            this.lblSenhaPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblSenhaPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblSenhaPaginaCadastro.AutoSize = true;
             this.lblSenhaPaginaCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblSenhaPaginaCadastro.Location = new System.Drawing.Point(279, 297);
@@ -219,8 +212,7 @@ namespace Xpaco
             // 
             // lblEmailPaginaCadastro
             // 
-            this.lblEmailPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblEmailPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblEmailPaginaCadastro.AutoSize = true;
             this.lblEmailPaginaCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblEmailPaginaCadastro.Location = new System.Drawing.Point(279, 265);
@@ -231,8 +223,7 @@ namespace Xpaco
             // 
             // lblApelidoPaginaCadastro
             // 
-            this.lblApelidoPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblApelidoPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblApelidoPaginaCadastro.AutoSize = true;
             this.lblApelidoPaginaCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblApelidoPaginaCadastro.Location = new System.Drawing.Point(279, 227);
@@ -243,8 +234,7 @@ namespace Xpaco
             // 
             // txtEmailPaginaCadastro
             // 
-            this.txtEmailPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtEmailPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtEmailPaginaCadastro.Location = new System.Drawing.Point(426, 261);
             this.txtEmailPaginaCadastro.Name = "txtEmailPaginaCadastro";
             this.txtEmailPaginaCadastro.Size = new System.Drawing.Size(273, 23);
@@ -252,8 +242,7 @@ namespace Xpaco
             // 
             // txtSenhaPaginaCadastro
             // 
-            this.txtSenhaPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSenhaPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtSenhaPaginaCadastro.Location = new System.Drawing.Point(426, 297);
             this.txtSenhaPaginaCadastro.Name = "txtSenhaPaginaCadastro";
             this.txtSenhaPaginaCadastro.Size = new System.Drawing.Size(273, 23);
@@ -261,8 +250,7 @@ namespace Xpaco
             // 
             // txtApelidoPaginaCadastro
             // 
-            this.txtApelidoPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtApelidoPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtApelidoPaginaCadastro.Location = new System.Drawing.Point(426, 223);
             this.txtApelidoPaginaCadastro.Name = "txtApelidoPaginaCadastro";
             this.txtApelidoPaginaCadastro.Size = new System.Drawing.Size(273, 23);
@@ -270,8 +258,7 @@ namespace Xpaco
             // 
             // txtRepitaSenhaPaginaCadastro
             // 
-            this.txtRepitaSenhaPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtRepitaSenhaPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtRepitaSenhaPaginaCadastro.Location = new System.Drawing.Point(426, 329);
             this.txtRepitaSenhaPaginaCadastro.Name = "txtRepitaSenhaPaginaCadastro";
             this.txtRepitaSenhaPaginaCadastro.Size = new System.Drawing.Size(273, 23);
@@ -279,8 +266,7 @@ namespace Xpaco
             // 
             // btnCadastrarPaginaCadastro
             // 
-            this.btnCadastrarPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCadastrarPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnCadastrarPaginaCadastro.BackColor = System.Drawing.Color.Gray;
             this.btnCadastrarPaginaCadastro.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCadastrarPaginaCadastro.Location = new System.Drawing.Point(597, 410);
@@ -293,8 +279,7 @@ namespace Xpaco
             // 
             // btnVoltarPaginaCadastro
             // 
-            this.btnVoltarPaginaCadastro.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnVoltarPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnVoltarPaginaCadastro.BackColor = System.Drawing.Color.Gray;
             this.btnVoltarPaginaCadastro.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnVoltarPaginaCadastro.Location = new System.Drawing.Point(279, 410);

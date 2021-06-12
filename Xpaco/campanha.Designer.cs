@@ -140,8 +140,7 @@ namespace Xpaco
             // 
             // lblPaginaCampanha
             // 
-            this.lblPaginaCampanha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblPaginaCampanha.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblPaginaCampanha.AutoSize = true;
             this.lblPaginaCampanha.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblPaginaCampanha.Location = new System.Drawing.Point(377, 83);
@@ -152,8 +151,7 @@ namespace Xpaco
             // 
             // lblDescricaoCampanha
             // 
-            this.lblDescricaoCampanha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDescricaoCampanha.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDescricaoCampanha.AutoSize = true;
             this.lblDescricaoCampanha.Location = new System.Drawing.Point(217, 163);
             this.lblDescricaoCampanha.Name = "lblDescricaoCampanha";
@@ -163,8 +161,7 @@ namespace Xpaco
             // 
             // rtbDescricaoCampanha
             // 
-            this.rtbDescricaoCampanha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rtbDescricaoCampanha.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.rtbDescricaoCampanha.Location = new System.Drawing.Point(217, 193);
             this.rtbDescricaoCampanha.Name = "rtbDescricaoCampanha";
             this.rtbDescricaoCampanha.Size = new System.Drawing.Size(495, 37);
@@ -173,8 +170,7 @@ namespace Xpaco
             // 
             // rtbDetalhesCampanha
             // 
-            this.rtbDetalhesCampanha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rtbDetalhesCampanha.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.rtbDetalhesCampanha.Location = new System.Drawing.Point(217, 371);
             this.rtbDetalhesCampanha.Name = "rtbDetalhesCampanha";
             this.rtbDetalhesCampanha.Size = new System.Drawing.Size(495, 76);
@@ -183,8 +179,7 @@ namespace Xpaco
             // 
             // lblDetalhesCampanha
             // 
-            this.lblDetalhesCampanha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDetalhesCampanha.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDetalhesCampanha.AutoSize = true;
             this.lblDetalhesCampanha.Location = new System.Drawing.Point(217, 341);
             this.lblDetalhesCampanha.Name = "lblDetalhesCampanha";
@@ -194,8 +189,7 @@ namespace Xpaco
             // 
             // lblValorMeta
             // 
-            this.lblValorMeta.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblValorMeta.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblValorMeta.AutoSize = true;
             this.lblValorMeta.Location = new System.Drawing.Point(217, 261);
             this.lblValorMeta.Name = "lblValorMeta";
@@ -205,8 +199,7 @@ namespace Xpaco
             // 
             // lblDataInicio
             // 
-            this.lblDataInicio.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDataInicio.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDataInicio.AutoSize = true;
             this.lblDataInicio.Location = new System.Drawing.Point(346, 261);
             this.lblDataInicio.Name = "lblDataInicio";
@@ -216,8 +209,7 @@ namespace Xpaco
             // 
             // lblHoraInicio
             // 
-            this.lblHoraInicio.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblHoraInicio.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblHoraInicio.AutoSize = true;
             this.lblHoraInicio.Location = new System.Drawing.Point(446, 261);
             this.lblHoraInicio.Name = "lblHoraInicio";
@@ -227,8 +219,7 @@ namespace Xpaco
             // 
             // lblDatafinal
             // 
-            this.lblDatafinal.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDatafinal.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDatafinal.AutoSize = true;
             this.lblDatafinal.Location = new System.Drawing.Point(532, 261);
             this.lblDatafinal.Name = "lblDatafinal";
@@ -238,8 +229,7 @@ namespace Xpaco
             // 
             // txtValorMeta
             // 
-            this.txtValorMeta.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtValorMeta.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtValorMeta.Location = new System.Drawing.Point(217, 279);
             this.txtValorMeta.Name = "txtValorMeta";
             this.txtValorMeta.Size = new System.Drawing.Size(93, 23);
@@ -247,8 +237,7 @@ namespace Xpaco
             // 
             // mtbDataInicio
             // 
-            this.mtbDataInicio.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.mtbDataInicio.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.mtbDataInicio.Location = new System.Drawing.Point(346, 279);
             this.mtbDataInicio.Mask = "00/00/0000";
             this.mtbDataInicio.Name = "mtbDataInicio";
@@ -258,8 +247,7 @@ namespace Xpaco
             // 
             // mtbHoraInicio
             // 
-            this.mtbHoraInicio.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.mtbHoraInicio.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.mtbHoraInicio.Location = new System.Drawing.Point(446, 279);
             this.mtbHoraInicio.Mask = "00:00";
             this.mtbHoraInicio.Name = "mtbHoraInicio";
@@ -270,8 +258,7 @@ namespace Xpaco
             // 
             // mtbDataFinal
             // 
-            this.mtbDataFinal.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.mtbDataFinal.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.mtbDataFinal.Location = new System.Drawing.Point(532, 279);
             this.mtbDataFinal.Mask = "00/00/0000";
             this.mtbDataFinal.Name = "mtbDataFinal";
@@ -281,8 +268,7 @@ namespace Xpaco
             // 
             // btnVoltarPaginaCampanha
             // 
-            this.btnVoltarPaginaCampanha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnVoltarPaginaCampanha.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnVoltarPaginaCampanha.BackColor = System.Drawing.Color.Gray;
             this.btnVoltarPaginaCampanha.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnVoltarPaginaCampanha.Location = new System.Drawing.Point(612, 460);
@@ -295,8 +281,7 @@ namespace Xpaco
             // 
             // btnGravarPaginaCampanha
             // 
-            this.btnGravarPaginaCampanha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGravarPaginaCampanha.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnGravarPaginaCampanha.BackColor = System.Drawing.Color.Gray;
             this.btnGravarPaginaCampanha.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnGravarPaginaCampanha.Location = new System.Drawing.Point(479, 460);
@@ -309,8 +294,7 @@ namespace Xpaco
             // 
             // btnMateriaisPaginaCampanha
             // 
-            this.btnMateriaisPaginaCampanha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMateriaisPaginaCampanha.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnMateriaisPaginaCampanha.BackColor = System.Drawing.Color.Gray;
             this.btnMateriaisPaginaCampanha.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnMateriaisPaginaCampanha.Location = new System.Drawing.Point(346, 460);
@@ -323,8 +307,7 @@ namespace Xpaco
             // 
             // MidiasPaginaCampanha
             // 
-            this.MidiasPaginaCampanha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.MidiasPaginaCampanha.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.MidiasPaginaCampanha.BackColor = System.Drawing.Color.Gray;
             this.MidiasPaginaCampanha.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.MidiasPaginaCampanha.Location = new System.Drawing.Point(217, 460);
