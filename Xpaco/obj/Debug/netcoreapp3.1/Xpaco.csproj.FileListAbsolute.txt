@@ -44,3 +44,4 @@ D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\netcoreapp3.
 D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\netcoreapp3.1\Xpaco.dll
 D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\netcoreapp3.1\Xpaco.pdb
 D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\netcoreapp3.1\Xpaco.genruntimeconfig.cache
+C:\Users\traba_000\Desktop\Desktop_XPACO\Desktoop-Xpaco\Xpaco\obj\Debug\netcoreapp3.1\Xpaco.teste.resources

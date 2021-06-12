@@ -14,25 +14,51 @@ namespace Xpaco
         {
             InitializeComponent();
         }
-
-        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        
+        private void btnCadastrarPaginaCadastro_Click(object sender, EventArgs e)
         {
+            /*if ()
+            {
 
+            }*/
+            
+            profile perfil = new profile();
+            this.Close();
+            perfil.Show();
+      
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void btnVoltarPaginaCadastro_Click(object sender, EventArgs e)
         {
-
+            homePage pgInicial = new homePage();
+            this.Close();
+            pgInicial.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnMaximizarPaginaCadastro_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Maximized;
+            btnMaximizarPaginaCadastro.Visible = false;
+            btnRestaurarTamanhoPaginaCadastro.Visible = true;
+            panelBottomPaginaCadastro.Visible = true;
         }
 
-        private void user_Load(object sender, EventArgs e)
+        private void btnMinimizarPaginaCadastro_Click(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Minimized;
+        }
 
+        private void btnRestaurarTamanhoPaginaCadastro_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            btnRestaurarTamanhoPaginaCadastro.Visible = false;
+            btnMaximizarPaginaCadastro.Visible = true;
+            panelBottomPaginaCadastro.Visible = false;
+        }
+
+        private void btnFecharPaginaCadastro_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

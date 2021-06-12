@@ -1,27 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\Xpaco\\Xpaco.csproj": {}
+    "C:\\Users\\traba_000\\Desktop\\Desktop_XPACO\\Desktoop-Xpaco\\Xpaco\\Xpaco.csproj": {}
   },
   "projects": {
-    "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\Xpaco\\Xpaco.csproj": {
+    "C:\\Users\\traba_000\\Desktop\\Desktop_XPACO\\Desktoop-Xpaco\\Xpaco\\Xpaco.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\Xpaco\\Xpaco.csproj",
+        "projectUniqueName": "C:\\Users\\traba_000\\Desktop\\Desktop_XPACO\\Desktoop-Xpaco\\Xpaco\\Xpaco.csproj",
         "projectName": "Xpaco",
-        "projectPath": "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\Xpaco\\Xpaco.csproj",
-        "packagesPath": "D:\\Users\\aquiles.rodrigues.NTB-ARS\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\Xpaco\\obj\\",
+        "projectPath": "C:\\Users\\traba_000\\Desktop\\Desktop_XPACO\\Desktoop-Xpaco\\Xpaco\\Xpaco.csproj",
+        "packagesPath": "C:\\Users\\traba_000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\traba_000\\Desktop\\Desktop_XPACO\\Desktoop-Xpaco\\Xpaco\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "D:\\Users\\aquiles.rodrigues.NTB-ARS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\traba_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -56,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

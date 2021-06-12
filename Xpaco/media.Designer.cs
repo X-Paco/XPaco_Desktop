@@ -45,19 +45,20 @@ namespace Xpaco
             // 
             // panelPaginaMidia
             // 
-            this.panelPaginaMidia.BackColor = System.Drawing.Color.Gray;
+            this.panelPaginaMidia.BackColor = System.Drawing.SystemColors.Control;
             this.panelPaginaMidia.Controls.Add(this.lblPaginaMidia);
             this.panelPaginaMidia.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelPaginaMidia.Location = new System.Drawing.Point(0, 0);
             this.panelPaginaMidia.Name = "panelPaginaMidia";
-            this.panelPaginaMidia.Size = new System.Drawing.Size(509, 80);
+            this.panelPaginaMidia.Size = new System.Drawing.Size(941, 80);
             this.panelPaginaMidia.TabIndex = 1;
             // 
             // lblPaginaMidia
             // 
+            this.lblPaginaMidia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblPaginaMidia.AutoSize = true;
             this.lblPaginaMidia.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPaginaMidia.Location = new System.Drawing.Point(177, 31);
+            this.lblPaginaMidia.Location = new System.Drawing.Point(403, 33);
             this.lblPaginaMidia.Name = "lblPaginaMidia";
             this.lblPaginaMidia.Size = new System.Drawing.Size(130, 23);
             this.lblPaginaMidia.TabIndex = 1;
@@ -65,8 +66,9 @@ namespace Xpaco
             // 
             // pbPaginaMidia
             // 
+            this.pbPaginaMidia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pbPaginaMidia.Image = ((System.Drawing.Image)(resources.GetObject("pbPaginaMidia.Image")));
-            this.pbPaginaMidia.Location = new System.Drawing.Point(61, 122);
+            this.pbPaginaMidia.Location = new System.Drawing.Point(287, 156);
             this.pbPaginaMidia.Name = "pbPaginaMidia";
             this.pbPaginaMidia.Size = new System.Drawing.Size(100, 53);
             this.pbPaginaMidia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -75,8 +77,9 @@ namespace Xpaco
             // 
             // lblDescricaoPaginaMidia
             // 
+            this.lblDescricaoPaginaMidia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblDescricaoPaginaMidia.AutoSize = true;
-            this.lblDescricaoPaginaMidia.Location = new System.Drawing.Point(177, 122);
+            this.lblDescricaoPaginaMidia.Location = new System.Drawing.Point(403, 156);
             this.lblDescricaoPaginaMidia.Name = "lblDescricaoPaginaMidia";
             this.lblDescricaoPaginaMidia.Size = new System.Drawing.Size(61, 15);
             this.lblDescricaoPaginaMidia.TabIndex = 3;
@@ -85,8 +88,9 @@ namespace Xpaco
             // 
             // lblUrlPaginaMidia
             // 
+            this.lblUrlPaginaMidia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblUrlPaginaMidia.AutoSize = true;
-            this.lblUrlPaginaMidia.Location = new System.Drawing.Point(177, 160);
+            this.lblUrlPaginaMidia.Location = new System.Drawing.Point(403, 194);
             this.lblUrlPaginaMidia.Name = "lblUrlPaginaMidia";
             this.lblUrlPaginaMidia.Size = new System.Drawing.Size(25, 15);
             this.lblUrlPaginaMidia.TabIndex = 4;
@@ -94,23 +98,26 @@ namespace Xpaco
             // 
             // txtUrlPaginaMidia
             // 
-            this.txtUrlPaginaMidia.Location = new System.Drawing.Point(244, 152);
+            this.txtUrlPaginaMidia.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtUrlPaginaMidia.Location = new System.Drawing.Point(470, 186);
             this.txtUrlPaginaMidia.Name = "txtUrlPaginaMidia";
             this.txtUrlPaginaMidia.Size = new System.Drawing.Size(183, 23);
             this.txtUrlPaginaMidia.TabIndex = 5;
             // 
             // txtDescricaoPaginaMidia
             // 
-            this.txtDescricaoPaginaMidia.Location = new System.Drawing.Point(244, 114);
+            this.txtDescricaoPaginaMidia.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtDescricaoPaginaMidia.Location = new System.Drawing.Point(470, 148);
             this.txtDescricaoPaginaMidia.Name = "txtDescricaoPaginaMidia";
             this.txtDescricaoPaginaMidia.Size = new System.Drawing.Size(183, 23);
             this.txtDescricaoPaginaMidia.TabIndex = 6;
             // 
             // btnSalvarPaginaMidia
             // 
+            this.btnSalvarPaginaMidia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSalvarPaginaMidia.BackColor = System.Drawing.Color.Gray;
             this.btnSalvarPaginaMidia.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSalvarPaginaMidia.Location = new System.Drawing.Point(325, 245);
+            this.btnSalvarPaginaMidia.Location = new System.Drawing.Point(551, 279);
             this.btnSalvarPaginaMidia.Name = "btnSalvarPaginaMidia";
             this.btnSalvarPaginaMidia.Size = new System.Drawing.Size(102, 38);
             this.btnSalvarPaginaMidia.TabIndex = 26;
@@ -119,9 +126,10 @@ namespace Xpaco
             // 
             // btnVoltarPaginaMidia
             // 
+            this.btnVoltarPaginaMidia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnVoltarPaginaMidia.BackColor = System.Drawing.Color.Gray;
             this.btnVoltarPaginaMidia.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVoltarPaginaMidia.Location = new System.Drawing.Point(59, 245);
+            this.btnVoltarPaginaMidia.Location = new System.Drawing.Point(285, 279);
             this.btnVoltarPaginaMidia.Name = "btnVoltarPaginaMidia";
             this.btnVoltarPaginaMidia.Size = new System.Drawing.Size(102, 38);
             this.btnVoltarPaginaMidia.TabIndex = 42;
@@ -132,7 +140,7 @@ namespace Xpaco
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 315);
+            this.ClientSize = new System.Drawing.Size(941, 460);
             this.Controls.Add(this.btnVoltarPaginaMidia);
             this.Controls.Add(this.btnSalvarPaginaMidia);
             this.Controls.Add(this.txtDescricaoPaginaMidia);
