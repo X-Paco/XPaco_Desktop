@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\Xpaco\\Xpaco.csproj": {}
+    "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\View\\View.csproj": {}
   },
   "projects": {
-    "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\Xpaco\\Xpaco.csproj": {
+    "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\View\\View.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\Xpaco\\Xpaco.csproj",
-        "projectName": "Xpaco",
-        "projectPath": "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\Xpaco\\Xpaco.csproj",
+        "projectUniqueName": "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\View\\View.csproj",
+        "projectName": "View",
+        "projectPath": "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\View\\View.csproj",
         "packagesPath": "D:\\Users\\aquiles.rodrigues.NTB-ARS\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\Xpaco\\obj\\",
+        "outputPath": "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop\\View\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\aquiles.rodrigues.NTB-ARS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,9 +51,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"

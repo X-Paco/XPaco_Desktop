@@ -1,9 +1,17 @@
 {
   "profiles": {
     "Xpaco": {
-      "commandName": "Project",
-      "workingDirectory": "C:\\Users\\traba_000\\Desktop\\Desktop_XPACO\\Desktoop-Xpaco",
-      "remoteDebugEnabled": false
+        "commandName": "Project",
+        "remoteDebugEnabled": false,
+        // Caminho do computador de Luiz:
+        // Descomentar para funcionar a execução em seu computador e comentar a do outro
+        // ---------------------------------------------------------------------------------
+        // "workingDirectory": "C:\\Users\\traba_000\\Desktop\\Desktop_XPACO\\Desktoop-Xpaco",
+        //
+        // Caminho do computador de Aquiles:
+        // Descomentar para funcionar a execução em seu computador e comentar a do outro
+        // ----------------------------------------------------------------------------
+        "workingDirectory": "D:\\projetos\\repository\\Meutix-oficial\\XPaco_Desktop"
     }
   }
 }
