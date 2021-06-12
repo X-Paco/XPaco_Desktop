@@ -15,34 +15,43 @@ namespace Xpaco
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnFecharPaginaCadastro_Click(object sender, EventArgs e)
         {
-
+            campanha pgCampanha = new campanha();
+            this.Hide();
+            pgCampanha.Show();
         }
 
-        private void material_Load(object sender, EventArgs e)
+        private void btnMinimizarPaginaCadastro_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Minimized;
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void btnRestaurarTamanhoPaginaCadastro_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Normal;
+            btnMaximizarPaginaCadastro.Visible = true;
+            btnRestaurarTamanhoPaginaCadastro.Visible = false;
+            panelBottomPaginaMaterial.Visible = false;
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void btnMaximizarPaginaCadastro_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Maximized;
+            btnMaximizarPaginaCadastro.Visible = false;
+            btnRestaurarTamanhoPaginaCadastro.Visible = true;
+            panelBottomPaginaMaterial.Visible = true;
         }
 
-        private void label8_Click(object sender, EventArgs e)
+        private void btnVoltarPaginaMaterial_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void btnSalvarPaginaMaterial_Click(object sender, EventArgs e)
         {
-
+            //Validação vinda do back.
+            this.Close();
         }
     }
 }

@@ -36,7 +36,7 @@ namespace Xpaco
             this.pbLogoHomePage = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCadastroHomePage = new System.Windows.Forms.Button();
-            this.btnMeuAcesso = new System.Windows.Forms.Button();
+            this.btnMeuAcessoHomePage = new System.Windows.Forms.Button();
             this.btnRestaurarTamanhoHomePage = new System.Windows.Forms.PictureBox();
             this.panelRodapeHomePage = new System.Windows.Forms.Panel();
             this.pbTwitter = new System.Windows.Forms.PictureBox();
@@ -73,7 +73,7 @@ namespace Xpaco
             this.panelSuperiorHomePage.Controls.Add(this.pbLogoHomePage);
             this.panelSuperiorHomePage.Controls.Add(this.btnMinimizar);
             this.panelSuperiorHomePage.Controls.Add(this.btnCadastroHomePage);
-            this.panelSuperiorHomePage.Controls.Add(this.btnMeuAcesso);
+            this.panelSuperiorHomePage.Controls.Add(this.btnMeuAcessoHomePage);
             this.panelSuperiorHomePage.Controls.Add(this.btnRestaurarTamanhoHomePage);
             this.panelSuperiorHomePage.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSuperiorHomePage.Location = new System.Drawing.Point(0, 0);
@@ -141,19 +141,19 @@ namespace Xpaco
             this.btnCadastroHomePage.UseVisualStyleBackColor = false;
             this.btnCadastroHomePage.Click += new System.EventHandler(this.btnCadastroHomePage_Click);
             // 
-            // btnMeuAcesso
+            // btnMeuAcessoHomePage
             // 
-            this.btnMeuAcesso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMeuAcesso.BackColor = System.Drawing.Color.MediumPurple;
-            this.btnMeuAcesso.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnMeuAcesso.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnMeuAcesso.Location = new System.Drawing.Point(636, 15);
-            this.btnMeuAcesso.Name = "btnMeuAcesso";
-            this.btnMeuAcesso.Size = new System.Drawing.Size(103, 31);
-            this.btnMeuAcesso.TabIndex = 15;
-            this.btnMeuAcesso.Text = "Meu acesso";
-            this.btnMeuAcesso.UseVisualStyleBackColor = false;
-            this.btnMeuAcesso.Click += new System.EventHandler(this.button1_Click);
+            this.btnMeuAcessoHomePage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMeuAcessoHomePage.BackColor = System.Drawing.Color.MediumPurple;
+            this.btnMeuAcessoHomePage.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnMeuAcessoHomePage.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnMeuAcessoHomePage.Location = new System.Drawing.Point(636, 15);
+            this.btnMeuAcessoHomePage.Name = "btnMeuAcessoHomePage";
+            this.btnMeuAcessoHomePage.Size = new System.Drawing.Size(103, 31);
+            this.btnMeuAcessoHomePage.TabIndex = 15;
+            this.btnMeuAcessoHomePage.Text = "Meu acesso";
+            this.btnMeuAcessoHomePage.UseVisualStyleBackColor = false;
+            this.btnMeuAcessoHomePage.Click += new System.EventHandler(this.btnMeuAcessoHomePage_Click);
             // 
             // btnRestaurarTamanhoHomePage
             // 
@@ -276,7 +276,7 @@ namespace Xpaco
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(12, 200);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 17);
+            this.label4.Size = new System.Drawing.Size(124, 17);
             this.label4.TabIndex = 3;
             this.label4.Text = "Ciência | Tecnologia";
             // 
@@ -299,7 +299,6 @@ namespace Xpaco
             this.label2.Size = new System.Drawing.Size(59, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Esportes";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -310,7 +309,6 @@ namespace Xpaco
             this.label1.Size = new System.Drawing.Size(71, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Artesanato";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panelCentralHomePage
             // 
@@ -354,7 +352,7 @@ namespace Xpaco
         private System.Windows.Forms.PictureBox pbLogoHomePage;
         private System.Windows.Forms.Panel panelRodapeHomePage;
         private System.Windows.Forms.Panel panelEsquerdoHomePage;
-        private System.Windows.Forms.Button btnMeuAcesso;
+        private System.Windows.Forms.Button btnMeuAcessoHomePage;
         private System.Windows.Forms.PictureBox btnFechar;
         private System.Windows.Forms.PictureBox btnMaximizar;
         private System.Windows.Forms.PictureBox btnMinimizar;

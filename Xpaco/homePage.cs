@@ -17,31 +17,6 @@ namespace Xpaco
             InitializeComponent();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnFechar_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -66,7 +41,7 @@ namespace Xpaco
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void AbrirForms(object telinha)
+        /*private void AbrirForms(object telinha)
         {
             if (this.panelCentralHomePage.Controls.Count > 0)
                 this.panelCentralHomePage.Controls.RemoveAt(0);
@@ -76,21 +51,22 @@ namespace Xpaco
             this.panelCentralHomePage.Controls.Add(fh);
             this.panelCentralHomePage.Tag = fh;
             fh.Show();
-        }
+        }*/
 
         private void btnCadastroHomePage_Click(object sender, EventArgs e)
         {
-           AbrirForms(new user());
+            user pgUser = new user();
+            this.Hide();
+            pgUser.Show();
         }
 
-        private void pictureBox5_Click(object sender, EventArgs e)
+        private void btnMeuAcessoHomePage_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
+            login pgLogin = new login();
+            this.Hide();
+            pgLogin.Show();
+            
+            
         }
     }
 }
