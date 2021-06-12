@@ -5,18 +5,29 @@ namespace Xpaco
     {
         /// <summary> *
         /// Required designer variable.
+        /// 
+        /// *********************************************************
+        /// Tipos de acesso.: public, private, protected, internal
+        /// Modificadores...: abstrac, sealed, static
+        /// Tipo de retorno.: void(sem retorno)
+        /// Nome método.....:
+        /// Lista Parâmetros:
+        /// **********************************************************
         /// </summary>
+
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// 
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
             {
-                // teste
+                //
                 components.Dispose();
             }
             base.Dispose(disposing);
