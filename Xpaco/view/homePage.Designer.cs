@@ -276,7 +276,7 @@ namespace Xpaco
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(12, 200);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(124, 17);
+            this.label4.Size = new System.Drawing.Size(123, 17);
             this.label4.TabIndex = 3;
             this.label4.Text = "Ciência | Tecnologia";
             // 

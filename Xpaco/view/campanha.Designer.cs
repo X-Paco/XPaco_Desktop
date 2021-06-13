@@ -193,7 +193,7 @@ namespace Xpaco
             this.lblValorMeta.AutoSize = true;
             this.lblValorMeta.Location = new System.Drawing.Point(217, 261);
             this.lblValorMeta.Name = "lblValorMeta";
-            this.lblValorMeta.Size = new System.Drawing.Size(83, 15);
+            this.lblValorMeta.Size = new System.Drawing.Size(82, 15);
             this.lblValorMeta.TabIndex = 9;
             this.lblValorMeta.Text = "Valor da meta:";
             // 
