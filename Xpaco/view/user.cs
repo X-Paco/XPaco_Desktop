@@ -60,5 +60,10 @@ namespace Xpaco
         {
             Application.Exit();
         }
+
+        private void mtbTelefonePaginaCadastro_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+             
+        }
     }
 }

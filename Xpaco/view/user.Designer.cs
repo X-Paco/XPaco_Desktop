@@ -179,6 +179,7 @@ namespace Xpaco
             this.mtbTelefonePaginaCadastro.Name = "mtbTelefonePaginaCadastro";
             this.mtbTelefonePaginaCadastro.Size = new System.Drawing.Size(118, 27);
             this.mtbTelefonePaginaCadastro.TabIndex = 2;
+            this.mtbTelefonePaginaCadastro.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbTelefonePaginaCadastro_MaskInputRejected);
             // 
             // txtNomeCompletoPaginaCadastro
             // 
