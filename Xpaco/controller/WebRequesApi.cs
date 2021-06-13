@@ -32,7 +32,7 @@ namespace Xpaco.controller
                     var resposta = wRequest.GetResponse();
 
                     /* Para que a resposta esteja compativel para ser deserializada devemos:
-                     * 1. Obter um stream (fluxo de bytes) as partir dos dados de resposta enviados
+                     * 1. Obter um stream (fluxo de bytes) a partir dos dados de resposta enviados
                      * 2. Armazenar esta stream como um simples objeto: Classe StreamReade
                      * 3. Ler a informacao deste objeto com metodo ReadToEnd().
                      */
