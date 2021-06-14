@@ -93,12 +93,6 @@
     <Compile Include="view\Profile.Designer.cs">
       <DependentUpon>Profile.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\testando.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\testando.Designer.cs">
-      <DependentUpon>testando.cs</DependentUpon>
-    </Compile>
     <Compile Include="view\User.cs">
       <SubType>Form</SubType>
     </Compile>
