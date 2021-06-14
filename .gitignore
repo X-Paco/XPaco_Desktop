@@ -1,5 +1,4 @@
-\Xpaco\obj\Debug
-XPaco_Desktop\Xpaco\obj\Debug
-\XPaco_Desktop\Xpaco\obj\Debug
-\XPaco_Desktop\.vs
-.vs
+/.vs
+/Xpaco/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+/Xpaco/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/Xpaco/obj/Debug/Xpaco.csproj.AssemblyReference.cache
