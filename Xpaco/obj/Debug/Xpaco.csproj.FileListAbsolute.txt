@@ -1,0 +1,9 @@
+D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\bin\Debug\Xpaco.exe.config
+D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\bin\Debug\Xpaco.exe
+D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\bin\Debug\Xpaco.pdb
+D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.csproj.AssemblyReference.cache
+D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.Properties.Resources.resources
+D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.csproj.GenerateResource.cache
+D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.csproj.CoreCompileInputs.cache
+D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.exe
+D:\projetos\repository\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.pdb
