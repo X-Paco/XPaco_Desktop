@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Xpaco
 {
-    public partial class profile : Form
+    public partial class Profile : Form
     {
-        public profile()
+        public Profile()
         {
             InitializeComponent();
         }
@@ -43,21 +43,21 @@ namespace Xpaco
 
         private void btnVoltarPaginaPerfil_Click(object sender, EventArgs e)
         {
-            user cadastro = new user();
+            User cadastro = new User();
             this.Hide();
             cadastro.Show();
         }
 
         private void btnSalvarPaginaPerfil_Click(object sender, EventArgs e)
         {
-            campanha novaCampanha = new campanha();
+            Campanha novaCampanha = new Campanha();
             this.Hide();
             novaCampanha.Show();
         }
 
         private void btnLinkPaginaPerfil_Click(object sender, EventArgs e)
         {
-            links pgLinks = new links();
+            Links pgLinks = new Links();
             pgLinks.Show();
         }
     }

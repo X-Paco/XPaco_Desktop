@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Xpaco
 {
-    public partial class links : Form
+    public partial class Links : Form
     {
-        public links()
+        public Links()
         {
             InitializeComponent();
         }

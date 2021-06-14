@@ -1,7 +1,7 @@
 ﻿
 namespace Xpaco
 {
-    partial class media
+    partial class Media
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Xpaco
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(media));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Media));
             this.panelPaginaMidia = new System.Windows.Forms.Panel();
             this.btnFecharPaginaMidia = new System.Windows.Forms.PictureBox();
             this.pbLogoPaginaCadastro = new System.Windows.Forms.PictureBox();
@@ -242,7 +242,7 @@ namespace Xpaco
             this.panelBottomPaginaMidia.TabIndex = 44;
             this.panelBottomPaginaMidia.Visible = false;
             // 
-            // media
+            // Media
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -260,7 +260,8 @@ namespace Xpaco
             this.Controls.Add(this.pbPaginaMidia);
             this.Controls.Add(this.panelPaginaMidia);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "media";
+            this.Name = "Media";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "media";
             this.panelPaginaMidia.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnFecharPaginaMidia)).EndInit();

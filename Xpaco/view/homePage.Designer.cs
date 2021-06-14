@@ -1,7 +1,7 @@
 ﻿
 namespace Xpaco
 {
-    partial class homePage
+    partial class HomePage
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@ namespace Xpaco
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homePage));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePage));
             this.panelSuperiorHomePage = new System.Windows.Forms.Panel();
             this.btnFechar = new System.Windows.Forms.PictureBox();
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
@@ -318,7 +318,7 @@ namespace Xpaco
             this.panelCentralHomePage.Size = new System.Drawing.Size(823, 460);
             this.panelCentralHomePage.TabIndex = 3;
             // 
-            // homePage
+            // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -328,7 +328,8 @@ namespace Xpaco
             this.Controls.Add(this.panelRodapeHomePage);
             this.Controls.Add(this.panelSuperiorHomePage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "homePage";
+            this.Name = "HomePage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panelSuperiorHomePage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnFechar)).EndInit();

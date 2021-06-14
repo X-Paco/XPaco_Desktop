@@ -1,7 +1,7 @@
 ﻿
 namespace Xpaco
 {
-    partial class material
+    partial class Material
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Xpaco
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(material));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Material));
             this.panelPaginaMaterial = new System.Windows.Forms.Panel();
             this.pbLogoPaginaCadastro = new System.Windows.Forms.PictureBox();
             this.btnFecharPaginaCadastro = new System.Windows.Forms.PictureBox();
@@ -276,7 +276,7 @@ namespace Xpaco
             this.panelDireitoPaginaMaterial.Size = new System.Drawing.Size(200, 421);
             this.panelDireitoPaginaMaterial.TabIndex = 47;
             // 
-            // material
+            // Material
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -297,7 +297,8 @@ namespace Xpaco
             this.Controls.Add(this.lblMaterialPaginaMaterial);
             this.Controls.Add(this.panelPaginaMaterial);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "material";
+            this.Name = "Material";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "material";
             this.panelPaginaMaterial.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCadastro)).EndInit();

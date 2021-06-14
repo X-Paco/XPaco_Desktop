@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Xpaco
 {
-    public partial class media : Form
+    public partial class Media : Form
     {
-        public media()
+        public Media()
         {
             InitializeComponent();
         }
