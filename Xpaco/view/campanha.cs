@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Xpaco
 {
-    public partial class campanha : Form
+    public partial class Campanha : Form
     {
-        public campanha()
+        public Campanha()
         {
             InitializeComponent();
         }
@@ -43,26 +43,26 @@ namespace Xpaco
 
         private void MidiasPaginaCampanha_Click(object sender, EventArgs e)
         {
-            media midias = new media();            
+            Media midias = new Media();            
             midias.Show();
         }
 
         private void btnMateriaisPaginaCampanha_Click(object sender, EventArgs e)
         {
-            material pgMaterial = new material();
+            Material pgMaterial = new Material();
             pgMaterial.Show();
         }
 
         private void btnVoltarPaginaCampanha_Click(object sender, EventArgs e)
         {
-            profile pgProfile = new profile();
+            Profile pgProfile = new Profile();
             this.Close();
             pgProfile.Show();
         }
 
         private void btnGravarPaginaCampanha_Click(object sender, EventArgs e)
         {
-            profile pgProfile = new profile();
+            Profile pgProfile = new Profile();
             this.Close();
             pgProfile.Show();
         }

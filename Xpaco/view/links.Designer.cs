@@ -1,7 +1,7 @@
 ﻿
 namespace Xpaco
 {
-    partial class links
+    partial class Links
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Xpaco
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(links));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Links));
             this.panelPaginaLinks = new System.Windows.Forms.Panel();
             this.btnFecharPaginaLinks = new System.Windows.Forms.PictureBox();
             this.btnMaximizarPaginaLinks = new System.Windows.Forms.PictureBox();
@@ -229,7 +229,7 @@ namespace Xpaco
             this.panelBottomPaginaLinks.TabIndex = 46;
             this.panelBottomPaginaLinks.Visible = false;
             // 
-            // links
+            // Links
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -247,7 +247,8 @@ namespace Xpaco
             this.Controls.Add(this.panelPaginaLinks);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
-            this.Name = "links";
+            this.Name = "Links";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "links";
             this.panelPaginaLinks.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnFecharPaginaLinks)).EndInit();

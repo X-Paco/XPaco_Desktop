@@ -5,32 +5,21 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Xpaco.model;
+using Xpaco.controller;
 
 namespace Xpaco
 {
-    public partial class user : Form
+    public partial class User : Form
     {
-        public user()
+        public User()
         {
             InitializeComponent();
         }
-        
-        private void btnCadastrarPaginaCadastro_Click(object sender, EventArgs e)
-        {
-            /*if ()
-            {
-
-            }*/
-            
-            profile perfil = new profile();
-            this.Close();
-            perfil.Show();
-      
-        }
-
+ 
         private void btnVoltarPaginaCadastro_Click(object sender, EventArgs e)
         {
-            homePage pgInicial = new homePage();
+            HomePage pgInicial = new HomePage();
             this.Close();
             pgInicial.Show();
         }
@@ -64,6 +53,24 @@ namespace Xpaco
         private void mtbTelefonePaginaCadastro_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
              
+        }
+
+        private void btnCadastroUser_Click(object sender, EventArgs e)
+        {
+            if (txtBoxNome.Text =="")
+            {
+                MessageBox.Show("Preencher o nome");
+                txtBoxNome.Focus();
+                txtBoxNome.Clear();
+                return;
+            }
+        }
+
+        private void btnUpdPerfil_Click(object sender, EventArgs e)
+        {
+            Profile perfil = new Profile();
+            this.Close();
+            perfil.Show();
         }
     }
 }

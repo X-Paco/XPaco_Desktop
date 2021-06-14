@@ -1,7 +1,7 @@
 ﻿
 namespace Xpaco
 {
-    partial class login
+    partial class Login
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Xpaco
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panelPaginaLogin = new System.Windows.Forms.Panel();
             this.pbLogoPaginaLogin = new System.Windows.Forms.PictureBox();
             this.btnFecharPaginaLogin = new System.Windows.Forms.PictureBox();
@@ -229,7 +229,7 @@ namespace Xpaco
             this.panelBottomPaginaLogin.TabIndex = 46;
             this.panelBottomPaginaLogin.Visible = false;
             // 
-            // login
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -246,7 +246,8 @@ namespace Xpaco
             this.Controls.Add(this.txtSenhaPaginaLogin);
             this.Controls.Add(this.panelPaginaLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "login";
+            this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "login";
             this.panelPaginaLogin.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaLogin)).EndInit();

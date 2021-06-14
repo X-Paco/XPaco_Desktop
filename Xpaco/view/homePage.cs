@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Xpaco
 {
-    public partial class homePage : Form
+    public partial class HomePage : Form
     {
-        public homePage()
+        public HomePage()
         {
             InitializeComponent();
         }
@@ -55,14 +55,14 @@ namespace Xpaco
 
         private void btnCadastroHomePage_Click(object sender, EventArgs e)
         {
-            user pgUser = new user();
+            User pgUser = new User();
             this.Hide();
             pgUser.Show();
         }
 
         private void btnMeuAcessoHomePage_Click(object sender, EventArgs e)
         {
-            login pgLogin = new login();
+            Login pgLogin = new Login();
             this.Hide();
             pgLogin.Show();
             

@@ -1,7 +1,7 @@
 ﻿
 namespace Xpaco
 {
-    partial class campanha
+    partial class Campanha
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Xpaco
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(campanha));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Campanha));
             this.panelSuperiorPaginaCampanha = new System.Windows.Forms.Panel();
             this.pbLogoHomePage = new System.Windows.Forms.PictureBox();
             this.btnFecharPaginaLinks = new System.Windows.Forms.PictureBox();
@@ -346,7 +346,7 @@ namespace Xpaco
             this.panelDireitoPaginaCampanha.Size = new System.Drawing.Size(181, 422);
             this.panelDireitoPaginaCampanha.TabIndex = 48;
             // 
-            // campanha
+            // Campanha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -373,7 +373,8 @@ namespace Xpaco
             this.Controls.Add(this.lblDescricaoCampanha);
             this.Controls.Add(this.panelSuperiorPaginaCampanha);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "campanha";
+            this.Name = "Campanha";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "campanha";
             this.panelSuperiorPaginaCampanha.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).EndInit();

@@ -8,16 +8,16 @@ using System.Windows.Forms;
 
 namespace Xpaco
 {
-    public partial class material : Form
+    public partial class Material : Form
     {
-        public material()
+        public Material()
         {
             InitializeComponent();
         }
 
         private void btnFecharPaginaCadastro_Click(object sender, EventArgs e)
         {
-            campanha pgCampanha = new campanha();
+            Campanha pgCampanha = new Campanha();
             this.Hide();
             pgCampanha.Show();
         }

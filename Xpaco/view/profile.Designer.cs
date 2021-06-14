@@ -1,7 +1,7 @@
 ﻿
 namespace Xpaco
 {
-    partial class profile
+    partial class Profile
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Xpaco
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(profile));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Profile));
             this.panelPaginaPerfil = new System.Windows.Forms.Panel();
             this.pbLogoHomePage = new System.Windows.Forms.PictureBox();
             this.btnFecharPaginaPerfil = new System.Windows.Forms.PictureBox();
@@ -387,7 +387,7 @@ namespace Xpaco
             this.btnLinkPaginaPerfil.Text = "Links";
             this.btnLinkPaginaPerfil.Click += new System.EventHandler(this.btnLinkPaginaPerfil_Click);
             // 
-            // profile
+            // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -418,7 +418,8 @@ namespace Xpaco
             this.Controls.Add(this.lblCPFCNPJ);
             this.Controls.Add(this.panelPaginaPerfil);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "profile";
+            this.Name = "Profile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "profile";
             this.panelPaginaPerfil.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).EndInit();

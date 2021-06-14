@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Xpaco
 {
-    public partial class login : Form
+    public partial class Login : Form
     {
-        public login()
+        public Login()
         {
             InitializeComponent();
         }
@@ -41,14 +41,14 @@ namespace Xpaco
 
         private void btnVoltarPaginaLogin_Click(object sender, EventArgs e)
         {
-            homePage telaInicial = new homePage();
+            HomePage telaInicial = new HomePage();
             this.Close();
             telaInicial.Show();
         }
 
         private void btnLogarPaginaLogin_Click(object sender, EventArgs e)
         {
-            profile pgProfile = new profile();
+            Profile pgProfile = new Profile();
             this.Hide();
             pgProfile.Show();
         }
