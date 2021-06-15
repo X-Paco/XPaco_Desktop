@@ -48,7 +48,6 @@ namespace Xpaco.view
             this.label1.Size = new System.Drawing.Size(64, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Campo 1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -111,6 +110,7 @@ namespace Xpaco.view
             this.btnDesserializar.TabIndex = 7;
             this.btnDesserializar.Text = "Desserializar";
             this.btnDesserializar.UseVisualStyleBackColor = true;
+            this.btnDesserializar.Click += new System.EventHandler(this.btnDesserializar_Click);
             // 
             // ValidaJson
             // 
