@@ -49,6 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controllers\WebRequestAPI.cs" />
+    <Compile Include="middlewares\Auth.cs" />
+    <Compile Include="models\Campaign.cs" />
+    <Compile Include="models\Campaign_material.cs" />
+    <Compile Include="models\Category.cs" />
+    <Compile Include="models\Favorite.cs" />
+    <Compile Include="models\Link.cs" />
+    <Compile Include="models\Material.cs" />
+    <Compile Include="models\Media.cs" />
+    <Compile Include="models\Persona.cs" />
+    <Compile Include="models\Profile.cs" />
+    <Compile Include="models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="view\Campanha.cs">
