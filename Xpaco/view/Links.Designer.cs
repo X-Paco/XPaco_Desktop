@@ -183,11 +183,11 @@ namespace Xpaco
             this.Controls.Add(this.lblDescricaoPaginaLinks);
             this.Controls.Add(this.lblReferenciaPaginaLinks);
             this.Controls.Add(this.panelPaginaLinks);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "Links";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "links";
+            this.Text = "Links";
             this.panelPaginaLinks.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLinksPaginaLinks)).EndInit();

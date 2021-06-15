@@ -358,7 +358,7 @@ namespace Xpaco
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Profile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "profile";
+            this.Text = "Profile";
             this.panelPaginaPerfil.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPaginaPerfil)).EndInit();

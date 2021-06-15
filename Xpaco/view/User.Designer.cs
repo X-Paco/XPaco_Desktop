@@ -308,7 +308,7 @@ namespace Xpaco
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "User";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "cadastro";
+            this.Text = "Cadastro";
             this.panelSuperiorUser.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCadastro)).EndInit();
             this.ResumeLayout(false);
