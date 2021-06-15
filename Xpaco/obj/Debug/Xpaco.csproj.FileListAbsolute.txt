@@ -1,0 +1,12 @@
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.csprojAssemblyReference.cache
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.Properties.Resources.resources
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.csproj.GenerateResource.cache
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.csproj.CoreCompileInputs.cache
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\bin\Debug\Xpaco.exe.config
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\bin\Debug\Xpaco.exe
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\bin\Debug\Xpaco.pdb
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\bin\Debug\Newtonsoft.Json.dll
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\bin\Debug\Newtonsoft.Json.xml
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.csproj.CopyComplete
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.exe
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.pdb
