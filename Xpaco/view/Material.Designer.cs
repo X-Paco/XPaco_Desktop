@@ -31,7 +31,7 @@ namespace Xpaco
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Material));
             this.panelPaginaMaterial = new System.Windows.Forms.Panel();
-            this.pbLogoPaginaCadastro = new System.Windows.Forms.PictureBox();
+            this.pbLogoPaginaMaterial = new System.Windows.Forms.PictureBox();
             this.btnFecharPaginaCadastro = new System.Windows.Forms.PictureBox();
             this.btnMaximizarPaginaCadastro = new System.Windows.Forms.PictureBox();
             this.btnMinimizarPaginaCadastro = new System.Windows.Forms.PictureBox();
@@ -51,7 +51,7 @@ namespace Xpaco
             this.panelEsquerdoPaginaMaterial = new System.Windows.Forms.Panel();
             this.panelDireitoPaginaMaterial = new System.Windows.Forms.Panel();
             this.panelPaginaMaterial.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCadastro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaMaterial)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFecharPaginaCadastro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizarPaginaCadastro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizarPaginaCadastro)).BeginInit();
@@ -61,7 +61,7 @@ namespace Xpaco
             // panelPaginaMaterial
             // 
             this.panelPaginaMaterial.BackColor = System.Drawing.Color.Gray;
-            this.panelPaginaMaterial.Controls.Add(this.pbLogoPaginaCadastro);
+            this.panelPaginaMaterial.Controls.Add(this.pbLogoPaginaMaterial);
             this.panelPaginaMaterial.Controls.Add(this.btnFecharPaginaCadastro);
             this.panelPaginaMaterial.Controls.Add(this.btnMaximizarPaginaCadastro);
             this.panelPaginaMaterial.Controls.Add(this.btnMinimizarPaginaCadastro);
@@ -72,15 +72,15 @@ namespace Xpaco
             this.panelPaginaMaterial.Size = new System.Drawing.Size(826, 62);
             this.panelPaginaMaterial.TabIndex = 2;
             // 
-            // pbLogoPaginaCadastro
+            // pbLogoPaginaMaterial
             // 
-            this.pbLogoPaginaCadastro.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoPaginaCadastro.Image")));
-            this.pbLogoPaginaCadastro.Location = new System.Drawing.Point(0, 0);
-            this.pbLogoPaginaCadastro.Name = "pbLogoPaginaCadastro";
-            this.pbLogoPaginaCadastro.Size = new System.Drawing.Size(137, 62);
-            this.pbLogoPaginaCadastro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLogoPaginaCadastro.TabIndex = 44;
-            this.pbLogoPaginaCadastro.TabStop = false;
+            this.pbLogoPaginaMaterial.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoPaginaMaterial.Image")));
+            this.pbLogoPaginaMaterial.Location = new System.Drawing.Point(0, 0);
+            this.pbLogoPaginaMaterial.Name = "pbLogoPaginaMaterial";
+            this.pbLogoPaginaMaterial.Size = new System.Drawing.Size(137, 62);
+            this.pbLogoPaginaMaterial.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogoPaginaMaterial.TabIndex = 44;
+            this.pbLogoPaginaMaterial.TabStop = false;
             // 
             // btnFecharPaginaCadastro
             // 
@@ -295,9 +295,9 @@ namespace Xpaco
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Material";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "material";
+            this.Text = "Material";
             this.panelPaginaMaterial.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCadastro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaMaterial)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFecharPaginaCadastro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizarPaginaCadastro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizarPaginaCadastro)).EndInit();
@@ -325,7 +325,7 @@ namespace Xpaco
         private System.Windows.Forms.PictureBox btnMaximizarPaginaCadastro;
         private System.Windows.Forms.PictureBox btnMinimizarPaginaCadastro;
         private System.Windows.Forms.PictureBox btnRestaurarTamanhoPaginaCadastro;
-        private System.Windows.Forms.PictureBox pbLogoPaginaCadastro;
+        private System.Windows.Forms.PictureBox pbLogoPaginaMaterial;
         private System.Windows.Forms.Panel panelBottomPaginaMaterial;
         private System.Windows.Forms.Panel panelEsquerdoPaginaMaterial;
         private System.Windows.Forms.Panel panelDireitoPaginaMaterial;

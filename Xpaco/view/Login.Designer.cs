@@ -186,7 +186,7 @@ namespace Xpaco
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "login";
+            this.Text = "Login";
             this.panelPaginaLogin.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaLogin)).EndInit();
             this.ResumeLayout(false);

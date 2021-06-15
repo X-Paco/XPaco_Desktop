@@ -31,7 +31,7 @@ namespace Xpaco
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Media));
             this.panelPaginaMidia = new System.Windows.Forms.Panel();
-            this.pbLogoPaginaCadastro = new System.Windows.Forms.PictureBox();
+            this.pbLogoPaginaMidia = new System.Windows.Forms.PictureBox();
             this.lblPaginaMidia = new System.Windows.Forms.Label();
             this.pbPaginaMidia = new System.Windows.Forms.PictureBox();
             this.lblDescricaoPaginaMidia = new System.Windows.Forms.Label();
@@ -44,29 +44,29 @@ namespace Xpaco
             this.panelEsquerdoPaginaMidia = new System.Windows.Forms.Panel();
             this.panelBottomPaginaMidia = new System.Windows.Forms.Panel();
             this.panelPaginaMidia.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCadastro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaMidia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPaginaMidia)).BeginInit();
             this.SuspendLayout();
             // 
             // panelPaginaMidia
             // 
             this.panelPaginaMidia.BackColor = System.Drawing.Color.Gray;
-            this.panelPaginaMidia.Controls.Add(this.pbLogoPaginaCadastro);
+            this.panelPaginaMidia.Controls.Add(this.pbLogoPaginaMidia);
             this.panelPaginaMidia.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelPaginaMidia.Location = new System.Drawing.Point(0, 0);
             this.panelPaginaMidia.Name = "panelPaginaMidia";
             this.panelPaginaMidia.Size = new System.Drawing.Size(826, 62);
             this.panelPaginaMidia.TabIndex = 1;
             // 
-            // pbLogoPaginaCadastro
+            // pbLogoPaginaMidia
             // 
-            this.pbLogoPaginaCadastro.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoPaginaCadastro.Image")));
-            this.pbLogoPaginaCadastro.Location = new System.Drawing.Point(0, 0);
-            this.pbLogoPaginaCadastro.Name = "pbLogoPaginaCadastro";
-            this.pbLogoPaginaCadastro.Size = new System.Drawing.Size(137, 62);
-            this.pbLogoPaginaCadastro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLogoPaginaCadastro.TabIndex = 44;
-            this.pbLogoPaginaCadastro.TabStop = false;
+            this.pbLogoPaginaMidia.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoPaginaMidia.Image")));
+            this.pbLogoPaginaMidia.Location = new System.Drawing.Point(0, 0);
+            this.pbLogoPaginaMidia.Name = "pbLogoPaginaMidia";
+            this.pbLogoPaginaMidia.Size = new System.Drawing.Size(137, 62);
+            this.pbLogoPaginaMidia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogoPaginaMidia.TabIndex = 44;
+            this.pbLogoPaginaMidia.TabStop = false;
             // 
             // lblPaginaMidia
             // 
@@ -201,9 +201,9 @@ namespace Xpaco
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Media";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "media";
+            this.Text = "Media";
             this.panelPaginaMidia.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCadastro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaMidia)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPaginaMidia)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -224,6 +224,6 @@ namespace Xpaco
         private System.Windows.Forms.Panel panelDireitoPaginaMidia;
         private System.Windows.Forms.Panel panelEsquerdoPaginaMidia;
         private System.Windows.Forms.Panel panelBottomPaginaMidia;
-        private System.Windows.Forms.PictureBox pbLogoPaginaCadastro;
+        private System.Windows.Forms.PictureBox pbLogoPaginaMidia;
     }
 }
