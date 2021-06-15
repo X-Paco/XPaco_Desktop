@@ -112,9 +112,6 @@
     <EmbeddedResource Include="view\homePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\homePage.resx">
-      <DependentUpon>HomePage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="view\links.resx">
       <DependentUpon>Links.cs</DependentUpon>
     </EmbeddedResource>
