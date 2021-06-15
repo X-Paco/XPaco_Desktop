@@ -10,3 +10,4 @@ C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\b
 C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.csproj.CopyComplete
 C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.exe
 C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.pdb
+C:\Users\traba_000\Desktop\Corrigindo-Xpaco\Meutix-oficial\XPaco_Desktop\Xpaco\obj\Debug\Xpaco.HomePage.resources
