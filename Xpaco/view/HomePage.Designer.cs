@@ -258,7 +258,7 @@ namespace Xpaco
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "HomePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Tela Inicial";
             this.panelSuperiorHomePage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).EndInit();
             this.panelRodapeHomePage.ResumeLayout(false);

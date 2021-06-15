@@ -93,12 +93,6 @@
     <Compile Include="view\Profile.Designer.cs">
       <DependentUpon>Profile.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\testando.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view\testando.Designer.cs">
-      <DependentUpon>testando.cs</DependentUpon>
-    </Compile>
     <Compile Include="view\User.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +108,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="view\homePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\links.resx">
+      <DependentUpon>Links.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\material.resx">
+      <DependentUpon>Material.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\media.resx">
+      <DependentUpon>Media.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\user.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
