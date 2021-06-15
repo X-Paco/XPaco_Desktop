@@ -1,4 +1,5 @@
-/.vs
-/Xpaco/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
 /Xpaco/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-/Xpaco/obj/Debug/Xpaco.csproj.AssemblyReference.cache
