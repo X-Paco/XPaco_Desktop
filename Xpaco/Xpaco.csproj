@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="controllers\WebRequestAPI.cs" />
     <Compile Include="middlewares\Auth.cs" />
+    <Compile Include="middlewares\AssistenteJson.cs" />
     <Compile Include="models\Campaign.cs" />
     <Compile Include="models\Campaign_material.cs" />
     <Compile Include="models\Category.cs" />
@@ -111,6 +112,12 @@
     <Compile Include="view\User.Designer.cs">
       <DependentUpon>User.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\ValidaJson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ValidaJson.Designer.cs">
+      <DependentUpon>ValidaJson.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -138,6 +145,9 @@
     <EmbeddedResource Include="view\user.resx">
       <DependentUpon>User.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\ValidaJson.resx">
+      <DependentUpon>ValidaJson.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -153,6 +163,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="files\" />
     <Folder Include="view\Imagens\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
