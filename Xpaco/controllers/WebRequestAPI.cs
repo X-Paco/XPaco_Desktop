@@ -6,19 +6,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net;   // WebRequest
 using System.IO;    // StreamReader
+using System.Windows.Forms; // MessageBox
 
 namespace Xpaco.controllers
 {
     class WebRequestAPI
     {
         /// <summary>
-        /// METODO QUE RETORNA o objResposta DO TIPO StreamReader
+        /// METODO QUE RETORNA o objStreamURI DO TIPO System.IO.StreamReader
+        /// Utilizando as classes:
+        /// System.IO.WebRequest / System.IO.StreamReader / System.Windows.Forms
+        /// Importando o namespace XPaco.models
         /// </summary>
-        /// <param name=""></param>
-        /// <returns>objResponse</returns>
+        /// <param name="getLista"></param>
+        /// <returns>objStreamURI</returns> Lançado quando
+        /// o resultado do retorno for caracteres vazia ("")</exception>
 
-        public static Object getLista(String rota, String token) 
+        public static Object GetLista(String rota, String token) 
         {
+            // Declarando o Objeto que será o objeto de retorno
             Object objStreamURI = null;
 
             try
@@ -36,6 +42,7 @@ namespace Xpaco.controllers
                 /// Esse método retorna um objeto que contém a resposta do servidor.
                 /// O tipo do objeto WebResponse retornado é determinado pelo esquema
                 /// do URI da solicitação
+                /// TODO  - WebResponse
                 var respostaURI = solicitaURI.GetResponse();
 
                 /* Para que a respostaURI esteja compativel para ser deserializada devemos:
@@ -53,18 +60,27 @@ namespace Xpaco.controllers
                 /// de texto padrão.
                 /// Agora abra o stream criado usando um StreamReader para acessar seu conteúdo
                 StreamReader reader = new StreamReader(streamURI);
-                // Lembre-se que o objStreamURI foi criando fora do try no top da classe
-                objStreamURI = ReadToEnd();
+
+                // TODO Lembre-se que o objStreamURI foi declarado fora do try no top da classe
+                /// ReadToEnd() ==> Ler todos os caracteres da posição atual até o final.
+                /// Se a posição atual estiver no final do fluxo, será retornado uma 
+                /// cadeia de caracteres vazia (""). 
+                objStreamURI = reader.ReadToEnd();
+
+                // TODO - WebResponse - Quando substituído por uma classe descendente, fecha
+                // o fluxo de resposta.
+                respostaURI.Close();
+                // TODO - Fecha o objeto StreamReader e o fluxo subjacente e libera os recursos
+                // do sistema associados ao leitor.
+                reader.Close();
+
+                return objStreamURI;
             }
             catch (Exception err)
             {
-
+                MessageBox.Show("Erro ao exportar a lista: " + err.Message);
+                return objStreamURI;
             }
-
-            
-
-
-
         }
     }
 }
