@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Xpaco.models
 {
-    class Persona
+    public class Persona
     {
-        public int id { get; private set; }
-        public int description { get; set; }
+        public string id { get; private set; }
+        public string description { get; set; }
 
     }
 
