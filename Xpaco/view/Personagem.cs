@@ -23,7 +23,7 @@ namespace Xpaco.view
 
         private void btConsultar_Click(object sender, EventArgs e)
         {
-
+            string rota = "http://localhost:3001/persona/"+txtId;
         }
     }
 }
