@@ -5,13 +5,16 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
+using System.Net;
+using Newtonsoft.Json;
 
 
 namespace Xpaco
 {
-    public partial class User : Form
+    public partial class Usuario : Form
     {
-        public User()
+        public Usuario()
         {
             InitializeComponent();
         }
