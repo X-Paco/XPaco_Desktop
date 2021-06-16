@@ -1,7 +1,7 @@
 ﻿
 namespace Xpaco
 {
-    partial class User
+    partial class Usuario
     {
         /// <summary> *
         /// Required designer variable.
@@ -41,7 +41,7 @@ namespace Xpaco
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(User));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Usuario));
             this.panelSuperiorUser = new System.Windows.Forms.Panel();
             this.pbLogoPaginaCadastro = new System.Windows.Forms.PictureBox();
             this.lblPaginaCadastro = new System.Windows.Forms.Label();

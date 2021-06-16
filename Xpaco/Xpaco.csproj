@@ -38,6 +38,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,9 +51,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connected Services\BuscaCEP\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="controllers\WebRequestAPI.cs" />
     <Compile Include="middlewares\Auth.cs" />
     <Compile Include="middlewares\AssistenteJson.cs" />
+    <Compile Include="middlewares\Correios.cs" />
     <Compile Include="models\Campaign.cs" />
     <Compile Include="models\Campaign_material.cs" />
     <Compile Include="models\Category.cs" />
@@ -100,17 +108,23 @@
     <Compile Include="view\Media.Designer.cs">
       <DependentUpon>Media.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\Personagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Personagem.Designer.cs">
+      <DependentUpon>Personagem.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\Profile.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="view\Profile.Designer.cs">
       <DependentUpon>Profile.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\User.cs">
+    <Compile Include="view\Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\User.Designer.cs">
-      <DependentUpon>User.cs</DependentUpon>
+    <Compile Include="view\Usuario.Designer.cs">
+      <DependentUpon>Usuario.cs</DependentUpon>
     </Compile>
     <Compile Include="view\ValidaJson.cs">
       <SubType>Form</SubType>
@@ -139,15 +153,184 @@
     <EmbeddedResource Include="view\media.resx">
       <DependentUpon>Media.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\Personagem.resx">
+      <DependentUpon>Personagem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\user.resx">
-      <DependentUpon>User.cs</DependentUpon>
+    <EmbeddedResource Include="view\Usuario.resx">
+      <DependentUpon>Usuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\ValidaJson.resx">
       <DependentUpon>ValidaJson.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Connected Services\BuscaCEP\AtendeClienteService.wsdl" />
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.atualizaPagamentoNaEntregaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.atualizaRemessaAgrupadaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.bloquearObjetoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.buscaClienteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.buscaContratoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.buscaDataAtualResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.buscaOpcoesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.buscaPagamentoEntregaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.buscaServicosAdicionaisAtivosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.buscaServicosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.buscaServicosValorDeclaradoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.buscaServicosXServicosAdicionaisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.buscaTarifaValeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.calculaTarifaServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.cancelarObjetoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.cancelarPedidoScolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.clienteERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.consultaCEPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.contratoERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.dimensaoTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.embalagemLRSMaster.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.enderecoERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.fechaPlpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.fechaPlpVariosServicosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.geraDigitoVerificadorEtiquetasResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.getStatusCartaoPostagemResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.getStatusPLPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.integrarUsuarioScolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.mensagemParametrizadaTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.obterClienteAtualizacaoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.obterEmbalagemLRSResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.obterMensagemParametrizadaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.pesquisarDimensoesServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.pesquisarEmbalagensPorServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.pesquisarParametrosPorDescricaoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.pesquisarServicosAdicionaisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.retornoCancelamento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.servicoAdicionalTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.servicoAdicionalXML.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.servicoERP.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.solicitaEtiquetasResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.solicitaPLPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.solicitarPostagemScolResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.solicitaXmlPlpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.statusCartao.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.statusPlp.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.tipoEmbalagem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.valePostal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.validaEtiquetaPLPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.validaPlpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.validarPostagemReversaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.validarPostagemSimultaneaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.verificaDisponibilidadeServicoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.verificaModalTransporteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\BuscaCEP\Xpaco.BuscaCEP.VerificaSeTodosObjetosCanceladosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -165,6 +348,24 @@
   <ItemGroup>
     <Folder Include="files\" />
     <Folder Include="view\Imagens\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\BuscaCEP\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\BuscaCEP\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\BuscaCEP\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\BuscaCEP\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

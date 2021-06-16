@@ -8,5 +8,9 @@ namespace Xpaco.models
 {
     class Persona
     {
+        public int id { get; private set; }
+        public int description { get; set; }
+
     }
+
 }

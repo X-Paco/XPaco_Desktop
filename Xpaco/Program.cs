@@ -17,7 +17,7 @@ namespace Xpaco
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HomePage());
+            Application.Run(new Profile());
         }
     }
 }

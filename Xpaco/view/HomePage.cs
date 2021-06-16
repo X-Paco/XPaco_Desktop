@@ -33,7 +33,7 @@ namespace Xpaco
 
         private void btnCadastroHomePage_Click(object sender, EventArgs e)
         {
-            User pgUser = new User();
+            Usuario pgUser = new Usuario();
             this.Hide();
             pgUser.Show();
         }
