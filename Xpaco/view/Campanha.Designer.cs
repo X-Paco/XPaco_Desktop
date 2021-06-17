@@ -31,7 +31,7 @@ namespace Xpaco
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Campanha));
             this.panelSuperiorPaginaCampanha = new System.Windows.Forms.Panel();
-            this.pbLogoHomePage = new System.Windows.Forms.PictureBox();
+            this.pbLogoPaginaCampanha = new System.Windows.Forms.PictureBox();
             this.lblPaginaCampanha = new System.Windows.Forms.Label();
             this.lblDescricaoCampanha = new System.Windows.Forms.Label();
             this.rtbDescricaoCampanha = new System.Windows.Forms.RichTextBox();
@@ -53,28 +53,28 @@ namespace Xpaco
             this.panelEsquerdoPaginaCampanha = new System.Windows.Forms.Panel();
             this.panelDireitoPaginaCampanha = new System.Windows.Forms.Panel();
             this.panelSuperiorPaginaCampanha.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCampanha)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSuperiorPaginaCampanha
             // 
             this.panelSuperiorPaginaCampanha.BackColor = System.Drawing.Color.Gray;
-            this.panelSuperiorPaginaCampanha.Controls.Add(this.pbLogoHomePage);
+            this.panelSuperiorPaginaCampanha.Controls.Add(this.pbLogoPaginaCampanha);
             this.panelSuperiorPaginaCampanha.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSuperiorPaginaCampanha.Location = new System.Drawing.Point(0, 0);
             this.panelSuperiorPaginaCampanha.Name = "panelSuperiorPaginaCampanha";
             this.panelSuperiorPaginaCampanha.Size = new System.Drawing.Size(826, 69);
             this.panelSuperiorPaginaCampanha.TabIndex = 4;
             // 
-            // pbLogoHomePage
+            // pbLogoPaginaCampanha
             // 
-            this.pbLogoHomePage.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoHomePage.Image")));
-            this.pbLogoHomePage.Location = new System.Drawing.Point(0, 0);
-            this.pbLogoHomePage.Name = "pbLogoHomePage";
-            this.pbLogoHomePage.Size = new System.Drawing.Size(137, 69);
-            this.pbLogoHomePage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLogoHomePage.TabIndex = 0;
-            this.pbLogoHomePage.TabStop = false;
+            this.pbLogoPaginaCampanha.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoPaginaCampanha.Image")));
+            this.pbLogoPaginaCampanha.Location = new System.Drawing.Point(0, 0);
+            this.pbLogoPaginaCampanha.Name = "pbLogoPaginaCampanha";
+            this.pbLogoPaginaCampanha.Size = new System.Drawing.Size(137, 69);
+            this.pbLogoPaginaCampanha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogoPaginaCampanha.TabIndex = 0;
+            this.pbLogoPaginaCampanha.TabStop = false;
             // 
             // lblPaginaCampanha
             // 
@@ -315,7 +315,7 @@ namespace Xpaco
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "campanha";
             this.panelSuperiorPaginaCampanha.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCampanha)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,7 +341,7 @@ namespace Xpaco
         private System.Windows.Forms.Button btnGravarPaginaCampanha;
         private System.Windows.Forms.Button btnMateriaisPaginaCampanha;
         private System.Windows.Forms.Button MidiasPaginaCampanha;
-        private System.Windows.Forms.PictureBox pbLogoHomePage;
+        private System.Windows.Forms.PictureBox pbLogoPaginaCampanha;
         private System.Windows.Forms.Panel panelBottomPaginaCampanha;
         private System.Windows.Forms.Panel panelEsquerdoPaginaCampanha;
         private System.Windows.Forms.Panel panelDireitoPaginaCampanha;

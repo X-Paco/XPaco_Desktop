@@ -31,7 +31,7 @@ namespace Xpaco
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Links));
             this.panelPaginaLinks = new System.Windows.Forms.Panel();
-            this.pbLogoHomePage = new System.Windows.Forms.PictureBox();
+            this.pbLogoPaginaLinks = new System.Windows.Forms.PictureBox();
             this.lblPaginaLinks = new System.Windows.Forms.Label();
             this.lblDescricaoPaginaLinks = new System.Windows.Forms.TextBox();
             this.lblReferenciaPaginaLinks = new System.Windows.Forms.TextBox();
@@ -43,29 +43,29 @@ namespace Xpaco
             this.panelDireitoPaginaLinks = new System.Windows.Forms.Panel();
             this.panelBottomPaginaLinks = new System.Windows.Forms.Panel();
             this.panelPaginaLinks.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaLinks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLinksPaginaLinks)).BeginInit();
             this.SuspendLayout();
             // 
             // panelPaginaLinks
             // 
             this.panelPaginaLinks.BackColor = System.Drawing.Color.Gray;
-            this.panelPaginaLinks.Controls.Add(this.pbLogoHomePage);
+            this.panelPaginaLinks.Controls.Add(this.pbLogoPaginaLinks);
             this.panelPaginaLinks.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelPaginaLinks.Location = new System.Drawing.Point(0, 0);
             this.panelPaginaLinks.Name = "panelPaginaLinks";
             this.panelPaginaLinks.Size = new System.Drawing.Size(826, 62);
             this.panelPaginaLinks.TabIndex = 3;
             // 
-            // pbLogoHomePage
+            // pbLogoPaginaLinks
             // 
-            this.pbLogoHomePage.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoHomePage.Image")));
-            this.pbLogoHomePage.Location = new System.Drawing.Point(0, 0);
-            this.pbLogoHomePage.Name = "pbLogoHomePage";
-            this.pbLogoHomePage.Size = new System.Drawing.Size(137, 62);
-            this.pbLogoHomePage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLogoHomePage.TabIndex = 42;
-            this.pbLogoHomePage.TabStop = false;
+            this.pbLogoPaginaLinks.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoPaginaLinks.Image")));
+            this.pbLogoPaginaLinks.Location = new System.Drawing.Point(0, 0);
+            this.pbLogoPaginaLinks.Name = "pbLogoPaginaLinks";
+            this.pbLogoPaginaLinks.Size = new System.Drawing.Size(137, 62);
+            this.pbLogoPaginaLinks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogoPaginaLinks.TabIndex = 42;
+            this.pbLogoPaginaLinks.TabStop = false;
             // 
             // lblPaginaLinks
             // 
@@ -189,7 +189,7 @@ namespace Xpaco
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Links";
             this.panelPaginaLinks.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaLinks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLinksPaginaLinks)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -206,7 +206,7 @@ namespace Xpaco
         private System.Windows.Forms.TextBox lblUrlPaginaLinks;
         private System.Windows.Forms.PictureBox pbLinksPaginaLinks;
         private System.Windows.Forms.Button btnVoltarPaginaLinks;
-        private System.Windows.Forms.PictureBox pbLogoHomePage;
+        private System.Windows.Forms.PictureBox pbLogoPaginaLinks;
         private System.Windows.Forms.Panel panelEsquerdoPaginaLinks;
         private System.Windows.Forms.Panel panelDireitoPaginaLinks;
         private System.Windows.Forms.Panel panelBottomPaginaLinks;

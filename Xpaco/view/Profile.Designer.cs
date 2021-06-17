@@ -31,7 +31,7 @@ namespace Xpaco
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Profile));
             this.panelPaginaPerfil = new System.Windows.Forms.Panel();
-            this.pbLogoHomePage = new System.Windows.Forms.PictureBox();
+            this.pbLogoPaginaPerfil = new System.Windows.Forms.PictureBox();
             this.lblPaginaPerfil = new System.Windows.Forms.Label();
             this.txtBairro = new System.Windows.Forms.TextBox();
             this.txtTelefoneAlternativo = new System.Windows.Forms.TextBox();
@@ -60,29 +60,29 @@ namespace Xpaco
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelPaginaPerfil.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaPerfil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPaginaPerfil)).BeginInit();
             this.SuspendLayout();
             // 
             // panelPaginaPerfil
             // 
             this.panelPaginaPerfil.BackColor = System.Drawing.Color.Gray;
-            this.panelPaginaPerfil.Controls.Add(this.pbLogoHomePage);
+            this.panelPaginaPerfil.Controls.Add(this.pbLogoPaginaPerfil);
             this.panelPaginaPerfil.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelPaginaPerfil.Location = new System.Drawing.Point(0, 0);
             this.panelPaginaPerfil.Name = "panelPaginaPerfil";
             this.panelPaginaPerfil.Size = new System.Drawing.Size(826, 62);
             this.panelPaginaPerfil.TabIndex = 1;
             // 
-            // pbLogoHomePage
+            // pbLogoPaginaPerfil
             // 
-            this.pbLogoHomePage.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoHomePage.Image")));
-            this.pbLogoHomePage.Location = new System.Drawing.Point(0, 0);
-            this.pbLogoHomePage.Name = "pbLogoHomePage";
-            this.pbLogoHomePage.Size = new System.Drawing.Size(137, 62);
-            this.pbLogoHomePage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLogoHomePage.TabIndex = 43;
-            this.pbLogoHomePage.TabStop = false;
+            this.pbLogoPaginaPerfil.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoPaginaPerfil.Image")));
+            this.pbLogoPaginaPerfil.Location = new System.Drawing.Point(0, 0);
+            this.pbLogoPaginaPerfil.Name = "pbLogoPaginaPerfil";
+            this.pbLogoPaginaPerfil.Size = new System.Drawing.Size(137, 62);
+            this.pbLogoPaginaPerfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogoPaginaPerfil.TabIndex = 43;
+            this.pbLogoPaginaPerfil.TabStop = false;
             // 
             // lblPaginaPerfil
             // 
@@ -390,7 +390,7 @@ namespace Xpaco
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Perfil do usuário";
             this.panelPaginaPerfil.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaPerfil)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPaginaPerfil)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -419,7 +419,7 @@ namespace Xpaco
         private System.Windows.Forms.TextBox txtEstado;
         private System.Windows.Forms.MaskedTextBox mtbDataAniversario;
         private System.Windows.Forms.Button btnVoltarPaginaPerfil;
-        private System.Windows.Forms.PictureBox pbLogoHomePage;
+        private System.Windows.Forms.PictureBox pbLogoPaginaPerfil;
         private System.Windows.Forms.Panel panelBottomPaginaPerfil;
         private System.Windows.Forms.Panel panelEsquerdoPaginaPerfil;
         private System.Windows.Forms.Panel panelDireitoPaginaPerfil;
