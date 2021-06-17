@@ -29,12 +29,11 @@ namespace Xpaco.view
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
             this.lblDescricao = new System.Windows.Forms.Label();
             this.txtDescricao = new System.Windows.Forms.TextBox();
             this.btListar = new System.Windows.Forms.Button();
             this.listViewXpaco = new System.Windows.Forms.ListView();
-            this.cHindice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.cHDescricao = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btIncluir = new System.Windows.Forms.Button();
@@ -42,6 +41,7 @@ namespace Xpaco.view
             this.label2 = new System.Windows.Forms.Label();
             this.txtOldDesc = new System.Windows.Forms.TextBox();
             this.btlAtualiza = new System.Windows.Forms.Button();
+            this.btnRemover = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblDescricao
@@ -60,7 +60,7 @@ namespace Xpaco.view
             this.txtDescricao.Location = new System.Drawing.Point(161, 80);
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(275, 23);
-            this.txtDescricao.TabIndex = 2;
+            this.txtDescricao.TabIndex = 1;
             // 
             // btListar
             // 
@@ -68,7 +68,7 @@ namespace Xpaco.view
             this.btListar.Location = new System.Drawing.Point(663, 139);
             this.btListar.Name = "btListar";
             this.btListar.Size = new System.Drawing.Size(100, 23);
-            this.btListar.TabIndex = 4;
+            this.btListar.TabIndex = 5;
             this.btListar.Text = "Listar";
             this.btListar.UseVisualStyleBackColor = true;
             this.btListar.Click += new System.EventHandler(this.btListar_Click);
@@ -76,23 +76,17 @@ namespace Xpaco.view
             // listViewXpaco
             // 
             this.listViewXpaco.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.cHindice,
             this.chId,
             this.cHDescricao});
             this.listViewXpaco.HideSelection = false;
             this.listViewXpaco.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
+            listViewItem1});
             this.listViewXpaco.Location = new System.Drawing.Point(79, 168);
             this.listViewXpaco.Name = "listViewXpaco";
             this.listViewXpaco.Size = new System.Drawing.Size(684, 198);
-            this.listViewXpaco.TabIndex = 5;
+            this.listViewXpaco.TabIndex = 6;
             this.listViewXpaco.UseCompatibleStateImageBehavior = false;
             this.listViewXpaco.View = System.Windows.Forms.View.Details;
-            // 
-            // cHindice
-            // 
-            this.cHindice.Text = "Id";
-            this.cHindice.Width = 50;
             // 
             // chId
             // 
@@ -148,16 +142,27 @@ namespace Xpaco.view
             this.btlAtualiza.Location = new System.Drawing.Point(451, 139);
             this.btlAtualiza.Name = "btlAtualiza";
             this.btlAtualiza.Size = new System.Drawing.Size(100, 23);
-            this.btlAtualiza.TabIndex = 4;
+            this.btlAtualiza.TabIndex = 3;
             this.btlAtualiza.Text = "Alterar";
             this.btlAtualiza.UseVisualStyleBackColor = true;
-            this.btlAtualiza.Click += new System.EventHandler(this.btIncluir_Click);
+            this.btlAtualiza.Click += new System.EventHandler(this.btlAtualiza_Click);
+            // 
+            // btnRemover
+            // 
+            this.btnRemover.Location = new System.Drawing.Point(361, 139);
+            this.btnRemover.Name = "btnRemover";
+            this.btnRemover.Size = new System.Drawing.Size(75, 23);
+            this.btnRemover.TabIndex = 7;
+            this.btnRemover.Text = "Remover";
+            this.btnRemover.UseVisualStyleBackColor = true;
+            this.btnRemover.Click += new System.EventHandler(this.btnRemover_Click);
             // 
             // Personagem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(858, 612);
+            this.Controls.Add(this.btnRemover);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listViewXpaco);
             this.Controls.Add(this.btlAtualiza);
@@ -182,12 +187,12 @@ namespace Xpaco.view
         private System.Windows.Forms.Button btListar;
         private System.Windows.Forms.ListView listViewXpaco;
         private System.Windows.Forms.Button btIncluir;
-        private System.Windows.Forms.ColumnHeader cHindice;
         private System.Windows.Forms.ColumnHeader cHDescricao;
         private System.Windows.Forms.ColumnHeader chId;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtOldDesc;
         private System.Windows.Forms.Button btlAtualiza;
+        private System.Windows.Forms.Button btnRemover;
     }
 }

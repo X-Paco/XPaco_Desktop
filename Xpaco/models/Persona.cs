@@ -22,7 +22,7 @@ namespace Xpaco.models
         /// como sendo somente leitura atribuindo o modificador
         /// private ao acessor set:
 
-        public string id { get; set; }
+        public int id { get; set; }
         public string description { get; set; }
         public string oldDescription { get; set; }
     }
