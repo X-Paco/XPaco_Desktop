@@ -101,7 +101,7 @@ namespace Xpaco
             this.txtBairro.Location = new System.Drawing.Point(428, 229);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(235, 20);
-            this.txtBairro.TabIndex = 24;
+            this.txtBairro.TabIndex = 5;
             // 
             // txtTelefoneAlternativo
             // 
@@ -109,7 +109,7 @@ namespace Xpaco
             this.txtTelefoneAlternativo.Location = new System.Drawing.Point(428, 153);
             this.txtTelefoneAlternativo.Name = "txtTelefoneAlternativo";
             this.txtTelefoneAlternativo.Size = new System.Drawing.Size(102, 20);
-            this.txtTelefoneAlternativo.TabIndex = 23;
+            this.txtTelefoneAlternativo.TabIndex = 2;
             // 
             // txtNumero
             // 
@@ -117,7 +117,7 @@ namespace Xpaco
             this.txtNumero.Location = new System.Drawing.Point(428, 204);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(36, 20);
-            this.txtNumero.TabIndex = 22;
+            this.txtNumero.TabIndex = 4;
             // 
             // txtbEndereco
             // 
@@ -125,7 +125,7 @@ namespace Xpaco
             this.txtbEndereco.Location = new System.Drawing.Point(428, 179);
             this.txtbEndereco.Name = "txtbEndereco";
             this.txtbEndereco.Size = new System.Drawing.Size(235, 20);
-            this.txtbEndereco.TabIndex = 21;
+            this.txtbEndereco.TabIndex = 3;
             // 
             // lblTelefoneAlternativo
             // 
@@ -188,7 +188,7 @@ namespace Xpaco
             this.txtCPFCNPJ.Location = new System.Drawing.Point(428, 128);
             this.txtCPFCNPJ.Name = "txtCPFCNPJ";
             this.txtCPFCNPJ.Size = new System.Drawing.Size(235, 20);
-            this.txtCPFCNPJ.TabIndex = 15;
+            this.txtCPFCNPJ.TabIndex = 1;
             // 
             // lblCPFCNPJ
             // 
@@ -253,7 +253,7 @@ namespace Xpaco
             this.txtEstado.Location = new System.Drawing.Point(428, 281);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(150, 20);
-            this.txtEstado.TabIndex = 30;
+            this.txtEstado.TabIndex = 7;
             // 
             // mtbDataAniversario
             // 
@@ -312,7 +312,7 @@ namespace Xpaco
             this.btnLinkPaginaPerfil.AutoSize = true;
             this.btnLinkPaginaPerfil.BackColor = System.Drawing.Color.Gray;
             this.btnLinkPaginaPerfil.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.btnLinkPaginaPerfil.Location = new System.Drawing.Point(359, 396);
+            this.btnLinkPaginaPerfil.Location = new System.Drawing.Point(380, 396);
             this.btnLinkPaginaPerfil.Name = "btnLinkPaginaPerfil";
             this.btnLinkPaginaPerfil.Size = new System.Drawing.Size(51, 19);
             this.btnLinkPaginaPerfil.TabIndex = 45;
@@ -334,23 +334,24 @@ namespace Xpaco
             this.txtbCEP.Location = new System.Drawing.Point(429, 307);
             this.txtbCEP.Name = "txtbCEP";
             this.txtbCEP.Size = new System.Drawing.Size(102, 20);
-            this.txtbCEP.TabIndex = 47;
+            this.txtbCEP.TabIndex = 8;
             // 
             // txtCidade
             // 
             this.txtCidade.Location = new System.Drawing.Point(428, 254);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(235, 20);
-            this.txtCidade.TabIndex = 48;
+            this.txtCidade.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(284, 257);
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(279, 256);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(64, 18);
             this.label1.TabIndex = 49;
-            this.label1.Text = "Cidade";
+            this.label1.Text = "Cidade:";
             // 
             // Profile
             // 

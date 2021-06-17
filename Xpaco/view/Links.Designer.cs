@@ -84,7 +84,7 @@ namespace Xpaco
             this.lblDescricaoPaginaLinks.Location = new System.Drawing.Point(290, 174);
             this.lblDescricaoPaginaLinks.Name = "lblDescricaoPaginaLinks";
             this.lblDescricaoPaginaLinks.Size = new System.Drawing.Size(161, 20);
-            this.lblDescricaoPaginaLinks.TabIndex = 8;
+            this.lblDescricaoPaginaLinks.TabIndex = 1;
             // 
             // lblReferenciaPaginaLinks
             // 
@@ -92,7 +92,7 @@ namespace Xpaco
             this.lblReferenciaPaginaLinks.Location = new System.Drawing.Point(290, 224);
             this.lblReferenciaPaginaLinks.Name = "lblReferenciaPaginaLinks";
             this.lblReferenciaPaginaLinks.Size = new System.Drawing.Size(161, 20);
-            this.lblReferenciaPaginaLinks.TabIndex = 7;
+            this.lblReferenciaPaginaLinks.TabIndex = 3;
             // 
             // btnSalvarPaginaLinks
             // 
@@ -102,7 +102,7 @@ namespace Xpaco
             this.btnSalvarPaginaLinks.Location = new System.Drawing.Point(496, 310);
             this.btnSalvarPaginaLinks.Name = "btnSalvarPaginaLinks";
             this.btnSalvarPaginaLinks.Size = new System.Drawing.Size(87, 33);
-            this.btnSalvarPaginaLinks.TabIndex = 38;
+            this.btnSalvarPaginaLinks.TabIndex = 5;
             this.btnSalvarPaginaLinks.Text = "Salvar";
             this.btnSalvarPaginaLinks.UseVisualStyleBackColor = false;
             this.btnSalvarPaginaLinks.Click += new System.EventHandler(this.btnSalvarPaginaLinks_Click);
@@ -113,7 +113,7 @@ namespace Xpaco
             this.lblUrlPaginaLinks.Location = new System.Drawing.Point(290, 199);
             this.lblUrlPaginaLinks.Name = "lblUrlPaginaLinks";
             this.lblUrlPaginaLinks.Size = new System.Drawing.Size(161, 20);
-            this.lblUrlPaginaLinks.TabIndex = 39;
+            this.lblUrlPaginaLinks.TabIndex = 2;
             // 
             // pbLinksPaginaLinks
             // 
@@ -134,7 +134,7 @@ namespace Xpaco
             this.btnVoltarPaginaLinks.Location = new System.Drawing.Point(234, 310);
             this.btnVoltarPaginaLinks.Name = "btnVoltarPaginaLinks";
             this.btnVoltarPaginaLinks.Size = new System.Drawing.Size(87, 33);
-            this.btnVoltarPaginaLinks.TabIndex = 41;
+            this.btnVoltarPaginaLinks.TabIndex = 4;
             this.btnVoltarPaginaLinks.Text = "Voltar";
             this.btnVoltarPaginaLinks.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaLinks.Click += new System.EventHandler(this.btnVoltarPaginaLinks_Click);

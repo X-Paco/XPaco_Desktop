@@ -121,6 +121,7 @@ namespace Xpaco
             // pbTwitter
             // 
             this.pbTwitter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbTwitter.Image = ((System.Drawing.Image)(resources.GetObject("pbTwitter.Image")));
             this.pbTwitter.Location = new System.Drawing.Point(700, 14);
             this.pbTwitter.Name = "pbTwitter";
             this.pbTwitter.Size = new System.Drawing.Size(38, 32);
@@ -131,6 +132,7 @@ namespace Xpaco
             // pbInstagram
             // 
             this.pbInstagram.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbInstagram.Image = ((System.Drawing.Image)(resources.GetObject("pbInstagram.Image")));
             this.pbInstagram.Location = new System.Drawing.Point(649, 14);
             this.pbInstagram.Name = "pbInstagram";
             this.pbInstagram.Size = new System.Drawing.Size(38, 32);
@@ -141,6 +143,7 @@ namespace Xpaco
             // pbFacebook
             // 
             this.pbFacebook.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbFacebook.Image = ((System.Drawing.Image)(resources.GetObject("pbFacebook.Image")));
             this.pbFacebook.Location = new System.Drawing.Point(595, 14);
             this.pbFacebook.Name = "pbFacebook";
             this.pbFacebook.Size = new System.Drawing.Size(38, 32);
