@@ -78,7 +78,6 @@ namespace Xpaco
             this.lblPaginaMidia.Size = new System.Drawing.Size(161, 29);
             this.lblPaginaMidia.TabIndex = 1;
             this.lblPaginaMidia.Text = "Página de mídia";
-            this.lblPaginaMidia.Click += new System.EventHandler(this.lblPaginaMidia_Click);
             // 
             // pbPaginaMidia
             // 
