@@ -7,10 +7,24 @@ using System.Threading.Tasks;
 namespace Xpaco.models
 {
     public class Persona
-    {
-        public string id { get; private set; }
-        public string description { get; set; }
 
+    {
+        /// <summary>
+        /// Através das propriedades auto-implementadas
+        /// podemos fazer a declaração das propriedades
+        /// de uma classe de uma maneira mais concisa 
+        /// quando nenhuma lógica adicional é necessária
+        /// nos assessores (get e set) das propriedades.
+        /// </summary>
+        /// <param name="Persona"></param>
+        /// ------------------------------------------------------------
+        /// TODO  - Neste exemplo definimos a propriedade id 
+        /// como sendo somente leitura atribuindo o modificador
+        /// private ao acessor set:
+
+        public string id { get; set; }
+        public string description { get; set; }
+        public string oldDescription { get; set; }
     }
 
 }
