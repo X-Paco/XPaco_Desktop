@@ -116,7 +116,7 @@ namespace Xpaco
             this.txtUrlPaginaMidia.Location = new System.Drawing.Point(413, 218);
             this.txtUrlPaginaMidia.Name = "txtUrlPaginaMidia";
             this.txtUrlPaginaMidia.Size = new System.Drawing.Size(157, 20);
-            this.txtUrlPaginaMidia.TabIndex = 5;
+            this.txtUrlPaginaMidia.TabIndex = 2;
             // 
             // txtDescricaoPaginaMidia
             // 
@@ -124,7 +124,7 @@ namespace Xpaco
             this.txtDescricaoPaginaMidia.Location = new System.Drawing.Point(413, 185);
             this.txtDescricaoPaginaMidia.Name = "txtDescricaoPaginaMidia";
             this.txtDescricaoPaginaMidia.Size = new System.Drawing.Size(157, 20);
-            this.txtDescricaoPaginaMidia.TabIndex = 6;
+            this.txtDescricaoPaginaMidia.TabIndex = 1;
             // 
             // btnSalvarPaginaMidia
             // 
@@ -134,7 +134,7 @@ namespace Xpaco
             this.btnSalvarPaginaMidia.Location = new System.Drawing.Point(483, 299);
             this.btnSalvarPaginaMidia.Name = "btnSalvarPaginaMidia";
             this.btnSalvarPaginaMidia.Size = new System.Drawing.Size(87, 33);
-            this.btnSalvarPaginaMidia.TabIndex = 26;
+            this.btnSalvarPaginaMidia.TabIndex = 4;
             this.btnSalvarPaginaMidia.Text = "Salvar";
             this.btnSalvarPaginaMidia.UseVisualStyleBackColor = false;
             this.btnSalvarPaginaMidia.Click += new System.EventHandler(this.btnSalvarPaginaMidia_Click);
@@ -147,7 +147,7 @@ namespace Xpaco
             this.btnVoltarPaginaMidia.Location = new System.Drawing.Point(255, 299);
             this.btnVoltarPaginaMidia.Name = "btnVoltarPaginaMidia";
             this.btnVoltarPaginaMidia.Size = new System.Drawing.Size(87, 33);
-            this.btnVoltarPaginaMidia.TabIndex = 42;
+            this.btnVoltarPaginaMidia.TabIndex = 3;
             this.btnVoltarPaginaMidia.Text = "Voltar";
             this.btnVoltarPaginaMidia.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaMidia.Click += new System.EventHandler(this.btnVoltarPaginaMidia_Click);

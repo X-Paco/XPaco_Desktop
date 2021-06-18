@@ -31,7 +31,7 @@ namespace Xpaco
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Campanha));
             this.panelSuperiorPaginaCampanha = new System.Windows.Forms.Panel();
-            this.pbLogoHomePage = new System.Windows.Forms.PictureBox();
+            this.pbLogoPaginaCampanha = new System.Windows.Forms.PictureBox();
             this.lblPaginaCampanha = new System.Windows.Forms.Label();
             this.lblDescricaoCampanha = new System.Windows.Forms.Label();
             this.rtbDescricaoCampanha = new System.Windows.Forms.RichTextBox();
@@ -53,28 +53,28 @@ namespace Xpaco
             this.panelEsquerdoPaginaCampanha = new System.Windows.Forms.Panel();
             this.panelDireitoPaginaCampanha = new System.Windows.Forms.Panel();
             this.panelSuperiorPaginaCampanha.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCampanha)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSuperiorPaginaCampanha
             // 
             this.panelSuperiorPaginaCampanha.BackColor = System.Drawing.Color.Gray;
-            this.panelSuperiorPaginaCampanha.Controls.Add(this.pbLogoHomePage);
+            this.panelSuperiorPaginaCampanha.Controls.Add(this.pbLogoPaginaCampanha);
             this.panelSuperiorPaginaCampanha.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSuperiorPaginaCampanha.Location = new System.Drawing.Point(0, 0);
             this.panelSuperiorPaginaCampanha.Name = "panelSuperiorPaginaCampanha";
             this.panelSuperiorPaginaCampanha.Size = new System.Drawing.Size(826, 69);
             this.panelSuperiorPaginaCampanha.TabIndex = 4;
             // 
-            // pbLogoHomePage
+            // pbLogoPaginaCampanha
             // 
-            this.pbLogoHomePage.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoHomePage.Image")));
-            this.pbLogoHomePage.Location = new System.Drawing.Point(0, 0);
-            this.pbLogoHomePage.Name = "pbLogoHomePage";
-            this.pbLogoHomePage.Size = new System.Drawing.Size(137, 69);
-            this.pbLogoHomePage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLogoHomePage.TabIndex = 0;
-            this.pbLogoHomePage.TabStop = false;
+            this.pbLogoPaginaCampanha.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoPaginaCampanha.Image")));
+            this.pbLogoPaginaCampanha.Location = new System.Drawing.Point(0, 0);
+            this.pbLogoPaginaCampanha.Name = "pbLogoPaginaCampanha";
+            this.pbLogoPaginaCampanha.Size = new System.Drawing.Size(137, 69);
+            this.pbLogoPaginaCampanha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogoPaginaCampanha.TabIndex = 0;
+            this.pbLogoPaginaCampanha.TabStop = false;
             // 
             // lblPaginaCampanha
             // 
@@ -103,7 +103,7 @@ namespace Xpaco
             this.rtbDescricaoCampanha.Location = new System.Drawing.Point(186, 167);
             this.rtbDescricaoCampanha.Name = "rtbDescricaoCampanha";
             this.rtbDescricaoCampanha.Size = new System.Drawing.Size(425, 33);
-            this.rtbDescricaoCampanha.TabIndex = 6;
+            this.rtbDescricaoCampanha.TabIndex = 1;
             this.rtbDescricaoCampanha.Text = "";
             // 
             // rtbDetalhesCampanha
@@ -112,7 +112,7 @@ namespace Xpaco
             this.rtbDetalhesCampanha.Location = new System.Drawing.Point(186, 322);
             this.rtbDetalhesCampanha.Name = "rtbDetalhesCampanha";
             this.rtbDetalhesCampanha.Size = new System.Drawing.Size(425, 66);
-            this.rtbDetalhesCampanha.TabIndex = 8;
+            this.rtbDetalhesCampanha.TabIndex = 6;
             this.rtbDetalhesCampanha.Text = "";
             // 
             // lblDetalhesCampanha
@@ -171,7 +171,7 @@ namespace Xpaco
             this.txtValorMeta.Location = new System.Drawing.Point(186, 242);
             this.txtValorMeta.Name = "txtValorMeta";
             this.txtValorMeta.Size = new System.Drawing.Size(80, 20);
-            this.txtValorMeta.TabIndex = 13;
+            this.txtValorMeta.TabIndex = 2;
             // 
             // mtbDataInicio
             // 
@@ -180,7 +180,7 @@ namespace Xpaco
             this.mtbDataInicio.Mask = "00/00/0000";
             this.mtbDataInicio.Name = "mtbDataInicio";
             this.mtbDataInicio.Size = new System.Drawing.Size(57, 20);
-            this.mtbDataInicio.TabIndex = 14;
+            this.mtbDataInicio.TabIndex = 3;
             this.mtbDataInicio.ValidatingType = typeof(System.DateTime);
             // 
             // mtbHoraInicio
@@ -190,7 +190,7 @@ namespace Xpaco
             this.mtbHoraInicio.Mask = "00:00";
             this.mtbHoraInicio.Name = "mtbHoraInicio";
             this.mtbHoraInicio.Size = new System.Drawing.Size(41, 20);
-            this.mtbHoraInicio.TabIndex = 15;
+            this.mtbHoraInicio.TabIndex = 4;
             this.mtbHoraInicio.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.mtbHoraInicio.ValidatingType = typeof(System.DateTime);
             // 
@@ -201,7 +201,7 @@ namespace Xpaco
             this.mtbDataFinal.Mask = "00/00/0000";
             this.mtbDataFinal.Name = "mtbDataFinal";
             this.mtbDataFinal.Size = new System.Drawing.Size(64, 20);
-            this.mtbDataFinal.TabIndex = 16;
+            this.mtbDataFinal.TabIndex = 5;
             this.mtbDataFinal.ValidatingType = typeof(System.DateTime);
             // 
             // btnVoltarPaginaCampanha
@@ -212,7 +212,7 @@ namespace Xpaco
             this.btnVoltarPaginaCampanha.Location = new System.Drawing.Point(525, 399);
             this.btnVoltarPaginaCampanha.Name = "btnVoltarPaginaCampanha";
             this.btnVoltarPaginaCampanha.Size = new System.Drawing.Size(86, 31);
-            this.btnVoltarPaginaCampanha.TabIndex = 39;
+            this.btnVoltarPaginaCampanha.TabIndex = 10;
             this.btnVoltarPaginaCampanha.Text = "Voltar";
             this.btnVoltarPaginaCampanha.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaCampanha.Click += new System.EventHandler(this.btnVoltarPaginaCampanha_Click);
@@ -225,7 +225,7 @@ namespace Xpaco
             this.btnGravarPaginaCampanha.Location = new System.Drawing.Point(411, 399);
             this.btnGravarPaginaCampanha.Name = "btnGravarPaginaCampanha";
             this.btnGravarPaginaCampanha.Size = new System.Drawing.Size(86, 31);
-            this.btnGravarPaginaCampanha.TabIndex = 40;
+            this.btnGravarPaginaCampanha.TabIndex = 9;
             this.btnGravarPaginaCampanha.Text = "Gravar";
             this.btnGravarPaginaCampanha.UseVisualStyleBackColor = false;
             this.btnGravarPaginaCampanha.Click += new System.EventHandler(this.btnGravarPaginaCampanha_Click);
@@ -238,7 +238,7 @@ namespace Xpaco
             this.btnMateriaisPaginaCampanha.Location = new System.Drawing.Point(297, 399);
             this.btnMateriaisPaginaCampanha.Name = "btnMateriaisPaginaCampanha";
             this.btnMateriaisPaginaCampanha.Size = new System.Drawing.Size(86, 31);
-            this.btnMateriaisPaginaCampanha.TabIndex = 41;
+            this.btnMateriaisPaginaCampanha.TabIndex = 8;
             this.btnMateriaisPaginaCampanha.Text = "Materiais";
             this.btnMateriaisPaginaCampanha.UseVisualStyleBackColor = false;
             this.btnMateriaisPaginaCampanha.Click += new System.EventHandler(this.btnMateriaisPaginaCampanha_Click);
@@ -251,7 +251,7 @@ namespace Xpaco
             this.MidiasPaginaCampanha.Location = new System.Drawing.Point(186, 399);
             this.MidiasPaginaCampanha.Name = "MidiasPaginaCampanha";
             this.MidiasPaginaCampanha.Size = new System.Drawing.Size(86, 31);
-            this.MidiasPaginaCampanha.TabIndex = 42;
+            this.MidiasPaginaCampanha.TabIndex = 7;
             this.MidiasPaginaCampanha.Text = "Mídias";
             this.MidiasPaginaCampanha.UseVisualStyleBackColor = false;
             this.MidiasPaginaCampanha.Click += new System.EventHandler(this.MidiasPaginaCampanha_Click);
@@ -315,7 +315,7 @@ namespace Xpaco
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "campanha";
             this.panelSuperiorPaginaCampanha.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoHomePage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCampanha)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,7 +341,7 @@ namespace Xpaco
         private System.Windows.Forms.Button btnGravarPaginaCampanha;
         private System.Windows.Forms.Button btnMateriaisPaginaCampanha;
         private System.Windows.Forms.Button MidiasPaginaCampanha;
-        private System.Windows.Forms.PictureBox pbLogoHomePage;
+        private System.Windows.Forms.PictureBox pbLogoPaginaCampanha;
         private System.Windows.Forms.Panel panelBottomPaginaCampanha;
         private System.Windows.Forms.Panel panelEsquerdoPaginaCampanha;
         private System.Windows.Forms.Panel panelDireitoPaginaCampanha;

@@ -17,6 +17,13 @@ namespace Xpaco
         public Usuario()
         {
             InitializeComponent();
+
+            txtBoxSenha.Text = "";
+            txtBoxSenha.PasswordChar = '*';
+            txtBoxSenha.MaxLength = 14;
+            txtBoxRepitaSenha.Text = "";
+            txtBoxRepitaSenha.PasswordChar = '*';
+            txtBoxRepitaSenha.MaxLength = 14;
         }
  
         private void btnVoltarPaginaCadastro_Click(object sender, EventArgs e)
@@ -40,7 +47,20 @@ namespace Xpaco
                 txtBoxNome.Focus();
                 txtBoxNome.Clear();
                 return;
+            } else if (txtBoxApelido.Text == "")
+            {
+                MessageBox.Show("Preencher o apelido");
+                txtBoxNome.Focus();
+                txtBoxNome.Clear();
+                return;
+            }else if (txtBoxEmail.Text == "")
+            {
+                MessageBox.Show("Preencher o email");
+                txtBoxNome.Focus();
+                txtBoxNome.Clear();
+                return;
             }
+
         }
 
         private void btnUpdPerfil_Click(object sender, EventArgs e)

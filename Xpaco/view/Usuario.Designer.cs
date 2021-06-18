@@ -57,7 +57,7 @@ namespace Xpaco
             this.txtBoxSenha = new System.Windows.Forms.TextBox();
             this.txtBoxApelido = new System.Windows.Forms.TextBox();
             this.txtBoxRepitaSenha = new System.Windows.Forms.TextBox();
-            this.btnCadastroUser = new System.Windows.Forms.Button();
+            this.btnCadastrarUser = new System.Windows.Forms.Button();
             this.btnVoltarPaginaCadastro = new System.Windows.Forms.Button();
             this.panelEsquerdoPaginaCadastro = new System.Windows.Forms.Panel();
             this.panelDireitoPaginaCadastro = new System.Windows.Forms.Panel();
@@ -117,7 +117,7 @@ namespace Xpaco
             this.mtbTelefone.Mask = "(00) 00000-0000";
             this.mtbTelefone.Name = "mtbTelefone";
             this.mtbTelefone.Size = new System.Drawing.Size(102, 27);
-            this.mtbTelefone.TabIndex = 2;
+            this.mtbTelefone.TabIndex = 6;
             this.mtbTelefone.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbTelefonePaginaCadastro_MaskInputRejected);
             // 
             // txtBoxNome
@@ -126,7 +126,7 @@ namespace Xpaco
             this.txtBoxNome.Location = new System.Drawing.Point(365, 162);
             this.txtBoxNome.Name = "txtBoxNome";
             this.txtBoxNome.Size = new System.Drawing.Size(235, 20);
-            this.txtBoxNome.TabIndex = 3;
+            this.txtBoxNome.TabIndex = 1;
             // 
             // TelefonePaginaCadastro
             // 
@@ -155,7 +155,7 @@ namespace Xpaco
             this.lblSenhaPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblSenhaPaginaCadastro.AutoSize = true;
             this.lblSenhaPaginaCadastro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.lblSenhaPaginaCadastro.Location = new System.Drawing.Point(221, 254);
+            this.lblSenhaPaginaCadastro.Location = new System.Drawing.Point(221, 258);
             this.lblSenhaPaginaCadastro.Name = "lblSenhaPaginaCadastro";
             this.lblSenhaPaginaCadastro.Size = new System.Drawing.Size(64, 19);
             this.lblSenhaPaginaCadastro.TabIndex = 6;
@@ -189,7 +189,7 @@ namespace Xpaco
             this.txtBoxEmail.Location = new System.Drawing.Point(365, 226);
             this.txtBoxEmail.Name = "txtBoxEmail";
             this.txtBoxEmail.Size = new System.Drawing.Size(235, 20);
-            this.txtBoxEmail.TabIndex = 9;
+            this.txtBoxEmail.TabIndex = 3;
             // 
             // txtBoxSenha
             // 
@@ -197,7 +197,7 @@ namespace Xpaco
             this.txtBoxSenha.Location = new System.Drawing.Point(365, 257);
             this.txtBoxSenha.Name = "txtBoxSenha";
             this.txtBoxSenha.Size = new System.Drawing.Size(235, 20);
-            this.txtBoxSenha.TabIndex = 10;
+            this.txtBoxSenha.TabIndex = 4;
             // 
             // txtBoxApelido
             // 
@@ -205,7 +205,7 @@ namespace Xpaco
             this.txtBoxApelido.Location = new System.Drawing.Point(365, 193);
             this.txtBoxApelido.Name = "txtBoxApelido";
             this.txtBoxApelido.Size = new System.Drawing.Size(235, 20);
-            this.txtBoxApelido.TabIndex = 11;
+            this.txtBoxApelido.TabIndex = 2;
             // 
             // txtBoxRepitaSenha
             // 
@@ -213,30 +213,30 @@ namespace Xpaco
             this.txtBoxRepitaSenha.Location = new System.Drawing.Point(365, 285);
             this.txtBoxRepitaSenha.Name = "txtBoxRepitaSenha";
             this.txtBoxRepitaSenha.Size = new System.Drawing.Size(235, 20);
-            this.txtBoxRepitaSenha.TabIndex = 12;
+            this.txtBoxRepitaSenha.TabIndex = 5;
             // 
-            // btnCadastroUser
+            // btnCadastrarUser
             // 
-            this.btnCadastroUser.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnCadastroUser.BackColor = System.Drawing.Color.Gray;
-            this.btnCadastroUser.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.btnCadastroUser.Location = new System.Drawing.Point(512, 355);
-            this.btnCadastroUser.Name = "btnCadastroUser";
-            this.btnCadastroUser.Size = new System.Drawing.Size(87, 33);
-            this.btnCadastroUser.TabIndex = 13;
-            this.btnCadastroUser.Text = "Cadastrar";
-            this.btnCadastroUser.UseVisualStyleBackColor = false;
-            this.btnCadastroUser.Click += new System.EventHandler(this.btnCadastroUser_Click);
+            this.btnCadastrarUser.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnCadastrarUser.BackColor = System.Drawing.Color.Gray;
+            this.btnCadastrarUser.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.btnCadastrarUser.Location = new System.Drawing.Point(513, 374);
+            this.btnCadastrarUser.Name = "btnCadastrarUser";
+            this.btnCadastrarUser.Size = new System.Drawing.Size(87, 33);
+            this.btnCadastrarUser.TabIndex = 8;
+            this.btnCadastrarUser.Text = "Cadastrar";
+            this.btnCadastrarUser.UseVisualStyleBackColor = false;
+            this.btnCadastrarUser.Click += new System.EventHandler(this.btnCadastroUser_Click);
             // 
             // btnVoltarPaginaCadastro
             // 
             this.btnVoltarPaginaCadastro.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnVoltarPaginaCadastro.BackColor = System.Drawing.Color.Gray;
             this.btnVoltarPaginaCadastro.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.btnVoltarPaginaCadastro.Location = new System.Drawing.Point(221, 352);
+            this.btnVoltarPaginaCadastro.Location = new System.Drawing.Point(225, 374);
             this.btnVoltarPaginaCadastro.Name = "btnVoltarPaginaCadastro";
             this.btnVoltarPaginaCadastro.Size = new System.Drawing.Size(87, 33);
-            this.btnVoltarPaginaCadastro.TabIndex = 42;
+            this.btnVoltarPaginaCadastro.TabIndex = 7;
             this.btnVoltarPaginaCadastro.Text = "Voltar";
             this.btnVoltarPaginaCadastro.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaCadastro.Click += new System.EventHandler(this.btnVoltarPaginaCadastro_Click);
@@ -272,7 +272,7 @@ namespace Xpaco
             // btnUpdPerfil
             // 
             this.btnUpdPerfil.Enabled = false;
-            this.btnUpdPerfil.Location = new System.Drawing.Point(365, 352);
+            this.btnUpdPerfil.Location = new System.Drawing.Point(380, 374);
             this.btnUpdPerfil.Name = "btnUpdPerfil";
             this.btnUpdPerfil.Size = new System.Drawing.Size(87, 33);
             this.btnUpdPerfil.TabIndex = 46;
@@ -280,7 +280,7 @@ namespace Xpaco
             this.btnUpdPerfil.UseVisualStyleBackColor = true;
             this.btnUpdPerfil.Click += new System.EventHandler(this.btnUpdPerfil_Click);
             // 
-            // User
+            // Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -290,7 +290,7 @@ namespace Xpaco
             this.Controls.Add(this.panelDireitoPaginaCadastro);
             this.Controls.Add(this.panelEsquerdoPaginaCadastro);
             this.Controls.Add(this.btnVoltarPaginaCadastro);
-            this.Controls.Add(this.btnCadastroUser);
+            this.Controls.Add(this.btnCadastrarUser);
             this.Controls.Add(this.txtBoxRepitaSenha);
             this.Controls.Add(this.lblPaginaCadastro);
             this.Controls.Add(this.txtBoxApelido);
@@ -306,7 +306,7 @@ namespace Xpaco
             this.Controls.Add(this.lblNomePaginaCadastro);
             this.Controls.Add(this.panelSuperiorUser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Name = "User";
+            this.Name = "Usuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro";
             this.panelSuperiorUser.ResumeLayout(false);
@@ -332,7 +332,7 @@ namespace Xpaco
         private System.Windows.Forms.TextBox txtBoxSenha;
         private System.Windows.Forms.TextBox txtBoxApelido;
         private System.Windows.Forms.TextBox txtBoxRepitaSenha;
-        private System.Windows.Forms.Button btnCadastroUser;
+        private System.Windows.Forms.Button btnCadastrarUser;
         private System.Windows.Forms.Button btnVoltarPaginaCadastro;
         private System.Windows.Forms.PictureBox pbLogoPaginaCadastro;
         private System.Windows.Forms.Panel panelEsquerdoPaginaCadastro;

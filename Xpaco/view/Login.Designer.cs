@@ -83,7 +83,7 @@ namespace Xpaco
             this.txtSenhaPaginaLogin.Location = new System.Drawing.Point(355, 209);
             this.txtSenhaPaginaLogin.Name = "txtSenhaPaginaLogin";
             this.txtSenhaPaginaLogin.Size = new System.Drawing.Size(146, 20);
-            this.txtSenhaPaginaLogin.TabIndex = 3;
+            this.txtSenhaPaginaLogin.TabIndex = 2;
             // 
             // txtEmailPaginaLogin
             // 
@@ -91,7 +91,8 @@ namespace Xpaco
             this.txtEmailPaginaLogin.Location = new System.Drawing.Point(355, 162);
             this.txtEmailPaginaLogin.Name = "txtEmailPaginaLogin";
             this.txtEmailPaginaLogin.Size = new System.Drawing.Size(146, 20);
-            this.txtEmailPaginaLogin.TabIndex = 4;
+            this.txtEmailPaginaLogin.TabIndex = 1;
+            this.txtEmailPaginaLogin.TextChanged += new System.EventHandler(this.txtEmailPaginaLogin_TextChanged);
             // 
             // lblSenhaPaginaLogin
             // 
@@ -121,7 +122,7 @@ namespace Xpaco
             this.btnLogarPaginaLogin.Location = new System.Drawing.Point(312, 260);
             this.btnLogarPaginaLogin.Name = "btnLogarPaginaLogin";
             this.btnLogarPaginaLogin.Size = new System.Drawing.Size(189, 27);
-            this.btnLogarPaginaLogin.TabIndex = 38;
+            this.btnLogarPaginaLogin.TabIndex = 3;
             this.btnLogarPaginaLogin.Text = "Logar";
             this.btnLogarPaginaLogin.UseVisualStyleBackColor = false;
             this.btnLogarPaginaLogin.Click += new System.EventHandler(this.btnLogarPaginaLogin_Click);
@@ -134,7 +135,7 @@ namespace Xpaco
             this.btnVoltarPaginaLogin.Location = new System.Drawing.Point(194, 335);
             this.btnVoltarPaginaLogin.Name = "btnVoltarPaginaLogin";
             this.btnVoltarPaginaLogin.Size = new System.Drawing.Size(87, 33);
-            this.btnVoltarPaginaLogin.TabIndex = 43;
+            this.btnVoltarPaginaLogin.TabIndex = 4;
             this.btnVoltarPaginaLogin.Text = "Voltar";
             this.btnVoltarPaginaLogin.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaLogin.Click += new System.EventHandler(this.btnVoltarPaginaLogin_Click);
