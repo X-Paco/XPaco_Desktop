@@ -77,6 +77,7 @@ namespace Xpaco
             User serializa = new User();
 
             serializa.Name = Name;
+            serializa.PersonaId = 2;
             serializa.Nickname = Nickname;
             serializa.Password = Password;
             serializa.PasswordConfirm = PasswordConfirm;

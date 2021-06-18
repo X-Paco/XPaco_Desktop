@@ -246,7 +246,7 @@ namespace Xpaco
             this.panelEsquerdoPaginaCadastro.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelEsquerdoPaginaCadastro.Location = new System.Drawing.Point(0, 62);
             this.panelEsquerdoPaginaCadastro.Name = "panelEsquerdoPaginaCadastro";
-            this.panelEsquerdoPaginaCadastro.Size = new System.Drawing.Size(189, 452);
+            this.panelEsquerdoPaginaCadastro.Size = new System.Drawing.Size(189, 365);
             this.panelEsquerdoPaginaCadastro.TabIndex = 43;
             // 
             // panelDireitoPaginaCadastro
@@ -255,16 +255,16 @@ namespace Xpaco
             this.panelDireitoPaginaCadastro.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelDireitoPaginaCadastro.Location = new System.Drawing.Point(637, 62);
             this.panelDireitoPaginaCadastro.Name = "panelDireitoPaginaCadastro";
-            this.panelDireitoPaginaCadastro.Size = new System.Drawing.Size(189, 452);
+            this.panelDireitoPaginaCadastro.Size = new System.Drawing.Size(189, 365);
             this.panelDireitoPaginaCadastro.TabIndex = 44;
             // 
             // panelBottomPaginaCadastro
             // 
             this.panelBottomPaginaCadastro.BackColor = System.Drawing.Color.Silver;
             this.panelBottomPaginaCadastro.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelBottomPaginaCadastro.Location = new System.Drawing.Point(189, 427);
+            this.panelBottomPaginaCadastro.Location = new System.Drawing.Point(0, 427);
             this.panelBottomPaginaCadastro.Name = "panelBottomPaginaCadastro";
-            this.panelBottomPaginaCadastro.Size = new System.Drawing.Size(448, 87);
+            this.panelBottomPaginaCadastro.Size = new System.Drawing.Size(826, 87);
             this.panelBottomPaginaCadastro.TabIndex = 45;
             this.panelBottomPaginaCadastro.Visible = false;
             // 
@@ -273,7 +273,6 @@ namespace Xpaco
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(826, 514);
-            this.Controls.Add(this.panelBottomPaginaCadastro);
             this.Controls.Add(this.panelDireitoPaginaCadastro);
             this.Controls.Add(this.panelEsquerdoPaginaCadastro);
             this.Controls.Add(this.btnVoltarPaginaCadastro);
@@ -292,6 +291,7 @@ namespace Xpaco
             this.Controls.Add(this.txtBoxTelefone);
             this.Controls.Add(this.lblNomePaginaCadastro);
             this.Controls.Add(this.panelSuperiorUser);
+            this.Controls.Add(this.panelBottomPaginaCadastro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Usuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
