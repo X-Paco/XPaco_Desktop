@@ -134,11 +134,11 @@ namespace Xpaco
             this.lblPaginaMaterial.AutoSize = true;
             this.lblPaginaMaterial.BackColor = System.Drawing.SystemColors.Control;
             this.lblPaginaMaterial.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold);
-            this.lblPaginaMaterial.Location = new System.Drawing.Point(330, 75);
+            this.lblPaginaMaterial.Location = new System.Drawing.Point(305, 65);
             this.lblPaginaMaterial.Name = "lblPaginaMaterial";
-            this.lblPaginaMaterial.Size = new System.Drawing.Size(186, 29);
+            this.lblPaginaMaterial.Size = new System.Drawing.Size(221, 29);
             this.lblPaginaMaterial.TabIndex = 1;
-            this.lblPaginaMaterial.Text = "Página de material";
+            this.lblPaginaMaterial.Text = "Material da Campanha";
             // 
             // lblUnidadePaginaMaterial
             // 
@@ -187,9 +187,9 @@ namespace Xpaco
             // rtbDetalhesPaginaMaterial
             // 
             this.rtbDetalhesPaginaMaterial.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.rtbDetalhesPaginaMaterial.Location = new System.Drawing.Point(330, 260);
+            this.rtbDetalhesPaginaMaterial.Location = new System.Drawing.Point(330, 251);
             this.rtbDetalhesPaginaMaterial.Name = "rtbDetalhesPaginaMaterial";
-            this.rtbDetalhesPaginaMaterial.Size = new System.Drawing.Size(148, 124);
+            this.rtbDetalhesPaginaMaterial.Size = new System.Drawing.Size(237, 66);
             this.rtbDetalhesPaginaMaterial.TabIndex = 4;
             this.rtbDetalhesPaginaMaterial.Text = "";
             // 

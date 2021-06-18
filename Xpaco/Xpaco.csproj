@@ -96,11 +96,11 @@
     <Compile Include="view\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\Material.cs">
+    <Compile Include="view\Campanha_Material.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\Material.Designer.cs">
-      <DependentUpon>Material.cs</DependentUpon>
+    <Compile Include="view\Campanha_Material.Designer.cs">
+      <DependentUpon>Campanha_Material.cs</DependentUpon>
     </Compile>
     <Compile Include="view\Media.cs">
       <SubType>Form</SubType>
@@ -153,8 +153,8 @@
     <EmbeddedResource Include="view\login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\material.resx">
-      <DependentUpon>Material.cs</DependentUpon>
+    <EmbeddedResource Include="view\Campanha_Material.resx">
+      <DependentUpon>Campanha_Material.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\media.resx">
       <DependentUpon>Media.cs</DependentUpon>
