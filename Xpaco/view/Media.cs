@@ -36,7 +36,30 @@ namespace Xpaco
 
         }
 
-        
+        /*private void InseriRegistro(string texto)
+        {
+            // Construir o objeto pelo model
+            Media serializa = new Media();
+
+            
+            try
+            {
+                // TODO - O Json da ROTA deve ser do mesmo tipo da lista a ser criada
+                String rota = "http://localhost:3001/persona/";
+                String json = JsonConvert.SerializeObject(serializa);
+                Object objStreamURI = WebRequestAPI.Post(rota, json);
+            }
+            catch (System.ServiceModel.FaultException)
+            {
+                MessageBox.Show("não encontrado");
+                
+                return;
+            }
+            finally
+            {
+                
+            }
+        }*/
 
     }
 }

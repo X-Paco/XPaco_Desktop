@@ -69,12 +69,7 @@ namespace Xpaco
 
         }
 
-        private void btnUpdPerfil_Click(object sender, EventArgs e)
-        {
-            Profile perfil = new Profile();
-            this.Close();
-            perfil.Show();
-        }
+        
 
         private void InseriRegistro(string Name, string Nickname, string Password, string PasswordConfirm, string mobile)
         {

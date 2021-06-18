@@ -62,7 +62,6 @@ namespace Xpaco
             this.panelEsquerdoPaginaCadastro = new System.Windows.Forms.Panel();
             this.panelDireitoPaginaCadastro = new System.Windows.Forms.Panel();
             this.panelBottomPaginaCadastro = new System.Windows.Forms.Panel();
-            this.btnUpdPerfil = new System.Windows.Forms.Button();
             this.panelSuperiorUser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaCadastro)).BeginInit();
             this.SuspendLayout();
@@ -269,23 +268,11 @@ namespace Xpaco
             this.panelBottomPaginaCadastro.TabIndex = 45;
             this.panelBottomPaginaCadastro.Visible = false;
             // 
-            // btnUpdPerfil
-            // 
-            this.btnUpdPerfil.Enabled = false;
-            this.btnUpdPerfil.Location = new System.Drawing.Point(380, 374);
-            this.btnUpdPerfil.Name = "btnUpdPerfil";
-            this.btnUpdPerfil.Size = new System.Drawing.Size(87, 33);
-            this.btnUpdPerfil.TabIndex = 46;
-            this.btnUpdPerfil.Text = "Perfil";
-            this.btnUpdPerfil.UseVisualStyleBackColor = true;
-            this.btnUpdPerfil.Click += new System.EventHandler(this.btnUpdPerfil_Click);
-            // 
             // Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(826, 514);
-            this.Controls.Add(this.btnUpdPerfil);
             this.Controls.Add(this.panelBottomPaginaCadastro);
             this.Controls.Add(this.panelDireitoPaginaCadastro);
             this.Controls.Add(this.panelEsquerdoPaginaCadastro);
@@ -338,6 +325,5 @@ namespace Xpaco
         private System.Windows.Forms.Panel panelEsquerdoPaginaCadastro;
         private System.Windows.Forms.Panel panelDireitoPaginaCadastro;
         private System.Windows.Forms.Panel panelBottomPaginaCadastro;
-        private System.Windows.Forms.Button btnUpdPerfil;
     }
 }
