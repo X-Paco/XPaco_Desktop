@@ -15,7 +15,7 @@ namespace Xpaco.controllers
         /// <summary>
         /// METODO QUE RETORNA o objStreamURI DO TIPO System.IO.StreamReader
         /// Utilizando as classes:
-        /// System.IO.WebRequest / System.IO.StreamReader / System.Windows.Forms
+        /// System.Net.WebRequest / System.IO.StreamReader / System.Windows.Forms
         /// Importando o namespace XPaco.models
         /// </summary>
         /// <param name="GetLista"></param>
@@ -87,7 +87,7 @@ namespace Xpaco.controllers
             }
         }
 
-        public static Object post(String rota, String json)
+        public static Object Post(String rota, String json)
         {
             Object objStreamURI = null;
 
@@ -97,7 +97,129 @@ namespace Xpaco.controllers
                 var solicitaURI = WebRequest.CreateHttp(rota.ToLower());
 
                 solicitaURI.Method = "POST";
-            //    solicitaURI.Headers.Add("Authorization", "Bearer " + Token);
+                //    solicitaURI.Headers.Add("Authorization", "Bearer " + Token);
+
+                // Método ContentType: Define o tipo do conteudo dos dados que serao enviados
+                solicitaURI.ContentType = "application/json; charset=utf-8";
+
+                // Converter caracteres em um array de bytes
+                var byteArray = Encoding.UTF8.GetBytes(json);
+
+                // Atributo ContentLength: Define o tamanho do conteúdo dos dados que serão enviados
+                solicitaURI.ContentLength = byteArray.Length;
+
+                // Metodo GetRequestStream: retorna um objeto da classe Stream (fluxo de dados)
+                // para gravar dados no recurso da internet
+                Stream stream = solicitaURI.GetRequestStream();
+
+                /* Método Write: Grava um sequencia de bytes no stream atual e
+                 * avança a posição atual dentro do stream até o número de bytes gravados
+                 * Parâmetros:
+                 * 1º) Array de byte que se deseja gravar
+                 * 2º) Deslocamento de bytes no qual será iniciado a cópia de bytes
+                 * 3º) Número de bytes que serão gravados
+                 */
+                stream.Write(byteArray, 0, byteArray.Length);
+                stream.Close();
+
+
+                //GetResponse: obtem um objeto com a respostaURI do servidor
+                var respostaURI = solicitaURI.GetResponse();
+
+                /* Para que a respostaURI esteja compativel para ser deserializada devemos:
+                 * 1. Obter um stream (fluxo de bytes) as partir dos dados de respostaURI enviados
+                 * 2. Armazenar esta stream como um simples objeto: Classe StreamReade
+                 * 3. Ler a informacao deste objeto com metodo ReadToEnd().
+                 */
+
+                var streamURI = respostaURI.GetResponseStream();
+                StreamReader reader = new StreamReader(streamURI);
+                objStreamURI = reader.ReadToEnd();
+
+                respostaURI.Close();
+                reader.Close();
+
+                return objStreamURI;
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show("WebRequesAPI - Erro ao exportar lista: " + err.Message);
+                return objStreamURI;
+            }
+        }
+
+        public static Object Put(String rota, String json)
+        {
+            Object objStreamURI = null;
+
+            try
+            {
+                // Classe WebRequest: Faz uma solicitaçao para um URL
+                var solicitaURI = WebRequest.CreateHttp(rota.ToLower());
+
+                solicitaURI.Method = "PUT";
+                //    solicitaURI.Headers.Add("Authorization", "Bearer " + Token);
+
+                // Método ContentType: Define o tipo do conteudo dos dados que serao enviados
+                solicitaURI.ContentType = "application/json; charset=utf-8";
+
+                // Converter caracteres em um array de bytes
+                var byteArray = Encoding.UTF8.GetBytes(json);
+
+                // Atributo ContentLength: Define o tamanho do conteúdo dos dados que serão enviados
+                solicitaURI.ContentLength = byteArray.Length;
+
+                // Metodo GetRequestStream: retorna um objeto da classe Stream (fluxo de dados)
+                // para gravar dados no recurso da internet
+                Stream stream = solicitaURI.GetRequestStream();
+
+                /* Método Write: Grava um sequencia de bytes no stream atual e
+                 * avança a posição atual dentro do stream até o número de bytes gravados
+                 * Parâmetros:
+                 * 1º) Array de byte que se deseja gravar
+                 * 2º) Deslocamento de bytes no qual será iniciado a cópia de bytes
+                 * 3º) Número de bytes que serão gravados
+                 */
+                stream.Write(byteArray, 0, byteArray.Length);
+                stream.Close();
+
+
+                //GetResponse: obtem um objeto com a respostaURI do servidor
+                var respostaURI = solicitaURI.GetResponse();
+
+                /* Para que a respostaURI esteja compativel para ser deserializada devemos:
+                 * 1. Obter um stream (fluxo de bytes) as partir dos dados de respostaURI enviados
+                 * 2. Armazenar esta stream como um simples objeto: Classe StreamReade
+                 * 3. Ler a informacao deste objeto com metodo ReadToEnd().
+                 */
+
+                var streamURI = respostaURI.GetResponseStream();
+                StreamReader reader = new StreamReader(streamURI);
+                objStreamURI = reader.ReadToEnd();
+
+                respostaURI.Close();
+                reader.Close();
+
+                return objStreamURI;
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show("WebRequesAPI - Erro ao exportar lista: " + err.Message);
+                return objStreamURI;
+            }
+        }
+
+        public static Object Delete(String rota, String json)
+        {
+            Object objStreamURI = null;
+
+            try
+            {
+                // Classe WebRequest: Faz uma solicitaçao para um URL
+                var solicitaURI = WebRequest.CreateHttp(rota.ToLower());
+
+                solicitaURI.Method = "DELETE";
+                //solicitaURI.Headers.Add("Authorization", "Bearer " + Token);
 
                 // Método ContentType: Define o tipo do conteudo dos dados que serao enviados
                 solicitaURI.ContentType = "application/json; charset=utf-8";
@@ -147,6 +269,9 @@ namespace Xpaco.controllers
                 return objStreamURI;
             }
         }
+
+
+
 
     }
 }

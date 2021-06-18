@@ -36,22 +36,39 @@ namespace Xpaco.view
         {
             CarregarTabela();
         }
+        private void btlAtualiza_Click(object sender, EventArgs e)
+        {
+            AtualizaRegistro(txtOldDesc.Text, txtDescricao.Text);
+        }
 
 
+        private void btnRemover_Click(object sender, EventArgs e)
+        {
 
-        public void InseriRegistro(string texto)
+            removeRegistro(txtDescricao.Text);
+        }
+
+
+ 
+        ///===========================================================
+        /// ====================M É T O D O S=========================
+        
+        /// <summary>
+        ///  MÉTODO POST / SERIALIZAÇÃO  / ENVIO DE ROTA
+        /// </summary>
+        /// <param name="texto"></param>
+        private void InseriRegistro(string texto)
         {
             // Construir o objeto pelo model
             Persona serializa = new Persona();
 
-            serializa.description = txtDescricao.Text;
-
+            serializa.description = texto;
             try
             {
                 // TODO - O Json da ROTA deve ser do mesmo tipo da lista a ser criada
                 String rota = "http://localhost:3001/persona/";
                 String json = JsonConvert.SerializeObject(serializa);
-                Object objStreamURI = WebRequestAPI.post(rota, json);
+                Object objStreamURI = WebRequestAPI.Post(rota, json);
             }
             catch (System.ServiceModel.FaultException)
             {
@@ -63,12 +80,63 @@ namespace Xpaco.view
             {
                 CarregarTabela();
             }
-            
-
         }
 
         /// <summary>
-        ///  Método de consumo de tabela
+        /// MÉTODO PUT / SERIALIZAÇÃO  / ENVIO DE ROTA
+        /// </summary>
+        /// <param name ="descricaoAntiga"></param>
+        /// <param name ="novaDescricao"></param>
+        private void AtualizaRegistro(string descricaoAntiga, string novaDescricao)
+        {
+            // Construir o objeto pelo model
+            Persona serializa = new Persona();
+
+            serializa.description = novaDescricao;
+            serializa.oldDescription = descricaoAntiga;
+
+            try
+            {
+                // TODO - O Json da ROTA deve ser do mesmo tipo da lista a ser criada
+                String rota = "http://localhost:3001/persona/";
+                String json = JsonConvert.SerializeObject(serializa);
+                Object objStreamURI = WebRequestAPI.Put(rota, json);
+            }
+            catch (System.ServiceModel.FaultException)
+            {
+                MessageBox.Show("não encontrado");
+                txtDescricao.Focus();
+                return;
+            }
+               // CarregarTabela();
+        }
+
+        /// <summary>
+        /// MÉTODO DELETE / SERIALIZAÇÃO  / ENVIO DE ROTA
+        /// </summary>
+        /// <param name ="Descricao"></param>
+        private void removeRegistro(string Descricao)
+        {
+            Persona serializa = new Persona();
+
+            serializa.description = Descricao;
+            try
+            {
+                String rota = "http://localhost:3001/persona";
+                String json = JsonConvert.SerializeObject(serializa);
+                Object objResponse = WebRequestAPI.Delete(rota, json);
+
+            }
+            catch (System.ServiceModel.FaultException)
+            {
+                MessageBox.Show("não encontrado");
+                txtDescricao.Focus();
+                return;
+            }
+        }
+
+        /// <summary>
+        ///  MÉTODO GET / DESCERIALIZAÇÃO  / ENVIO DE ROTA
         /// </summary>
         public void CarregarTabela()
         {
@@ -84,23 +152,14 @@ namespace Xpaco.view
             descerializa = JsonConvert.DeserializeObject<List<Persona>>(objStreamURI.ToString());
 
             // ---------------------------------------------------------------
-            // TODO - Rota sem parâmetro
+
             listViewXpaco.Items.Clear();
 
-            //foreach (Persona i in persona)
-            //{
-            //    ListViewItem item = listViewPersona.Items.Add(Convert.ToString(i.id));
-            //    item.SubItems.Add(i.id);
-            //    item.SubItems.Add(i.description);
-            //}
-            for (int i = 0; i < descerializa.Count; i++)
+            foreach (Persona i in descerializa)
             {
-                ListViewItem item = listViewXpaco.Items.Add(descerializa[i].id);
-                item.SubItems.Add(descerializa[i].id);
-                item.SubItems.Add(descerializa[i].description);
+                ListViewItem item = listViewXpaco.Items.Add(Convert.ToString(i.id));
+                item.SubItems.Add(i.description);
             }
-
-
         }
 
     }
