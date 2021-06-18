@@ -13,6 +13,9 @@ namespace Xpaco
         public Login()
         {
             InitializeComponent();
+            txtSenhaPaginaLogin.Text = "";
+            txtSenhaPaginaLogin.PasswordChar = '*';
+            txtSenhaPaginaLogin.MaxLength = 14;
         }
  
 
@@ -25,9 +28,31 @@ namespace Xpaco
 
         private void btnLogarPaginaLogin_Click(object sender, EventArgs e)
         {
+           
+            if (txtEmailPaginaLogin.Text == "")
+            {
+                MessageBox.Show("Preencher o email");
+                txtEmailPaginaLogin.Focus();
+                txtEmailPaginaLogin.Clear();
+                return;
+            }
+            else if (txtSenhaPaginaLogin.Text == "")
+            {
+                MessageBox.Show("Preencher a senha");
+                txtSenhaPaginaLogin.Focus();
+                txtSenhaPaginaLogin.Clear();
+                return;
+            }
+
             Profile pgProfile = new Profile();
             this.Hide();
             pgProfile.Show();
+
+        }
+
+        private void txtEmailPaginaLogin_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

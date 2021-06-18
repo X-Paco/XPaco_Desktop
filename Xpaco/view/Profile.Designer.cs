@@ -34,7 +34,6 @@ namespace Xpaco
             this.pbLogoPaginaPerfil = new System.Windows.Forms.PictureBox();
             this.lblPaginaPerfil = new System.Windows.Forms.Label();
             this.txtBairro = new System.Windows.Forms.TextBox();
-            this.txtTelefoneAlternativo = new System.Windows.Forms.TextBox();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.txtbEndereco = new System.Windows.Forms.TextBox();
             this.lblTelefoneAlternativo = new System.Windows.Forms.Label();
@@ -59,6 +58,7 @@ namespace Xpaco
             this.txtbCEP = new System.Windows.Forms.TextBox();
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.mtbTelefonePaginaPerfil = new System.Windows.Forms.MaskedTextBox();
             this.panelPaginaPerfil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoPaginaPerfil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPaginaPerfil)).BeginInit();
@@ -102,14 +102,6 @@ namespace Xpaco
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(235, 20);
             this.txtBairro.TabIndex = 5;
-            // 
-            // txtTelefoneAlternativo
-            // 
-            this.txtTelefoneAlternativo.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtTelefoneAlternativo.Location = new System.Drawing.Point(428, 153);
-            this.txtTelefoneAlternativo.Name = "txtTelefoneAlternativo";
-            this.txtTelefoneAlternativo.Size = new System.Drawing.Size(102, 20);
-            this.txtTelefoneAlternativo.TabIndex = 2;
             // 
             // txtNumero
             // 
@@ -185,7 +177,7 @@ namespace Xpaco
             // txtCPFCNPJ
             // 
             this.txtCPFCNPJ.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtCPFCNPJ.Location = new System.Drawing.Point(428, 128);
+            this.txtCPFCNPJ.Location = new System.Drawing.Point(428, 122);
             this.txtCPFCNPJ.Name = "txtCPFCNPJ";
             this.txtCPFCNPJ.Size = new System.Drawing.Size(235, 20);
             this.txtCPFCNPJ.TabIndex = 1;
@@ -195,7 +187,7 @@ namespace Xpaco
             this.lblCPFCNPJ.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCPFCNPJ.AutoSize = true;
             this.lblCPFCNPJ.Font = new System.Drawing.Font("Arial", 12F);
-            this.lblCPFCNPJ.Location = new System.Drawing.Point(281, 132);
+            this.lblCPFCNPJ.Location = new System.Drawing.Point(281, 124);
             this.lblCPFCNPJ.Name = "lblCPFCNPJ";
             this.lblCPFCNPJ.Size = new System.Drawing.Size(91, 18);
             this.lblCPFCNPJ.TabIndex = 13;
@@ -260,10 +252,11 @@ namespace Xpaco
             this.mtbDataAniversario.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.mtbDataAniversario.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.mtbDataAniversario.Location = new System.Drawing.Point(428, 335);
-            this.mtbDataAniversario.Mask = "(00) 00000-0000";
+            this.mtbDataAniversario.Mask = "00/00/0000";
             this.mtbDataAniversario.Name = "mtbDataAniversario";
             this.mtbDataAniversario.Size = new System.Drawing.Size(102, 27);
-            this.mtbDataAniversario.TabIndex = 31;
+            this.mtbDataAniversario.TabIndex = 9;
+            this.mtbDataAniversario.ValidatingType = typeof(System.DateTime);
             // 
             // btnVoltarPaginaPerfil
             // 
@@ -353,11 +346,22 @@ namespace Xpaco
             this.label1.TabIndex = 49;
             this.label1.Text = "Cidade:";
             // 
+            // mtbTelefonePaginaPerfil
+            // 
+            this.mtbTelefonePaginaPerfil.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.mtbTelefonePaginaPerfil.Font = new System.Drawing.Font("Segoe UI", 11.25F);
+            this.mtbTelefonePaginaPerfil.Location = new System.Drawing.Point(428, 148);
+            this.mtbTelefonePaginaPerfil.Mask = "(00) 00000-0000";
+            this.mtbTelefonePaginaPerfil.Name = "mtbTelefonePaginaPerfil";
+            this.mtbTelefonePaginaPerfil.Size = new System.Drawing.Size(129, 27);
+            this.mtbTelefonePaginaPerfil.TabIndex = 50;
+            // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(826, 514);
+            this.Controls.Add(this.mtbTelefonePaginaPerfil);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtCidade);
             this.Controls.Add(this.txtbCEP);
@@ -375,7 +379,6 @@ namespace Xpaco
             this.Controls.Add(this.lblCEP);
             this.Controls.Add(this.btnSalvarPaginaPerfil);
             this.Controls.Add(this.txtBairro);
-            this.Controls.Add(this.txtTelefoneAlternativo);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.txtbEndereco);
             this.Controls.Add(this.lblTelefoneAlternativo);
@@ -403,7 +406,6 @@ namespace Xpaco
         private System.Windows.Forms.Panel panelPaginaPerfil;
         private System.Windows.Forms.Label lblPaginaPerfil;
         private System.Windows.Forms.TextBox txtBairro;
-        private System.Windows.Forms.TextBox txtTelefoneAlternativo;
         private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.TextBox txtbEndereco;
         private System.Windows.Forms.Label lblTelefoneAlternativo;
@@ -429,5 +431,6 @@ namespace Xpaco
         private System.Windows.Forms.TextBox txtbCEP;
         private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MaskedTextBox mtbTelefonePaginaPerfil;
     }
 }

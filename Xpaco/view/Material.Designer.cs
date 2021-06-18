@@ -190,7 +190,7 @@ namespace Xpaco
             this.rtbDetalhesPaginaMaterial.Location = new System.Drawing.Point(330, 260);
             this.rtbDetalhesPaginaMaterial.Name = "rtbDetalhesPaginaMaterial";
             this.rtbDetalhesPaginaMaterial.Size = new System.Drawing.Size(148, 124);
-            this.rtbDetalhesPaginaMaterial.TabIndex = 33;
+            this.rtbDetalhesPaginaMaterial.TabIndex = 4;
             this.rtbDetalhesPaginaMaterial.Text = "";
             // 
             // txtUnidadePaginaMaterial
@@ -199,7 +199,7 @@ namespace Xpaco
             this.txtUnidadePaginaMaterial.Location = new System.Drawing.Point(330, 172);
             this.txtUnidadePaginaMaterial.Name = "txtUnidadePaginaMaterial";
             this.txtUnidadePaginaMaterial.Size = new System.Drawing.Size(35, 20);
-            this.txtUnidadePaginaMaterial.TabIndex = 34;
+            this.txtUnidadePaginaMaterial.TabIndex = 2;
             // 
             // txtQuantidadePaginaMaterial
             // 
@@ -207,7 +207,7 @@ namespace Xpaco
             this.txtQuantidadePaginaMaterial.Location = new System.Drawing.Point(330, 209);
             this.txtQuantidadePaginaMaterial.Name = "txtQuantidadePaginaMaterial";
             this.txtQuantidadePaginaMaterial.Size = new System.Drawing.Size(35, 20);
-            this.txtQuantidadePaginaMaterial.TabIndex = 35;
+            this.txtQuantidadePaginaMaterial.TabIndex = 3;
             // 
             // cbMaterialPaginaMaterial
             // 
@@ -216,7 +216,7 @@ namespace Xpaco
             this.cbMaterialPaginaMaterial.Location = new System.Drawing.Point(330, 140);
             this.cbMaterialPaginaMaterial.Name = "cbMaterialPaginaMaterial";
             this.cbMaterialPaginaMaterial.Size = new System.Drawing.Size(148, 21);
-            this.cbMaterialPaginaMaterial.TabIndex = 36;
+            this.cbMaterialPaginaMaterial.TabIndex = 1;
             // 
             // btnSalvarPaginaMaterial
             // 
@@ -226,7 +226,7 @@ namespace Xpaco
             this.btnSalvarPaginaMaterial.Location = new System.Drawing.Point(562, 389);
             this.btnSalvarPaginaMaterial.Name = "btnSalvarPaginaMaterial";
             this.btnSalvarPaginaMaterial.Size = new System.Drawing.Size(87, 33);
-            this.btnSalvarPaginaMaterial.TabIndex = 37;
+            this.btnSalvarPaginaMaterial.TabIndex = 7;
             this.btnSalvarPaginaMaterial.Text = "Salvar";
             this.btnSalvarPaginaMaterial.UseVisualStyleBackColor = false;
             this.btnSalvarPaginaMaterial.Click += new System.EventHandler(this.btnSalvarPaginaMaterial_Click);
@@ -239,7 +239,7 @@ namespace Xpaco
             this.btnVoltarPaginaMaterial.Location = new System.Drawing.Point(177, 389);
             this.btnVoltarPaginaMaterial.Name = "btnVoltarPaginaMaterial";
             this.btnVoltarPaginaMaterial.Size = new System.Drawing.Size(87, 33);
-            this.btnVoltarPaginaMaterial.TabIndex = 42;
+            this.btnVoltarPaginaMaterial.TabIndex = 5;
             this.btnVoltarPaginaMaterial.Text = "Voltar";
             this.btnVoltarPaginaMaterial.UseVisualStyleBackColor = false;
             this.btnVoltarPaginaMaterial.Click += new System.EventHandler(this.btnVoltarPaginaMaterial_Click);
