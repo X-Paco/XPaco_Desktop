@@ -181,6 +181,7 @@ namespace Xpaco
             this.txtCPFCNPJ.Name = "txtCPFCNPJ";
             this.txtCPFCNPJ.Size = new System.Drawing.Size(235, 20);
             this.txtCPFCNPJ.TabIndex = 1;
+
             // 
             // lblCPFCNPJ
             // 

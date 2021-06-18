@@ -108,11 +108,11 @@
     <Compile Include="view\Material.Designer.cs">
       <DependentUpon>Material.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\Media.cs">
+    <Compile Include="view\Midia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\Media.Designer.cs">
-      <DependentUpon>Media.cs</DependentUpon>
+    <Compile Include="view\Midia.Designer.cs">
+      <DependentUpon>Midia.cs</DependentUpon>
     </Compile>
     <Compile Include="view\Personagem.cs">
       <SubType>Form</SubType>
@@ -165,8 +165,8 @@
     <EmbeddedResource Include="view\Material.resx">
       <DependentUpon>Material.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\media.resx">
-      <DependentUpon>Media.cs</DependentUpon>
+    <EmbeddedResource Include="view\Midia.resx">
+      <DependentUpon>Midia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\Personagem.resx">
       <DependentUpon>Personagem.cs</DependentUpon>

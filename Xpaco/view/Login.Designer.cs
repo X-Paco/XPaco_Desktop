@@ -92,7 +92,6 @@ namespace Xpaco
             this.txtEmailPaginaLogin.Name = "txtEmailPaginaLogin";
             this.txtEmailPaginaLogin.Size = new System.Drawing.Size(146, 20);
             this.txtEmailPaginaLogin.TabIndex = 1;
-            this.txtEmailPaginaLogin.TextChanged += new System.EventHandler(this.txtEmailPaginaLogin_TextChanged);
             // 
             // lblSenhaPaginaLogin
             // 

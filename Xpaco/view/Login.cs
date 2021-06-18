@@ -4,6 +4,9 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Text;
+using Xpaco.models;
+using Xpaco.controllers;
+using Newtonsoft.Json;
 using System.Windows.Forms;
 
 namespace Xpaco
@@ -44,15 +47,41 @@ namespace Xpaco
                 return;
             }
 
-            Profile pgProfile = new Profile();
-            this.Hide();
-            pgProfile.Show();
+           
 
         }
 
-        private void txtEmailPaginaLogin_TextChanged(object sender, EventArgs e)
+        public void CarregarTabela()
         {
 
+            // Declarar Objeto do tipo lista<> (Dinâmica)
+            // TODO - O Json da ROTA deve ser do mesmo tipo da lista a ser criada
+            List<User> descerializa;
+
+            String rota = "http://localhost:3001/user/";
+
+            Object objStreamURI = WebRequestAPI.GetLista(rota);
+
+            descerializa = JsonConvert.DeserializeObject<List<User>>(objStreamURI.ToString());
+
+            // ---------------------------------------------------------------
+
+            
+
+            foreach (User i in descerializa)
+            {
+                
+                if(txtEmailPaginaLogin.Equals(i.Email) && txtSenhaPaginaLogin.Equals(i.Password) )
+                {
+                    Profile profile = new Profile();
+                    profile.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Não entrou no primeiro If");
+                }
+            }
+        
         }
     }
 }
