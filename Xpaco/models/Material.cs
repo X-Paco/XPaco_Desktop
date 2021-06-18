@@ -8,5 +8,6 @@ namespace Xpaco.models
 {
     class Material
     {
+
     }
 }

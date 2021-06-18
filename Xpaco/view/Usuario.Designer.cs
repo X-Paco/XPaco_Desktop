@@ -46,7 +46,7 @@ namespace Xpaco
             this.pbLogoPaginaCadastro = new System.Windows.Forms.PictureBox();
             this.lblPaginaCadastro = new System.Windows.Forms.Label();
             this.lblNomePaginaCadastro = new System.Windows.Forms.Label();
-            this.mtbTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.txtBoxTelefone = new System.Windows.Forms.MaskedTextBox();
             this.txtBoxNome = new System.Windows.Forms.TextBox();
             this.TelefonePaginaCadastro = new System.Windows.Forms.Label();
             this.lblRepitaSenhaPaginaCadastro = new System.Windows.Forms.Label();
@@ -109,16 +109,16 @@ namespace Xpaco
             this.lblNomePaginaCadastro.TabIndex = 1;
             this.lblNomePaginaCadastro.Text = "Nome Completo:";
             // 
-            // mtbTelefone
+            // txtBoxTelefone
             // 
-            this.mtbTelefone.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.mtbTelefone.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.mtbTelefone.Location = new System.Drawing.Point(365, 315);
-            this.mtbTelefone.Mask = "(00) 00000-0000";
-            this.mtbTelefone.Name = "mtbTelefone";
-            this.mtbTelefone.Size = new System.Drawing.Size(102, 27);
-            this.mtbTelefone.TabIndex = 6;
-            this.mtbTelefone.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbTelefonePaginaCadastro_MaskInputRejected);
+            this.txtBoxTelefone.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtBoxTelefone.Font = new System.Drawing.Font("Segoe UI", 11.25F);
+            this.txtBoxTelefone.Location = new System.Drawing.Point(365, 315);
+            this.txtBoxTelefone.Mask = "(00) 00000-0000";
+            this.txtBoxTelefone.Name = "txtBoxTelefone";
+            this.txtBoxTelefone.Size = new System.Drawing.Size(102, 27);
+            this.txtBoxTelefone.TabIndex = 6;
+            this.txtBoxTelefone.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbTelefonePaginaCadastro_MaskInputRejected);
             // 
             // txtBoxNome
             // 
@@ -302,7 +302,7 @@ namespace Xpaco
             this.Controls.Add(this.lblRepitaSenhaPaginaCadastro);
             this.Controls.Add(this.TelefonePaginaCadastro);
             this.Controls.Add(this.txtBoxNome);
-            this.Controls.Add(this.mtbTelefone);
+            this.Controls.Add(this.txtBoxTelefone);
             this.Controls.Add(this.lblNomePaginaCadastro);
             this.Controls.Add(this.panelSuperiorUser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -321,7 +321,7 @@ namespace Xpaco
         private System.Windows.Forms.Panel panelSuperiorUser;
         private System.Windows.Forms.Label lblPaginaCadastro;
         private System.Windows.Forms.Label lblNomePaginaCadastro;
-        private System.Windows.Forms.MaskedTextBox mtbTelefone;
+        private System.Windows.Forms.MaskedTextBox txtBoxTelefone;
         private System.Windows.Forms.TextBox txtBoxNome;
         private System.Windows.Forms.Label TelefonePaginaCadastro;
         private System.Windows.Forms.Label lblRepitaSenhaPaginaCadastro;

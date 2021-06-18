@@ -8,5 +8,8 @@ namespace Xpaco.models
 {
     class Link
     {
+        public string description{ get; set; }
+        public string icons { get; set; }
+        public string url { get; set; }
     }
 }

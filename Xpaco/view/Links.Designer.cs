@@ -33,10 +33,10 @@ namespace Xpaco
             this.panelPaginaLinks = new System.Windows.Forms.Panel();
             this.pbLogoPaginaLinks = new System.Windows.Forms.PictureBox();
             this.lblPaginaLinks = new System.Windows.Forms.Label();
-            this.lblDescricaoPaginaLinks = new System.Windows.Forms.TextBox();
-            this.lblReferenciaPaginaLinks = new System.Windows.Forms.TextBox();
+            this.txtDescricaoPaginaLinks = new System.Windows.Forms.TextBox();
+            this.txtUrlPaginaLinks = new System.Windows.Forms.TextBox();
             this.btnSalvarPaginaLinks = new System.Windows.Forms.Button();
-            this.lblUrlPaginaLinks = new System.Windows.Forms.TextBox();
+            this.txtIconePaginaLinks = new System.Windows.Forms.TextBox();
             this.pbLinksPaginaLinks = new System.Windows.Forms.PictureBox();
             this.btnVoltarPaginaLinks = new System.Windows.Forms.Button();
             this.panelEsquerdoPaginaLinks = new System.Windows.Forms.Panel();
@@ -78,21 +78,21 @@ namespace Xpaco
             this.lblPaginaLinks.TabIndex = 1;
             this.lblPaginaLinks.Text = "Página de links";
             // 
-            // lblDescricaoPaginaLinks
+            // txtDescricaoPaginaLinks
             // 
-            this.lblDescricaoPaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblDescricaoPaginaLinks.Location = new System.Drawing.Point(290, 174);
-            this.lblDescricaoPaginaLinks.Name = "lblDescricaoPaginaLinks";
-            this.lblDescricaoPaginaLinks.Size = new System.Drawing.Size(161, 20);
-            this.lblDescricaoPaginaLinks.TabIndex = 1;
+            this.txtDescricaoPaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtDescricaoPaginaLinks.Location = new System.Drawing.Point(290, 174);
+            this.txtDescricaoPaginaLinks.Name = "txtDescricaoPaginaLinks";
+            this.txtDescricaoPaginaLinks.Size = new System.Drawing.Size(161, 20);
+            this.txtDescricaoPaginaLinks.TabIndex = 1;
             // 
-            // lblReferenciaPaginaLinks
+            // txtUrlPaginaLinks
             // 
-            this.lblReferenciaPaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblReferenciaPaginaLinks.Location = new System.Drawing.Point(290, 224);
-            this.lblReferenciaPaginaLinks.Name = "lblReferenciaPaginaLinks";
-            this.lblReferenciaPaginaLinks.Size = new System.Drawing.Size(161, 20);
-            this.lblReferenciaPaginaLinks.TabIndex = 3;
+            this.txtUrlPaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtUrlPaginaLinks.Location = new System.Drawing.Point(290, 224);
+            this.txtUrlPaginaLinks.Name = "txtUrlPaginaLinks";
+            this.txtUrlPaginaLinks.Size = new System.Drawing.Size(161, 20);
+            this.txtUrlPaginaLinks.TabIndex = 3;
             // 
             // btnSalvarPaginaLinks
             // 
@@ -107,13 +107,13 @@ namespace Xpaco
             this.btnSalvarPaginaLinks.UseVisualStyleBackColor = false;
             this.btnSalvarPaginaLinks.Click += new System.EventHandler(this.btnSalvarPaginaLinks_Click);
             // 
-            // lblUrlPaginaLinks
+            // txtIconePaginaLinks
             // 
-            this.lblUrlPaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblUrlPaginaLinks.Location = new System.Drawing.Point(290, 199);
-            this.lblUrlPaginaLinks.Name = "lblUrlPaginaLinks";
-            this.lblUrlPaginaLinks.Size = new System.Drawing.Size(161, 20);
-            this.lblUrlPaginaLinks.TabIndex = 2;
+            this.txtIconePaginaLinks.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtIconePaginaLinks.Location = new System.Drawing.Point(290, 199);
+            this.txtIconePaginaLinks.Name = "txtIconePaginaLinks";
+            this.txtIconePaginaLinks.Size = new System.Drawing.Size(161, 20);
+            this.txtIconePaginaLinks.TabIndex = 2;
             // 
             // pbLinksPaginaLinks
             // 
@@ -177,11 +177,11 @@ namespace Xpaco
             this.Controls.Add(this.panelEsquerdoPaginaLinks);
             this.Controls.Add(this.btnVoltarPaginaLinks);
             this.Controls.Add(this.pbLinksPaginaLinks);
-            this.Controls.Add(this.lblUrlPaginaLinks);
+            this.Controls.Add(this.txtIconePaginaLinks);
             this.Controls.Add(this.btnSalvarPaginaLinks);
             this.Controls.Add(this.lblPaginaLinks);
-            this.Controls.Add(this.lblDescricaoPaginaLinks);
-            this.Controls.Add(this.lblReferenciaPaginaLinks);
+            this.Controls.Add(this.txtDescricaoPaginaLinks);
+            this.Controls.Add(this.txtUrlPaginaLinks);
             this.Controls.Add(this.panelPaginaLinks);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
@@ -200,10 +200,10 @@ namespace Xpaco
 
         private System.Windows.Forms.Panel panelPaginaLinks;
         private System.Windows.Forms.Label lblPaginaLinks;
-        private System.Windows.Forms.TextBox lblDescricaoPaginaLinks;
-        private System.Windows.Forms.TextBox lblReferenciaPaginaLinks;
+        private System.Windows.Forms.TextBox txtDescricaoPaginaLinks;
+        private System.Windows.Forms.TextBox txtUrlPaginaLinks;
         private System.Windows.Forms.Button btnSalvarPaginaLinks;
-        private System.Windows.Forms.TextBox lblUrlPaginaLinks;
+        private System.Windows.Forms.TextBox txtIconePaginaLinks;
         private System.Windows.Forms.PictureBox pbLinksPaginaLinks;
         private System.Windows.Forms.Button btnVoltarPaginaLinks;
         private System.Windows.Forms.PictureBox pbLogoPaginaLinks;

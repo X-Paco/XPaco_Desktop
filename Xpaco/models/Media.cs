@@ -8,5 +8,8 @@ namespace Xpaco.models
 {
     class Media
     {
+        public string description { get; set; }
+        public string url { get; set; }
+        public string thumb { get; set; }
     }
 }
