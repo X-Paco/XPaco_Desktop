@@ -40,28 +40,18 @@ namespace Xpaco.view
         {
             AtualizaRegistro(txtOldDesc.Text, txtDescricao.Text);
         }
+
+
         private void btnRemover_Click(object sender, EventArgs e)
         {
-            Persona serializa = new Persona();
-            serializa.description = txtDescricao.Text;
-            try
-            {
-                String rota = "http://localhost:3001/persona/";
-                String json = JsonConvert.SerializeObject(serializa);
-                Object objResponse = WebRequestAPI.Delete(rota, json);
 
-            }
-            catch (System.ServiceModel.FaultException)
-            {
-                MessageBox.Show("não encontrado");
-                txtDescricao.Focus();
-                return;
-            }
-
+            removeRegistro(txtDescricao.Text);
         }
+
+
  
-        ///=================================================================================
-        /// ================================================================================
+        ///===========================================================
+        /// ====================M É T O D O S=========================
         
         /// <summary>
         ///  MÉTODO POST / SERIALIZAÇÃO  / ENVIO DE ROTA
@@ -103,7 +93,7 @@ namespace Xpaco.view
             Persona serializa = new Persona();
 
             serializa.description = novaDescricao;
-//            serializa.oldDescription = descricaoAntiga;
+            serializa.oldDescription = descricaoAntiga;
 
             try
             {
@@ -119,6 +109,30 @@ namespace Xpaco.view
                 return;
             }
                // CarregarTabela();
+        }
+
+        /// <summary>
+        /// MÉTODO DELETE / SERIALIZAÇÃO  / ENVIO DE ROTA
+        /// </summary>
+        /// <param name ="Descricao"></param>
+        private void removeRegistro(string Descricao)
+        {
+            Persona serializa = new Persona();
+
+            serializa.description = Descricao;
+            try
+            {
+                String rota = "http://localhost:3001/persona";
+                String json = JsonConvert.SerializeObject(serializa);
+                Object objResponse = WebRequestAPI.Delete(rota, json);
+
+            }
+            catch (System.ServiceModel.FaultException)
+            {
+                MessageBox.Show("não encontrado");
+                txtDescricao.Focus();
+                return;
+            }
         }
 
         /// <summary>
